@@ -7,7 +7,7 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
 </video>
 <h1>Universal Music Group</h1>
 <h3>
-    April 2025-Sep 2025, Part-time Role: 20 hours/week
+    April 2025-Sep 2025
 </h3>
 <p>
     I had the pleasure of creating motion graphics for 

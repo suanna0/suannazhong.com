@@ -22,14 +22,6 @@
     font-display: swap;
   }
 
-  @font-face {
-    font-family: 'PP Neue Montreal Bold';
-    src: url('/fonts/PPNeueMontreal-Bold.otf') format('opentype');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-  }
-
   main {
     padding: 10px 50px 10px 50px;
   }
@@ -43,7 +35,7 @@
     font-family: "source code pro", monospace;
     color: var(--color-1);
   }
-  
+
   p, .role, .name, button, h3 {
     letter-spacing: 0.03em;
     font-family: 'PP Neue Montreal Book', sans-serif;
@@ -69,11 +61,6 @@
     margin-right: 12vw;
   }
   
-  .parallax-word {
-    display: inline-block;
-    will-change: transform;
-  }
-  
   .credits {
     display: grid;
     grid-template-columns: 1fr 1fr; 
@@ -82,7 +69,6 @@
   }
   
   .role {
-    font-weight: 600;
     text-align: right;
   }
   
@@ -126,11 +112,6 @@
     height: 100%;
     object-fit: cover; /* or 'contain' depending on the desired effect */
     display: block; /* removes bottom white space */
-  }
-  
-  .empty_box {
-    width: 100%;
-    height: 2vh;
   }
   
   .gallery_content {
@@ -194,63 +175,47 @@
 
   h2 {
 
-    font-family: 'PP Neue Montreal Medium', sans-serif;
+    font-family: 'PP Neue Montreal Book', sans-serif;
     font-style: normal;
     font-size: 24px;
     color: var(--color-2);
 
   }
   
-  .down-arrow {
-    position: absolute;
-    bottom: 50px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 2rem;
-    opacity: 0;
-    cursor: pointer;
-    transition: opacity 0.5s ease;
-    color: var(--color-1);
-    z-index: 10;
-  }
-  
   iframe {
     width: 100%;
     height: 50vw;  
   }
-  
-  .lock-icon {
-    position: absolute;
-    bottom: 8px;
-    right: 8px;
-    font-size: 24px;
-    pointer-events: none; 
-    z-index: 1000;
-  }
-  
-  .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+
   
   ::selection {
     background: var(--color-4); 
     color: var(--color-3);         
   }
   
-  
   @media only screen and (max-width: 850px) {
+    h1 {
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
 
     main {
       padding: 5px;
     }
 
-    p, button {
+    p, button, .role, .name {
       font-size: 10px;
+    }
+
+    code {
+      font-size: 9px;
     }
   
     h3, .project_tag {
-    font-size: 12px;
+    font-size: 10px;
     }
   
     div.gallery {

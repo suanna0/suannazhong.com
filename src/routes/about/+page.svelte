@@ -9,6 +9,7 @@
     <img
         src="https://de1wwae7728z6.cloudfront.net/images/about/headshot.jpeg"
         alt="About"
+        id = "headshot"
     />
     </div>
     <div>

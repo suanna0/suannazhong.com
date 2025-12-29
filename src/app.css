@@ -87,6 +87,7 @@
   }
   
   .project_tag {
+    text-transform: uppercase;
     font-family: 'PP Neue Montreal Book', sans-serif;
     font-style: normal;
     display: inline-block;

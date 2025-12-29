@@ -1,6 +1,10 @@
-<head>
+<script>
+    import PrevNext from '$lib/components/PrevNext.svelte';
+</script>
+
+<svelte:head>
     <title>Malloc Visualizer | Suanna Zhong</title>
-</head>
+</svelte:head>
 <video 
 src="https://de1wwae7728z6.cloudfront.net/videos/malloc/malloc-demo.mp4"
 autoplay muted playsinline loop style="width: 100%; height: auto;">
@@ -114,36 +118,40 @@ src="https://de1wwae7728z6.cloudfront.net/videos/malloc/explicit_list.mp4"
 autoplay muted playsinline loop style="width: 100%; height: auto;">
 </video>
 
-<!-- <h2>Visualizing two data structures:</h2>
-
-<div class="side_by_side_content">
-<div class="side_by_side">
-    <img
-    src="https://de1wwae7728z6.cloudfront.net/images/malloc/explicit_slide.jpg"
-    />
-</div>
-
-<div class="side_by_side">
-    <div class="video-container">
-    <video autoplay muted playsinline loop>
-        <source
-        src="https://de1wwae7728z6.cloudfront.net/videos/malloc/implicit_0.mp4"
-                        type="video/mp4"
-        />
-    </video>
-    </div>
-</div>
-</div>
-
+<h2>Visualizing two data structures:</h2>
 <p>
-When I did the lab for the first time, I had a difficult time grasping the 
-concept that heap and the explicit free list are two separate data 
-structures, and that if the author chooses to implement LIFO insertion, 
-the blocks in the free list may be out of address order. I wanted to 
-clearly establish that concept when describing the difference between the 
-implicit and explicit list. Hence, the explicit list has lines that point 
-blocks in the heap to their corresponding location in the free list.
+    When I did the lab for the first time, I had a difficult time grasping the 
+    concept that heap and the explicit free list are two separate data 
+    structures, and that if the author chooses to implement LIFO insertion, 
+    the blocks in the free list may be out of address order. I wanted to 
+    clearly establish that concept when describing the difference between the 
+    implicit and explicit list. Hence, the explicit list has lines that point 
+    blocks in the heap to their corresponding location in the free list.
 </p>
 
-<h2>Takeaways:</h2>
+<div class="side_by_side_content">
+    <div class="side_by_side">
+        <img
+        src="https://de1wwae7728z6.cloudfront.net/images/malloc/explicit_slide.jpg"
+        />
+    </div>
+
+    <div class="side_by_side">
+        <div class="video-container">
+        <video autoplay muted playsinline loop>
+            <source
+            src="https://de1wwae7728z6.cloudfront.net/videos/malloc/explicit_2.mp4"
+                            type="video/mp4"
+            />
+        </video>
+        </div>
+    </div>
+</div>
+
+<!-- <h2>Takeaways:</h2>
 <p>More pictures, less words. establishing consistency.</p> -->
+
+<PrevNext
+prev={{ href: '/dehancer', label: 'Previous' }}
+next={{ href: '/umusic', label: 'Next' }}
+/>

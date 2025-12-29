@@ -1,6 +1,9 @@
-<head>
+<script>
+    import PrevNext from '$lib/components/PrevNext.svelte';
+</script>
+<svelte:head>
     <title>Universal Music Group | Suanna Zhong</title>
-</head>
+</svelte:head>
 <video 
 src="https://de1wwae7728z6.cloudfront.net/videos/umusic/hero.mp4"
 autoplay muted playsinline loop style="width: 100%; height: auto;">
@@ -18,3 +21,8 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
     about what the experience was like. Please reach out if you're interested in 
     learning more!
 </p>
+
+<PrevNext
+prev={{ href: '/malloc', label: 'Previous' }}
+next={{ href: '/klee', label: 'Next' }}
+/>

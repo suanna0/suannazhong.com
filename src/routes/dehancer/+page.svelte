@@ -1,6 +1,9 @@
-<head>
+<script>
+    import PrevNext from '$lib/components/PrevNext.svelte';
+</script>
+<svelte:head>
     <title>Dehancer Partnership | Suanna Zhong</title>
-</head>
+</svelte:head>
 <video 
 src="https://de1wwae7728z6.cloudfront.net/videos/dehancer/hero.mp4"
 autoplay muted playsinline loop style="width: 100%; height: auto;">
@@ -12,3 +15,7 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
 <p>
     Affiliate collaboration with <a href="https://www.dehancer.com/features" target="_blank">Dehancer</a>, promoting industry-grade film emulation tools on Youtube.
 </p>
+<PrevNext
+prev={{ href: '/klee', label: 'Previous' }}
+next={{ href: '/malloc', label: 'Next' }}
+/>

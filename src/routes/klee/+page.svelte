@@ -1,7 +1,9 @@
-<head>
+<script>
+    import PrevNext from '$lib/components/PrevNext.svelte';
+</script>
+<svelte:head>
     <title>KLEE | Suanna Zhong</title>
-</head>
-<section>
+</svelte:head>
     <iframe src="https://www.youtube.com/embed/1AvT-oxiKdk?mute=1&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <h1>KLEE</h1>
     <h3>
@@ -148,6 +150,18 @@
           alt="Sally Before"
             id="content_img"
             src="https://de1wwae7728z6.cloudfront.net/images/klee/sally_after.jpg">
+        </div>
+      </div>
+
+      <div class="content_images">
+        <div class="video-container">
+          <video preload = "none" autoplay muted playsinline loop>
+            <source
+              src="https://de1wwae7728z6.cloudfront.net/videos/klee/klee-home_footer.mp4" 
+              muted playsinline loop style="width: 100%; height: 100%;"
+              type="video/mp4"
+            />
+          </video>
         </div>
       </div>
 
@@ -365,7 +379,7 @@
 
       <div class="credits">
         <div class = "role">
-          Choreography Assistant
+          Movement Director
         </div>
         <div class = "name">
           Michael Yang
@@ -408,5 +422,7 @@
         </div>
       </div>
 
-</section>
-   
+<PrevNext
+prev={{ href: '/umusic', label: 'Previous' }}
+next={{ href: '/dehancer', label: 'Next' }}
+/>

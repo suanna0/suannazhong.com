@@ -76,8 +76,8 @@
       <p>
         <a target="_blank" href="https://www.klee-home.com/">www.klee-home.com</a>
         <br><br>
-        What defines a monument in the United States–what elicits a sense of
-        wonder? My mind wanders to estate-turned museums in secluded wilderness: 
+        What defines a monument in the United State? My mind wanders to 
+        estate-turned museums in secluded wilderness: 
         Frank Lloyd Wright's Fallingwater located in the outskirts of Pittsburgh, 
         Hearst Castle in San Luis Obispo, and the Filoli mansion hidden 
         in the Santa Cruz mountains. As a teenager, my dad and I would take 
@@ -85,7 +85,7 @@
         began constructing a taste for what the dream home I hoped to live in 
         might look like. This notion of a sanctuary that works in 
         conjunction with the landscape, that is then transformed into a 
-        monument/source of tourism, function as a display of wealth–it is a time 
+        monument/source of tourism, function as a display of wealth. It is a time 
         capsule into what it was like to be part of the socialite class in 
         that time period.
         <br><br>

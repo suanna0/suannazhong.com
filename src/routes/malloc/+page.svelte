@@ -122,7 +122,7 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
 <p>
     When I did the lab for the first time, I had a difficult time grasping the 
     concept that heap and the explicit free list are two separate data 
-    structures, and that if the author chooses to implement LIFO insertion, 
+    structures and that  
     the blocks in the free list may be out of address order. I wanted to 
     clearly establish that concept when describing the difference between the 
     implicit and explicit list. Hence, the explicit list has lines that point 
@@ -140,7 +140,7 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
         <div class="video-container">
         <video autoplay muted playsinline loop>
             <source
-            src="https://de1wwae7728z6.cloudfront.net/videos/malloc/explicit_2.mp4"
+            src="https://de1wwae7728z6.cloudfront.net/videos/malloc/explicit_shortened.mp4"
                             type="video/mp4"
             />
         </video>
@@ -148,8 +148,27 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
     </div>
 </div>
 
-<!-- <h2>Takeaways:</h2>
-<p>More pictures, less words. establishing consistency.</p> -->
+<h2>Closing Thoughts:</h2>
+<p>
+    My goal was to communicate the concepts I struggled on with as few words as
+    possible, relying on pictures and animations to do the heavy lifting. Not
+    only did I strengthen my understanding of the material, but I also saw
+    so much growth in my abilities to communicate complex ideas through 
+    images. It was definitely an interesting challenge to find ways to create a 
+    consistent visual language to visually represent different data structures 
+    at play. However, I also had a lot of fun making use of my knowledge of 
+    animation to portray abstract concepts in a playful way. My favorite part 
+    was when I used sinusoidal motion and a speed ramp to give the explicit list 
+    a more organic feel. 
+    <br><br>
+    15-213 was one of the most challenging yet rewarding classes I have taken 
+    at CMU. I not only learned about the intricacies of how computers work, but
+    also saw so much growth in my abilities to design, write, and debug code. 
+    When I first started the lab, I felt overwhelmed by how many small details
+    I needed to keep track of to make the library work. My hope with this 
+    project is to help future students feel less overwhelmed and appreciate how 
+    beautiful this lab is. 
+</p>
 
 <PrevNext
 prev={{ href: '/dehancer', label: 'Previous' }}

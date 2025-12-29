@@ -2,19 +2,10 @@
     <title>Work | Suanna Zhong</title>
 </svelte:head>
 
-<section class = "landing">
-    <h1>Suanna Zhong works across creative technology and photo/video 
-        production. She previously worked on Universal Music Group's º1824 
-        Content Team.
-    </h1>
-    <h3>
-        Past clients include
-        <a href = "https://meta.com/" target = "_blank">Meta</a>, 
-        <a href = "https://www.pinterest.com/" target = "_blank">Pinterest</a>, 
-        <a href = "https://www.kidcudi.com/#/" target = "_blank">Kid Cudi</a>, and
-        <a href = "https://www.vsco.co/" target = "_blank">VSCO</a>.
-    </h3>
-</section>
+<h1>Suanna Zhong works across creative technology and photo/video 
+    production. She previously worked on Universal Music Group's º1824 
+    Content Team.
+</h1>
 
 <section class = "work" id = "mainSite">
 <h2>Selected Work:</h2>

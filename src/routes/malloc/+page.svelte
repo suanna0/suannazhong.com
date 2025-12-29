@@ -10,7 +10,7 @@
     <video preload="none" autoplay muted playsinline loop>
     <source src="https://de1wwae7728z6.cloudfront.net/videos/malloc/demo.mp4" type="video/mp4" />
     </video>
-</div>ç
+</div>
 
 <h1>Malloc Visualizer</h1>
 <h3>

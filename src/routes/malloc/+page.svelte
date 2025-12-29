@@ -157,7 +157,7 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
     images. It was definitely an interesting challenge to find ways to create a 
     consistent visual language to visually represent different data structures 
     at play. However, I also had a lot of fun making use of my knowledge of 
-    animation to portray abstract concepts in a playful way. My favorite part 
+    animation to portray abstract concepts in an engaging way. My favorite part 
     was when I used sinusoidal motion and a speed ramp to give the explicit list 
     a more organic feel. 
     <br><br>

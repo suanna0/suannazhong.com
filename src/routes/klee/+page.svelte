@@ -1,0 +1,412 @@
+<head>
+    <title>KLEE | Suanna Zhong</title>
+</head>
+<section>
+    <iframe src="https://www.youtube.com/embed/1AvT-oxiKdk?mute=1&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1>KLEE</h1>
+    <h3>
+    Director/DP, Producer, Editor, Front-end Dev
+    </h3>
+    <div class="gallery_content">
+        <div>
+            <p>
+            KLEE is a fictional interior design service that critiques the 
+            aspirational aesthetics of wealth and the appropriation of elite 
+            hobbies. By embodying the visual language of the 
+            millennial-targeted brand aesthetics of the 2010s to an absurd 
+            extreme, this project critiques the notion of the "dream" home, 
+            interrogating how interior design trends shape both personal 
+            identity and public performance.
+            </p>
+        </div>
+
+        <div class="content_images">
+            <div class="video-container">
+            <video preload = "none" autoplay muted playsinline loop>
+                <source
+                src="https://de1wwae7728z6.cloudfront.net/videos/klee/16x9_promo.mp4"
+                muted playsinline loop style="width: 100%; height: 100%;"
+                type="video/mp4"
+                />
+            </video>
+            </div>
+        </div>
+    </div>
+    <div class="side_by_side_content">
+        <div class="side_by_side">
+          <img loading = "lazy"
+          alt="KLEE Promo"
+            id="content_img"
+            src="https://de1wwae7728z6.cloudfront.net/images/klee/4x5_promo-2.jpg">
+        </div>
+
+        <div class="side_by_side">
+          <img loading = "lazy"
+          alt="KLEE Promo"
+            id="content_img"
+            src="https://de1wwae7728z6.cloudfront.net/images/klee/4x5_promo.jpg">
+        </div>
+      </div>
+
+      <div class="content_images">
+        <div class="video-container">
+          <video preload = "none" autoplay muted playsinline loop>
+            <source
+              src="https://de1wwae7728z6.cloudfront.net/videos/klee/klee-motion.mp4"
+              muted playsinline loop style="width: 100%; height: 100%;"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+      </div>
+
+      <div class="content_images">
+        <div class="video-container">
+          <video preload = "none" autoplay muted playsinline loop>
+            <source
+              src="https://de1wwae7728z6.cloudfront.net/videos/klee/klee_web_demo.mp4" 
+              muted playsinline loop style="width: 100%; height: 100%;"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+      </div>
+      <p>
+        <a target="_blank" href="https://www.klee-home.com/">www.klee-home.com</a>
+        <br><br>
+        What defines a monument in the United States–what elicits a sense of
+        wonder? My mind wanders to estate-turned museums in secluded wilderness: 
+        Frank Lloyd Wright's Fallingwater located in the outskirts of Pittsburgh, 
+        Hearst Castle in San Luis Obispo, and the Filoli mansion hidden 
+        in the Santa Cruz mountains. As a teenager, my dad and I would take 
+        long drives visiting similar landmarks. As a result, I 
+        began constructing a taste for what the dream home I hoped to live in 
+        might look like. This notion of a sanctuary that works in 
+        conjunction with the landscape, that is then transformed into a 
+        monument/source of tourism, function as a display of wealth–it is a time 
+        capsule into what it was like to be part of the socialite class in 
+        that time period.
+        <br><br>
+        This fascination with estates-turned-monuments led me to question the 
+        role of decoration in realizing our fantasies. Perhaps we can 
+        perfect our environment until we can no longer feel pain.
+      </p>
+
+      <h2>Storyboard:</h2>
+      <div class="content_images">
+        <img
+          alt="Storyboard"
+          id="content_img"
+          src="https://de1wwae7728z6.cloudfront.net/images/klee/klee-storyboard.png"
+        />
+      </div>
+
+      <h2>Color Treatment:</h2>
+
+
+      <div class="content_images">
+        <div class="video-container">
+          <video preload = "none" autoplay muted playsinline loop>
+            <source
+              src="https://de1wwae7728z6.cloudfront.net/videos/klee/color-treatment.mp4" 
+              muted playsinline loop style="width: 100%; height: 100%;"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <h3>
+          Process Breakdown
+        </h3>
+      </div>
+
+      <div class="side_by_side_content">
+        <div class="side_by_side">
+          <img loading = "lazy"
+            id="content_img"
+            alt="Akshat Before"
+            src="https://de1wwae7728z6.cloudfront.net/images/klee/akshat_before.jpg">
+        </div>
+
+        <div class="side_by_side">
+          <img loading = "lazy" 
+          alt="Akshat Before"
+            id="content_img"
+            src="https://de1wwae7728z6.cloudfront.net/images/klee/akshat_after.jpg">
+        </div>
+      </div>
+
+      <div class="side_by_side_content">
+        <div class="side_by_side">
+          <img loading = "lazy"
+          alt="Sally Before"
+            id="content_img"
+            src="https://de1wwae7728z6.cloudfront.net/images/klee/sally_before.jpg">
+        </div>
+
+        <div class="side_by_side">
+          <img loading = "lazy"
+          alt="Sally Before"
+            id="content_img"
+            src="https://de1wwae7728z6.cloudfront.net/images/klee/sally_after.jpg">
+        </div>
+      </div>
+
+      <h2>Behind the Scenes:</h2>
+
+      <div class="side_by_side_content">
+        <div class="side_by_side">
+          <div class="video-container">
+            <video preload = "none"  autoplay muted playsinline loop>
+              <source
+                src="https://de1wwae7728z6.cloudfront.net/videos/klee/practice_0.mp4"
+                muted playsinline loop style="width: 100%; height: 100%;"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </div>
+
+        <div class="side_by_side">
+          <div class="video-container">
+            <video preload = "none"  autoplay muted playsinline loop>
+              <source
+                src="https://de1wwae7728z6.cloudfront.net/videos/klee/practice_1.mp4"
+                muted playsinline loop style="width: 100%; height: 100%;"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </div>
+      </div>
+
+      <h2>Credits:</h2>
+
+      <div class="credits">
+        <div class = "role">
+            Director
+        </div>
+        <div class = "name">
+          Suanna Zhong
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+            Writers
+        </div>
+        <div class = "name">            
+          Suanna Zhong, Michael Yang
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+            Executive Producer
+        </div>
+        <div class = "name">
+          Suanna Zhong
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+            Additional Funding
+        </div>
+        <div class = "name">
+          CMU BXA Small Grant
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+            Director of Photography
+        </div>
+        <div class = "name">
+          Suanna Zhong
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+          Production Designer
+        </div>
+        <div class = "name">
+          Leslie Lin
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+            First Assistant Director
+        </div>
+        <div class = "name">
+          Michael Yang
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+          Art Director
+        </div>
+        <div class = "name">
+          Suanna Zhong, Leslie Lin, Michael Yang
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+          Film Editor
+        </div>
+        <div class = "name">
+          Suanna Zhong
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+          Casting
+        </div>
+        <div class = "name">
+          Michael Yang
+        </div>
+      </div>
+      <div class = "empty_box"></div>
+
+      <div class="credits">
+        <div class = "role">
+          John P.
+        </div>
+        <div class = "name">
+          Akshat Rohatgi
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+          Josh
+        </div>
+        <div class = "name">
+          Josh Huang
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+          Sally
+        </div>
+        <div class = "name">
+          Sally Pan
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+          Michael
+        </div>
+        <div class = "name">
+          Michael Yang
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+          Laila
+        </div>
+        <div class = "name">
+          Laila Bahman
+        </div>
+      </div>
+
+      <div class = "empty_box"></div>
+      <div class="credits">
+        <div class = "role">
+          Camera Operator
+        </div>
+        <div class = "name">
+          Suanna Zhong
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+          First Assistant Camera
+        </div>
+        <div class = "name">
+          Michael Yang
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+          DIT
+        </div>
+        <div class = "name">
+          Suanna Zhong
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+          On Set PA
+        </div>
+        <div class = "name">
+          Michael Yang, Sally Pan
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+          Original Choreography
+        </div>
+        <div class = "name">
+          Sergio Reis
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+          Choreography Assistant
+        </div>
+        <div class = "name">
+          Michael Yang
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+          Location Manager
+        </div>
+        <div class = "name">
+          Sally Pan, Brooke Schwartz 
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+          Catering/Craft
+        </div>
+        <div class = "name">
+          Michael Yang, Sally Pan
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+          Title Design
+        </div>
+        <div class = "name">
+          Leslie Lin
+        </div>
+      </div>
+
+      <div class="credits">
+        <div class = "role">
+          Special Thanks
+        </div>
+        <div class = "name">
+          Sally Pan, Schwartz Family, Christian Boehr
+        </div>
+      </div>
+
+</section>
+   

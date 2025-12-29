@@ -4,7 +4,17 @@
 <svelte:head>
     <title>KLEE | Suanna Zhong</title>
 </svelte:head>
-    <iframe src="https://www.youtube.com/embed/1AvT-oxiKdk?mute=1&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <div class="content_images">
+    <div class="video-container">
+      <video preload = "none" autoplay muted playsinline loop>
+        <source
+          src="https://de1wwae7728z6.cloudfront.net/videos/klee/klee_web_demo.mp4" 
+          muted playsinline loop style="width: 100%; height: 100%;"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+  </div>
     <h1>KLEE</h1>
     <h3>
     Director/DP, Producer, Editor, Front-end Dev
@@ -12,6 +22,8 @@
     <div class="gallery_content">
         <div>
             <p>
+            <a target="_blank" href="https://www.klee-home.com/">www.klee-home.com</a>
+            <br><br>
             KLEE is a fictional interior design service that critiques the 
             aspirational aesthetics of wealth and the appropriation of elite 
             hobbies. By embodying the visual language of the 
@@ -61,21 +73,7 @@
           </video>
         </div>
       </div>
-
-      <div class="content_images">
-        <div class="video-container">
-          <video preload = "none" autoplay muted playsinline loop>
-            <source
-              src="https://de1wwae7728z6.cloudfront.net/videos/klee/klee_web_demo.mp4" 
-              muted playsinline loop style="width: 100%; height: 100%;"
-              type="video/mp4"
-            />
-          </video>
-        </div>
-      </div>
       <p>
-        <a target="_blank" href="https://www.klee-home.com/">www.klee-home.com</a>
-        <br><br>
         What defines a monument in the United State? My mind wanders to 
         estate-turned museums in secluded wilderness: 
         Frank Lloyd Wright's Fallingwater located in the outskirts of Pittsburgh, 

@@ -170,8 +170,8 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
     also saw so much growth in my abilities to design, write, and debug code. 
     When I first started the lab, I felt overwhelmed by how many small details
     I needed to keep track of to make the library work. My hope with this 
-    project is to help future students feel less overwhelmed and appreciate how 
-    beautiful this lab is. 
+    project is to help future students appreciate how beautiful and rewarding 
+    this lab can be. 
 </p>
 
 <div class="content_images">

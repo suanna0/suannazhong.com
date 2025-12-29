@@ -18,8 +18,9 @@
         <br><br>
         When I'm not working, you can probably find me 
         painting, listening to jazz, cafe hopping, or
-        knitting winter clothes. <br><br>
-        Email: suannaz [at] andrew [dot] cmu [dot] edu
+        knitting winter clothes. 
+        <br><br>
+        suannaz [at] andrew [dot] cmu [dot] edu
         <br />
         <a target="_blank" href="https://www.linkedin.com/in/suannaz/"
         >LinkedIn</a
@@ -29,7 +30,11 @@
         </a> <br />
         <a target = "_blank" href = "https://github.com/suanna0">
         Github
-    </a>
+        </a>
+        <br />
+        <a target = "_blank" href = "https://www.instagram.com/suannazhong/">
+        Instagram
+        </a>
     </p>
     <div class = "gallery_content">
         <div class="gallery">

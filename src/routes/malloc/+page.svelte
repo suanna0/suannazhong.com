@@ -5,10 +5,13 @@
 <svelte:head>
     <title>Malloc Visualizer | Suanna Zhong</title>
 </svelte:head>
-<video 
-src="https://de1wwae7728z6.cloudfront.net/videos/malloc/malloc-demo.mp4"
-autoplay muted playsinline loop style="width: 100%; height: auto;">
-</video>
+
+<div class="video-container">
+    <video preload="none" autoplay muted playsinline loop>
+    <source src="https://de1wwae7728z6.cloudfront.net/videos/malloc/demo.mp4" type="video/mp4" />
+    </video>
+</div>ç
+
 <h1>Malloc Visualizer</h1>
 <h3>
     CS Education, Front-end Dev (Svelte, TypeScript, Vite)
@@ -132,6 +135,7 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
 <div class="side_by_side_content">
     <div class="side_by_side">
         <img
+        alt="Explicit Slide"
         src="https://de1wwae7728z6.cloudfront.net/images/malloc/explicit_slide.jpg"
         />
     </div>
@@ -169,6 +173,13 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
     project is to help future students feel less overwhelmed and appreciate how 
     beautiful this lab is. 
 </p>
+
+<div class="content_images">
+    <img loading = "lazy"
+    alt = "Malloc Code"
+        id="content_img"
+        src="https://de1wwae7728z6.cloudfront.net/images/malloc/malloc_code.jpg">
+</div>
 
 <PrevNext
 prev={{ href: '/dehancer', label: 'Previous' }}

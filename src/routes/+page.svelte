@@ -1,14 +1,13 @@
 <svelte:head>
     <title>Work | Suanna Zhong</title>
 </svelte:head>
-
-<h1>Suanna Zhong works across creative technology and photo/video 
+<h2 id = "intro">
+    Suanna Zhong works across coding and photo/video 
     production. She previously worked on Universal Music Group's º1824 
-    Content Team.
-</h1>
+    Content Team. Her past clients include Meta, Pinterest, and Kid Cudi.
+</h2>
 
 <section class = "work" id = "mainSite">
-<h2>Selected Work:</h2>
 <div class="gallery_content">
 <div class="gallery">
     <a href="/malloc">

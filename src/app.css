@@ -36,6 +36,14 @@
     color: var(--color-1);
   }
 
+  .intro  {
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 0 auto;
+    width: 25%;
+  }
+
   p, .role, .name, button, h3 {
     letter-spacing: 0.03em;
     font-family: 'PP Neue Montreal Book', sans-serif;

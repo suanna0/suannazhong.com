@@ -41,7 +41,7 @@
 </div>
 
 <video 
-    src="https://de1wwae7728z6.cloudfront.net/videos/malloc/final_shortened.mp4"
+    src="https://de1wwae7728z6.cloudfront.net/videos/malloc/final_hero.mp4"
     autoplay muted playsinline loop style="width: 100%; height: auto;">
 </video>
 </div>

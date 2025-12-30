@@ -8,7 +8,7 @@
 
 <div class="video-container">
     <video preload="none" autoplay muted playsinline loop>
-    <source src="https://de1wwae7728z6.cloudfront.net/videos/malloc/demo.mp4" type="video/mp4" />
+    <source src="https://de1wwae7728z6.cloudfront.net/videos/malloc/landing_demo.mp4" type="video/mp4" />
     </video>
 </div>
 
@@ -41,7 +41,7 @@
 </div>
 
 <video 
-    src="https://de1wwae7728z6.cloudfront.net/videos/malloc/final_hero.mp4"
+    src="https://de1wwae7728z6.cloudfront.net/videos/malloc/hero.mp4"
     autoplay muted playsinline loop style="width: 100%; height: auto;">
 </video>
 </div>

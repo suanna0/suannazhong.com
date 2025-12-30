@@ -50,10 +50,9 @@
                 </video>
             </div>
             <div class = "project_tag_container">
-                <span class="project_tag">Website</span>
+                <span class="project_tag">Front-end Dev</span>
                 <span class="project_tag">Director/DP</span>
                 <span class="project_tag">Editor</span>
-                <span class="project_tag">Front-end Dev</span>
             </div>
             </a>
         </div>
@@ -71,6 +70,35 @@
             </div>
             </a>
         </div> 
-    </div>
 
+        <div class="gallery">
+            <a href="/reel">
+                <div>
+                <img
+                    src="https://de1wwae7728z6.cloudfront.net/images/other/reel.jpg"
+                    alt="2025 Demo Reel"
+                />
+                <div class = "project_tag_container">
+                    <span class="project_tag">Film</span>
+                    <span class="project_tag">Animation</span>
+                    <span class="project_tag">Reel</span>
+                </div>
+            </a>
+        </div> 
+
+        <div class="gallery">
+            <a href="/motionpicture">
+                <div>
+                <img
+                    src="https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrack.gif"
+                    alt="Motion Picture Soundtrack"
+                />
+                <div class = "project_tag_container">
+                    <span class="project_tag">Real-time animation</span>
+                    <span class="project_tag">Creative Code</span>
+                </div>
+                </div>
+            </a>
+        </div>
+</div>
 </section>

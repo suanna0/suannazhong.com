@@ -182,6 +182,6 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
 </div>
 
 <PrevNext
-prev={{ href: '/dehancer', label: 'Previous' }}
+prev={{ href: '/motionpicture', label: 'Previous' }}
 next={{ href: '/umusic', label: 'Next' }}
 />

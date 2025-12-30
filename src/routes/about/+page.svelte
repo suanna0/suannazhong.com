@@ -16,9 +16,9 @@
         conversation with artists, researchers, engineers, and anyone who 
         feels like they fall somewhere in between. 
         <br><br>
-        When I'm not working, you can probably find me 
-        painting, listening to jazz, cafe hopping, or
-        knitting winter clothes. 
+        When I'm not working, you can probably find me making 
+        <a target="_blank" href="https://suanna0.github.io">art</a>, 
+        listening to jazz, cafe hopping, or knitting winter clothes. 
         <br><br>
         suannaz [at] andrew [dot] cmu [dot] edu
         <br />

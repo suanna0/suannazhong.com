@@ -17,7 +17,7 @@
         feels like they fall somewhere in between. 
         <br><br>
         When I'm not working, you can probably find me making 
-        <a href="https://suanna0.github.io">art</a>, 
+        <a href="https://art.suannazhong.com">art</a>, 
         listening to jazz, cafe hopping, or knitting winter clothes. 
         <br><br>
         suannaz [at] andrew [dot] cmu [dot] edu

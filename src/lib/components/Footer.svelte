@@ -20,6 +20,8 @@
     footer {
         padding-top: 20px;
         display: flex;
+        max-width: 1500px;
+        margin: 0 auto;
     }
 
     footer button:first-child {

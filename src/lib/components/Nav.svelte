@@ -27,6 +27,8 @@
   
   <style>
     nav {
+      max-width: 1500px;
+      margin: 0 auto;
       display: flex;
       padding-bottom: 20px;
     }

@@ -1,6 +1,6 @@
-<head>
+<svelte:head>
     <title>About | Suanna Zhong</title>
-</head>
+</svelte:head>
 
 <section>
     <h1>About</h1>
@@ -17,7 +17,7 @@
         feels like they fall somewhere in between. 
         <br><br>
         When I'm not working, you can probably find me making 
-        <a target="_blank" href="https://suanna0.github.io">art</a>, 
+        <a href="https://suanna0.github.io">art</a>, 
         listening to jazz, cafe hopping, or knitting winter clothes. 
         <br><br>
         suannaz [at] andrew [dot] cmu [dot] edu

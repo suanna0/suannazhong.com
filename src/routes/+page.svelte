@@ -1,16 +1,14 @@
+<script>
+    import Landing from '$lib/components/Landing.svelte';
+</script>
 <svelte:head>
     <title>Work | Suanna Zhong</title>
 </svelte:head>
 
+<Landing />
 <section class = "work" id = "mainSite">
     <h2>
-        Suanna Zhong works across coding and photo/video 
-        production. She previously worked on 
-        <a target="_blank" href="https://www.universalmusic.com/">Universal Music Group's</a> 
-        º1824 Content Team. Her past clients include 
-        <a target="_blank" href="https://www.meta.com/">Meta</a>,
-        <a target="_blank" href="https://www.pinterest.com/">Pinterest</a>, and 
-        <a target="_blank" href="https://www.kidcudi.com/">Kid Cudi</a>.
+        Selected Work:
     </h2>
     <div class="gallery_content">
         <div class="gallery">

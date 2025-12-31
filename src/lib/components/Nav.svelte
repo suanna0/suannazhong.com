@@ -12,8 +12,7 @@
       goto(path);
     }
   </script>
-  
-  <nav class="nav">
+  <nav>
     {#each navItems as item}
       <button
         class:active={$page.url.pathname === item.path}
@@ -21,25 +20,29 @@
       >
         {item.label}
       </button>
-      <br>
     {/each}
   </nav>
   
   <style>
     nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000; 
+  
       max-width: 1500px;
       margin: 0 auto;
       display: flex;
-      padding-bottom: 20px;
+      background-color: var(--color-3);
+      padding: 5px 0;
     }
-
+  
     nav button {
       padding-left: 20px;
     }
-
+  
     nav button:first-child {
       margin-right: auto;
-      padding-left: 0px;
+      padding-left: 0;
     }
-
   </style>
+  

@@ -48,4 +48,11 @@
 	h1 {
 		text-align: center;
 	}
+
+	@media only screen and (max-width: 850px) {
+		section {
+			padding: 0 5px;
+		}
+	}
+
 </style>

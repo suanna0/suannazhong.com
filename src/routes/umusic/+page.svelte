@@ -16,7 +16,7 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
     I had the pleasure of creating motion graphics for 
     various <a href="https://www.universalmusic.com/" target="_blank">Universal 
     Music Group</a> artists through their in-house creative 
-    solutions team, <a href="https://www.1824official.com/" target="_blank">º1824</a>. 
+    solutions team, º1824.
     My work during this time was confidential, but I'm happy to chat in person 
     about what the experience was like. Please reach out if you're interested in 
     learning more!

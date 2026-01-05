@@ -32,7 +32,7 @@
       max-width: 1500px;
       margin: 0 auto;
       display: flex;
-      background-color: var(--color-3);
+      background-color: var(--color-bg);
       padding: 5px 0;
     }
   

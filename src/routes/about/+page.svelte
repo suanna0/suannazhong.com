@@ -9,12 +9,9 @@
             <p>
                 Thanks for visiting my website! 
                 <br><br>
-                I am a fourth-year student in the Bachelor of Computer 
-                Science and Arts (BCSA) program at Carnegie Mellon University, 
-                studying Computer Science and Art. Being in this unique position 
-                between disciplines, I enjoy being in 
-                conversation with artists, researchers, engineers, and anyone who 
-                feels like they fall somewhere in between. 
+                I am a fourth-year student in the Bachelor of Computer Science and Arts (BCSA) program at Carnegie Mellon University, studying Computer Science and Art. 
+                <br><br>
+                Whether it's solving an abstract math problem, composing an image, or designing a data structure, I really enjoy thinking of elegant solutions to interesting problems. Parallel and Sequential Data Structures and Algorithms, one of my favorite classes I've taken at CMU, has taught me to approach problems with Occam's razor in mind: when multiple solutions exist, I go for the one with the fewest assumptions and the simplest explanation. 
                 <br><br>
                 When I'm not working, you can probably find me making 
                 <a href="https://art.suannazhong.com">art</a>, 

@@ -87,7 +87,7 @@
     .image-container {
         position: relative;
         width: 80%;
-        height: 80%;
+        aspect-ratio: 4 / 3; 
     }
 
     .image-box {
@@ -101,6 +101,17 @@
         height: 100%;
         object-fit: cover;
         display: block;
+    }
+    
+    @media only screen and (max-width: 850px) {
+        .about_columns {
+            grid-template-columns: 1fr;
+        }
+
+        .image-container {
+        width: 100%;
+        position: relative;
+        }
     }
 
 </style>

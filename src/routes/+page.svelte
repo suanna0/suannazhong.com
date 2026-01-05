@@ -81,20 +81,21 @@
                     <span class="project_tag">Animation</span>
                     <span class="project_tag">Reel</span>
                 </div>
+                </div>
             </a>
         </div> 
 
         <div class="gallery">
             <a href="/motionpicture">
                 <div>
-                <img
-                    src="https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrack.gif"
-                    alt="Motion Picture Soundtrack"
-                />
-                <div class = "project_tag_container">
-                    <span class="project_tag">Real-time animation</span>
-                    <span class="project_tag">Creative Code</span>
-                </div>
+                    <img
+                        src="https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrack.gif"
+                        alt="Motion Picture Soundtrack"
+                    />
+                    <div class = "project_tag_container">
+                        <span class="project_tag">Real-time animation</span>
+                        <span class="project_tag">Creative Code</span>
+                    </div>
                 </div>
             </a>
         </div>

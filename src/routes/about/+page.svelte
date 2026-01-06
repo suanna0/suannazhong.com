@@ -3,7 +3,7 @@
     
     const carouselItems = [
         {
-            src: "https://de1wwae7728z6.cloudfront.net/images/about/headshot.jpg",
+            src: "https://de1wwae7728z6.cloudfront.net/images/about/suanna.jpg",
             alt: "headshot",
             description: "me!"
         },

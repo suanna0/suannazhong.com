@@ -1,3 +1,38 @@
+<script>
+    let currentIndex = 0;
+    
+    const carouselItems = [
+        {
+            src: "https://de1wwae7728z6.cloudfront.net/images/about/headshot.jpg",
+            alt: "headshot",
+            description: "me!"
+        },
+        {
+            src: "https://de1wwae7728z6.cloudfront.net/images/about/carousel/1.jpg",
+            alt: "Oil paintings",
+            description: "oil paintings"
+        },
+        {
+            src: "https://de1wwae7728z6.cloudfront.net/images/about/carousel/2.jpg",
+            alt: "Socks",
+            description: "hand-knit ribbed socks"
+        },
+        {
+            src: "https://de1wwae7728z6.cloudfront.net/images/about/carousel/3.jpg",
+            alt: "Film Photography",
+            description: "film photography"
+        }
+    ];
+    
+    function nextImage() {
+        currentIndex = (currentIndex + 1) % carouselItems.length;
+    }
+    
+    function prevImage() {
+        currentIndex = (currentIndex - 1 + carouselItems.length) % carouselItems.length;
+    }
+</script>
+
 <svelte:head>
     <title>About | Suanna Zhong</title>
 </svelte:head>
@@ -67,9 +102,22 @@
             </div>
         </div>
         <div class = "image-container">
-            <div class = "image-box">   
-                <img loading="lazy" src="https://de1wwae7728z6.cloudfront.net/images/about/headshot.jpg" alt="headshot" />
+            <div class = "carousel-wrapper">
+                {#if carouselItems.length > 1}
+                    <button class="carousel-btn prev-btn" on:click={prevImage} aria-label="Previous image">‹</button>
+                {/if}
+                <div class = "image-box">   
+                    <img loading="lazy" src={carouselItems[currentIndex].src} alt={carouselItems[currentIndex].alt} />
+                </div>
+                {#if carouselItems.length > 1}
+                    <button class="carousel-btn next-btn" on:click={nextImage} aria-label="Next image">›</button>
+                {/if}
             </div>
+            {#if carouselItems[currentIndex].description}
+                <div class="carousel-description">
+                    {carouselItems[currentIndex].description}
+                </div>
+            {/if}
         </div>
     </div>
 </section>
@@ -78,18 +126,28 @@
     .about_columns, .clients_columns {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        column-gap: 100px;
+        column-gap: 30px;
     }
 
     .image-container {
         position: relative;
-        width: 80%;
-        aspect-ratio: 4 / 3; 
+        max-width: 500px;
+        aspect-ratio: 4 / 3;
+        margin: 0 auto;
+    }
+
+    .carousel-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        height: 100%;
     }
 
     .image-box {
-        position: absolute;
-        inset: 0;
+        flex: 1;
+        width: 100%;
+        height: 100%;
         overflow: hidden;
     }
 
@@ -99,6 +157,29 @@
         object-fit: cover;
         display: block;
     }
+
+    .carousel-btn {
+        color: var(--color-code);
+        border: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        transition: background 0.3s ease;
+    }
+
+    .carousel-btn:hover {
+        color: var(--color-accent);
+    }
+
+    .carousel-description {
+        text-align: center;
+        margin-top: 10px;
+    }
     
     @media only screen and (max-width: 850px) {
         .about_columns {
@@ -106,8 +187,13 @@
         }
 
         .image-container {
-        width: 100%;
-        position: relative;
+            width: 90%;
+            aspect-ratio: 4 / 3;
+            margin: 0 auto;
+        }
+
+        .carousel-description {
+            font-size: 10px;
         }
     }
 

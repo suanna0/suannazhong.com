@@ -73,6 +73,7 @@
                     <h2>Selected Clients:</h2>
                     <p>
                         Adolescent Content<br>
+                        Akira Uchida<br>
                         BonBonBardot!<br>
                         Common Sense Media<br>
                         Dehancer<br>

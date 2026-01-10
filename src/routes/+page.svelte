@@ -1,6 +1,48 @@
 <script>
     import Landing from '$lib/components/Landing.svelte';
+
+    const projects = [
+        {
+            href: '/malloc',
+            type: 'video',
+            src: 'https://de1wwae7728z6.cloudfront.net/videos/malloc/hero.mp4',
+            tags: ['CS Education', 'Front-end Dev']
+        },
+        {
+            href: '/umusic',
+            type: 'video',
+            src: 'https://de1wwae7728z6.cloudfront.net/videos/umusic/hero.mp4',
+            tags: ['Motion', 'Compositing', 'Color Grading']
+        },
+        {
+            href: '/klee',
+            type: 'video',
+            src: 'https://de1wwae7728z6.cloudfront.net/videos/klee/16x9_promo.mp4',
+            tags: ['Front-end Dev', 'Director/DP', 'Editor']
+        },
+        {
+            href: '/dehancer',
+            type: 'video',
+            src: 'https://de1wwae7728z6.cloudfront.net/videos/dehancer/hero.mp4',
+            tags: ['Affiliate Program', 'Color Grading']
+        },
+        {
+            href: '/reel',
+            type: 'image',
+            src: 'https://de1wwae7728z6.cloudfront.net/images/other/reel.jpg',
+            alt: '2025 Demo Reel',
+            tags: ['Film', 'Animation', 'Reel']
+        },
+        {
+            href: '/motionpicture',
+            type: 'image',
+            src: 'https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrack.gif',
+            alt: 'Motion Picture Soundtrack',
+            tags: ['Real-time animation', 'Creative Code']
+        }
+    ];
 </script>
+
 <svelte:head>
     <title>Work | Suanna Zhong</title>
 </svelte:head>
@@ -11,93 +53,30 @@
         Selected Work:
     </h2>
     <div class="gallery_content">
-        <div class="gallery">
-            <a href="/malloc">
-            <div class="video-container">
-                <video preload="none" autoplay muted playsinline loop>
-                <source src="https://de1wwae7728z6.cloudfront.net/videos/malloc/hero.mp4" type="video/mp4" />
-                </video>
-            </div>
-            <div class = "project_tag_container">
-                <span class="project_tag">CS Education</span>
-                <span class="project_tag">Front-end Dev</span>
-            </div>
-            </a>
-        </div> 
-
-        <div class="gallery">
-            <a href="/umusic">
-            <div class="video-container">
-                <video preload="none" autoplay muted playsinline loop>
-                <source src="https://de1wwae7728z6.cloudfront.net/videos/umusic/hero.mp4" type="video/mp4" />
-                </video>
-            </div>
-            <div class = "project_tag_container">
-                <span class="project_tag">Motion</span>
-                <span class="project_tag">Compositing</span>
-                <span class="project_tag">Color Grading</span>
-            </div>
-            </a>
-        </div>
-
-        <div class="gallery">
-            <a href="/klee">
-            <div class="video-container">
-                <video preload="none" autoplay muted playsinline loop>
-                <source src="https://de1wwae7728z6.cloudfront.net/videos/klee/16x9_promo.mp4" type="video/mp4" />
-                </video>
-            </div>
-            <div class = "project_tag_container">
-                <span class="project_tag">Front-end Dev</span>
-                <span class="project_tag">Director/DP</span>
-                <span class="project_tag">Editor</span>
-            </div>
-            </a>
-        </div>
-
-        <div class="gallery">
-            <a href="/dehancer">
-            <div class="video-container">
-                <video preload="none" autoplay muted playsinline loop>
-                <source src="https://de1wwae7728z6.cloudfront.net/videos/dehancer/hero.mp4" type="video/mp4" />
-                </video>
-            </div>
-            <div class = "project_tag_container">
-                <span class="project_tag">Affiliate Program</span>
-                <span class="project_tag">Color Grading</span>
-            </div>
-            </a>
-        </div> 
-
-        <div class="gallery">
-            <a href="/reel">
-                <div>
-                <img
-                    src="https://de1wwae7728z6.cloudfront.net/images/other/reel.jpg"
-                    alt="2025 Demo Reel"
-                />
-                <div class = "project_tag_container">
-                    <span class="project_tag">Film</span>
-                    <span class="project_tag">Animation</span>
-                    <span class="project_tag">Reel</span>
-                </div>
-                </div>
-            </a>
-        </div> 
-
-        <div class="gallery">
-            <a href="/motionpicture">
-                <div>
-                    <img
-                        src="https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrack.gif"
-                        alt="Motion Picture Soundtrack"
-                    />
-                    <div class = "project_tag_container">
-                        <span class="project_tag">Real-time animation</span>
-                        <span class="project_tag">Creative Code</span>
+        {#each projects as project}
+            <div class="gallery">
+                <a href={project.href}>
+                    {#if project.type === 'video'}
+                        <div class="video-container">
+                            <video preload="none" autoplay muted playsinline loop>
+                                <source src={project.src} type="video/mp4" />
+                            </video>
+                        </div>
+                    {:else}
+                        <div>
+                            <img
+                                src={project.src}
+                                alt={project.alt}
+                            />
+                        </div>
+                    {/if}
+                    <div class="project_tag_container">
+                        {#each project.tags as tag}
+                            <span class="project_tag">{tag}</span>
+                        {/each}
                     </div>
-                </div>
-            </a>
-        </div>
-</div>
+                </a>
+            </div>
+        {/each}
+    </div>
 </section>

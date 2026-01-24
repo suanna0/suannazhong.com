@@ -422,5 +422,5 @@
 
 <PrevNext
 prev={{ href: '/umusic', label: 'Previous' }}
-next={{ href: '/dehancer', label: 'Next' }}
+next={{ href: '/reel', label: 'Next' }}
 />

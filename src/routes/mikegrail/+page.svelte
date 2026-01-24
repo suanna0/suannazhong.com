@@ -139,8 +139,15 @@
     improve the UI as well!
 </p>
 
+<div class="content_images">
+    <img loading = "lazy"
+    alt = "Footer"
+        id="content_img"
+        src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/footer.jpg">
+</div>
+
 
 <PrevNext
 prev={{ href: '/reel', label: 'Previous' }}
-next={{ href: '/malloc', label: 'Next' }}
+next={{ href: '/dehancer', label: 'Next' }}
 />

@@ -28,6 +28,6 @@
 </p>
 
 <PrevNext
-prev={{ href: '/dehancer', label: 'Previous' }}
-next={{ href: '/motionpicture', label: 'Next' }}
+prev={{ href: '/klee', label: 'Previous' }}
+next={{ href: '/mikegrail', label: 'Next' }}
 />

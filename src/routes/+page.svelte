@@ -21,12 +21,6 @@
             tags: ['Front-end Dev', 'Director/DP', 'Editor']
         },
         {
-            href: '/dehancer',
-            type: 'video',
-            src: 'https://de1wwae7728z6.cloudfront.net/videos/dehancer/hero.mp4',
-            tags: ['Affiliate Program', 'Color Grading']
-        },
-        {
             href: '/reel',
             type: 'image',
             src: 'https://de1wwae7728z6.cloudfront.net/images/other/reel.jpg',
@@ -39,6 +33,12 @@
             src: 'https://de1wwae7728z6.cloudfront.net/images/mike-grail/thumbnail.jpg',
             alt: 'Mike Grail',
             tags: ['Creative Direction', 'Front-end Dev']
+        },
+        {
+            href: '/dehancer',
+            type: 'video',
+            src: 'https://de1wwae7728z6.cloudfront.net/videos/dehancer/hero.mp4',
+            tags: ['Affiliate Program', 'Color Grading']
         }
         // {
         //     href: '/motionpicture',

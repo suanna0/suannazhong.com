@@ -34,12 +34,19 @@
             tags: ['Film', 'Animation', 'Reel']
         },
         {
-            href: '/motionpicture',
+            href: '/mikegrail',
             type: 'image',
-            src: 'https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrack.gif',
-            alt: 'Motion Picture Soundtrack',
-            tags: ['Real-time animation', 'Creative Code']
+            src: 'https://de1wwae7728z6.cloudfront.net/images/mike-grail/thumbnail.jpg',
+            alt: 'Mike Grail',
+            tags: ['Creative Direction', 'Front-end Dev']
         }
+        // {
+        //     href: '/motionpicture',
+        //     type: 'image',
+        //     src: 'https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrack.gif',
+        //     alt: 'Motion Picture Soundtrack',
+        //     tags: ['Real-time animation', 'Creative Code']
+        // }
     ];
 </script>
 

@@ -140,7 +140,8 @@ h3, .project_tag {
 }
 
 .side_by_side_content {
-  column-count: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
   column-gap: 10px;
 }
 
@@ -161,6 +162,7 @@ section {
 .content_images {
   width: 100%;
   height: auto;
+  padding: 10px 0px;
 }
 
 #content_img {

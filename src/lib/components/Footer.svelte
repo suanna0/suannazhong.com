@@ -9,7 +9,7 @@
 </script>
   
 <footer>    
-    <button class="button">© Suanna Zhong 2025</button>
+    <button class="button">SvelteKit · TypeScript · Vite</button>
     <button class="button" on:click={backToTop}>
         Back to Top ↑
     </button>

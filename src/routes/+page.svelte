@@ -3,10 +3,17 @@
 
     const projects = [
         {
+            href: '/mikegrail',
+            type: 'image',
+            src: 'https://de1wwae7728z6.cloudfront.net/images/mike-grail/thumbnail.jpg',
+            alt: 'Mike Grail',
+            tags: ['Creative Direction', 'Full-stack']
+        },
+        {
             href: '/malloc',
             type: 'video',
             src: 'https://de1wwae7728z6.cloudfront.net/videos/malloc/hero.mp4',
-            tags: ['CS Education', 'Front-end Dev']
+            tags: ['CS Education', 'Front-end']
         },
         {
             href: '/umusic',
@@ -18,7 +25,7 @@
             href: '/klee',
             type: 'video',
             src: 'https://de1wwae7728z6.cloudfront.net/videos/klee/16x9_promo.mp4',
-            tags: ['Front-end Dev', 'Director/DP', 'Editor']
+            tags: ['Director/DP', 'Editor', 'Front-end']
         },
         {
             href: '/reel',
@@ -26,13 +33,6 @@
             src: 'https://de1wwae7728z6.cloudfront.net/images/other/reel.jpg',
             alt: '2025 Demo Reel',
             tags: ['Film', 'Animation', 'Reel']
-        },
-        {
-            href: '/mikegrail',
-            type: 'image',
-            src: 'https://de1wwae7728z6.cloudfront.net/images/mike-grail/thumbnail.jpg',
-            alt: 'Mike Grail',
-            tags: ['Creative Direction', 'Front-end Dev']
         },
         {
             href: '/dehancer',

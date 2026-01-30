@@ -18,12 +18,13 @@
     <h1>KLEE</h1>
     <h3>
     Director/DP, Producer, Editor, Front-end Dev
+    <br />
+    <a target="_blank" href="https://www.klee-home.com">↗ Live Site</a> · 
+    <a target="_blank" href="https://github.com/suanna0/klee-home">↗ GitHub</a> 
     </h3>
     <div class="gallery_content">
         <div>
             <p>
-            <a target="_blank" href="https://www.klee-home.com/">www.klee-home.com</a>
-            <br><br>
             KLEE is a fictional interior design service that critiques the 
             aspirational aesthetics of wealth and the appropriation of elite 
             hobbies. By embodying the visual language of the 

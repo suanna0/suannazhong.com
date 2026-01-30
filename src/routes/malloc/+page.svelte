@@ -15,15 +15,13 @@
 <h1>Malloc Visualizer</h1>
 <h3>
     CS Education, Front-end Dev (Svelte, TypeScript, Vite)
+
+    <br />
+    <a target="_blank" href="https://malloclab.com/">↗ Live Site</a> 
 </h3>
 <div class="gallery_content">
 <div>
     <p>
-    <a 
-    target = "_blank" 
-    href = "https://malloclab.com/">malloclab.com</a
-    >
-    <br><br>
     CMU's <a 
     target = "_blank" 
     href = "https://www.cs.cmu.edu/~213/">15-213: Introduction to 
@@ -121,7 +119,7 @@ src="https://de1wwae7728z6.cloudfront.net/videos/malloc/explicit_list.mp4"
 autoplay muted playsinline loop style="width: 100%; height: auto;">
 </video>
 
-<h2>Visualizing two data structures:</h2>
+<h2>Visualizing two data structures</h2>
 <p>
     When I did the lab for the first time, I had a difficult time grasping the 
     concept that heap and the explicit free list are two separate data 
@@ -152,7 +150,7 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
     </div>
 </div>
 
-<h2>Closing Thoughts:</h2>
+<h2>Closing Thoughts</h2>
 <p>
     My goal was to communicate the concepts I struggled on with as few words as
     possible, relying on pictures and animations to do the heavy lifting. Not
@@ -182,6 +180,6 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
 </div>
 
 <PrevNext
-prev={{ href: '/dehancer', label: 'Previous' }}
+prev={{ href: '/mikegrail', label: 'Previous' }}
 next={{ href: '/umusic', label: 'Next' }}
 />

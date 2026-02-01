@@ -44,29 +44,25 @@
             <p>
                 I am a fourth-year student in the Bachelor of Computer Science and Arts (BCSA) program at Carnegie Mellon University, studying Computer Science and Art. 
                 <br><br>
-                Previously, I worked as an animator at Universal Music Group, the world’s largest music company, where I developed a strong sense of time-based storytelling. I approach front-end development similarly: a landing page, interface, or internal tool is a medium to communicate clearly, with timing and flow as a core consideration. Experienced in both design and code, I can collaborate across the stack or deliver end-to-end solutions myself.
+                I previously worked in animation within the music industry, where I developed a strong sense of time-based storytelling. I approach front-end development similarly: a landing page, interface, or internal tool is a medium to communicate clearly, with timing as a core consideration. With my experience in both design and code, I can collaborate across the stack or deliver end-to-end solutions myself.
                 <br><br>
                 Whether it's solving an abstract math problem, composing an image, or designing a data structure, I really enjoy thinking of elegant solutions to interesting problems. Parallel and Sequential Data Structures and Algorithms, one of my favorite classes I've taken at CMU, has taught me to approach problems with Occam's razor in mind: when multiple solutions exist, I go for the one with the fewest assumptions and the simplest explanation. 
                 <br><br>
                 When I'm not working, you can probably find me making 
-                <a href="https://art.suannazhong.com">art</a>, 
+                <a href="https://art.suannazhong.com/pages/work.html">artwork</a>, 
                 listening to jazz, cafe hopping, or knitting winter clothes. 
                 <br><br>
-                suannaz [at] andrew [dot] cmu [dot] edu
-                <br />
                 <a target="_blank" href="https://www.linkedin.com/in/suannaz/"
                 >LinkedIn</a
-                > <br />
-                <a target = "_blank" href = "https://drive.google.com/file/d/1Udtj4srKF6PpWqOm95pO_b8GuTY5bNHm/view?usp=sharing">
-                Resume
-                </a> <br />
+                > · 
                 <a target = "_blank" href = "https://github.com/suanna0">
                 Github
-                </a>
-                <br />
+                </a> · 
                 <a target = "_blank" href = "https://www.instagram.com/suannazhong/">
                 Instagram
                 </a>
+                <br />
+                suannaz [at] andrew [dot] cmu [dot] edu
             </p>
             <div class = "clients_columns">
                 <div>
@@ -95,8 +91,7 @@
                         Lang Lang<br>
                         Republic Records<br>
                         Stray Kids<br>
-                        Virgin Music Group<br>
-                        Etc.
+                        Virgin Music Group
                         <br /><br />
                     </p>
                 </div>

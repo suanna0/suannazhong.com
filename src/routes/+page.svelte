@@ -7,25 +7,25 @@
             type: 'image',
             src: 'https://de1wwae7728z6.cloudfront.net/images/mike-grail/thumbnail.jpg',
             alt: 'Mike Grail',
-            tags: ['Creative Direction', 'Full-stack']
+            tags: ['Full-stack', 'Fashion Photography']
         },
         {
             href: '/malloc',
             type: 'video',
             src: 'https://de1wwae7728z6.cloudfront.net/videos/malloc/hero.mp4',
-            tags: ['CS Education', 'Front-end']
+            tags: ['Front-end', 'CS Education']
         },
         {
             href: '/umusic',
             type: 'video',
             src: 'https://de1wwae7728z6.cloudfront.net/videos/umusic/hero.mp4',
-            tags: ['Motion', 'Compositing', 'Color Grading']
+            tags: ['Motion', 'Animation', 'Compositing', 'Color Grading']
         },
         {
             href: '/klee',
             type: 'video',
             src: 'https://de1wwae7728z6.cloudfront.net/videos/klee/16x9_promo.mp4',
-            tags: ['Director/DP', 'Editor', 'Front-end']
+            tags: ['Director/DP', 'Video Editing', 'Front-end']
         },
         {
             href: '/reel',

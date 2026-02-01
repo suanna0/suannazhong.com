@@ -14,7 +14,7 @@
 
 <h1>Mike Grail</h1>
 <h3>
-    Creative Direction, Full-stack Dev (GSAP, p5.js,Svelte, TypeScript, Vite) 
+    Creative Direction, Full-stack Dev (GSAP, p5.js, Svelte, TypeScript, Vite) 
     <br />
     <a target="_blank" href="https://www.mike-grail.com">↗ Live Site</a> · 
     <a target="_blank" href="https://github.com/suanna0/mike-grail">↗ GitHub</a> 

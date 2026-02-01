@@ -44,7 +44,7 @@
             <p>
                 I am a fourth-year student in the Bachelor of Computer Science and Arts (BCSA) program at Carnegie Mellon University, studying Computer Science and Art. 
                 <br><br>
-                I previously worked in animation within the music industry, where I developed a strong sense of time-based storytelling. I approach front-end development similarly: a landing page, interface, or internal tool is a medium to communicate clearly, with timing as a core consideration. With my experience in both design and code, I can collaborate across the stack or deliver end-to-end solutions myself.
+                Previously, I worked in animation within the music industry, where I developed a strong sense of time-based storytelling. I approach front-end development similarly: a landing page, interface, or internal tool is a medium to communicate clearly, with timing as a core consideration. With my experience in both design and code, I can collaborate across the stack or deliver end-to-end solutions myself.
                 <br><br>
                 Whether it's solving an abstract math problem, composing an image, or designing a data structure, I really enjoy thinking of elegant solutions to interesting problems. Parallel and Sequential Data Structures and Algorithms, one of my favorite classes I've taken at CMU, has taught me to approach problems with Occam's razor in mind: when multiple solutions exist, I go for the one with the fewest assumptions and the simplest explanation. 
                 <br><br>

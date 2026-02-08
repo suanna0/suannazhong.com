@@ -129,6 +129,11 @@ h3, .project_tag {
   padding: 5px 0px;
 }
 
+.gallery_content img {
+  width: 100%;
+  height: auto;
+}
+
 .gallery {
   position: relative;
   transition: filter 1s ease; 

@@ -35,18 +35,12 @@
             tags: ['Film', 'Animation', 'Reel']
         },
         {
-            href: '/dehancer',
-            type: 'video',
-            src: 'https://de1wwae7728z6.cloudfront.net/videos/dehancer/hero.mp4',
-            tags: ['Affiliate Program', 'Color Grading']
+            // href: '/motionpicture',
+             type: 'image',
+             src: 'https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrack.gif',
+             alt: 'Motion Picture Soundtrack',
+             tags: ['TouchDesigner', 'Google MediaPipe', 'OSC', 'WebSockets']
         }
-        // {
-        //     href: '/motionpicture',
-        //     type: 'image',
-        //     src: 'https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrack.gif',
-        //     alt: 'Motion Picture Soundtrack',
-        //     tags: ['Real-time animation', 'Creative Code']
-        // }
     ];
 </script>
 
@@ -62,7 +56,26 @@
     <div class="gallery_content">
         {#each projects as project}
             <div class="gallery">
-                <a href={project.href}>
+                {#if project.href}
+                    <a href={project.href}>
+                        {#if project.type === 'video'}
+                            <div class="video-container">
+                                <video preload="none" autoplay muted playsinline loop>
+                                    <source src={project.src} type="video/mp4" />
+                                </video>
+                            </div>
+                        {:else}
+                            <div>
+                                <img src={project.src} alt={project.alt} />
+                            </div>
+                        {/if}
+                        <div class="project_tag_container">
+                            {#each project.tags as tag}
+                                <span class="project_tag">{tag}</span>
+                            {/each}
+                        </div>
+                    </a>
+                {:else}
                     {#if project.type === 'video'}
                         <div class="video-container">
                             <video preload="none" autoplay muted playsinline loop>
@@ -71,18 +84,16 @@
                         </div>
                     {:else}
                         <div>
-                            <img
-                                src={project.src}
-                                alt={project.alt}
-                            />
+                            <img src={project.src} alt={project.alt} />
                         </div>
                     {/if}
+                    <span class="lock-icon">🔒</span>
                     <div class="project_tag_container">
                         {#each project.tags as tag}
                             <span class="project_tag">{tag}</span>
                         {/each}
                     </div>
-                </a>
+                {/if}
             </div>
         {/each}
     </div>

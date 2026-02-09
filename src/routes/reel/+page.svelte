@@ -29,5 +29,5 @@
 
 <PrevNext
 prev={{ href: '/klee', label: 'Previous' }}
-next={{ href: '/dehancer', label: 'Next' }}
+next={{ href: '/mikegrail', label: 'Next' }}
 />

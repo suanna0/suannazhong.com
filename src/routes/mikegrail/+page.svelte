@@ -126,6 +126,6 @@
 
 
 <PrevNext
-prev={{ href: '/dehancer', label: 'Previous' }}
+prev={{ href: '/reel', label: 'Previous' }}
 next={{ href: '/malloc', label: 'Next' }}
 />

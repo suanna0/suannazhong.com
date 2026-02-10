@@ -422,6 +422,6 @@
       </div>
 
 <PrevNext
-prev={{ href: '/umusic', label: 'Previous' }}
+prev={{ href: '/photo', label: 'Previous' }}
 next={{ href: '/reel', label: 'Next' }}
 />

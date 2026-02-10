@@ -31,7 +31,7 @@
         {
             href: '/photo',
             type: 'video',
-            src: 'https://de1wwae7728z6.cloudfront.net/videos/landing/photo.mp4',
+            src: 'https://de1wwae7728z6.cloudfront.net/videos/landing/photography.mp4',
             tags: ['Fashion Photography']
         },
         {

@@ -16,17 +16,23 @@
             tags: ['Front-end', 'CS Education']
         },
         {
-            // href: '/motionpicture',
-             type: 'video',
+            href: 'https://github.com/suanna0/ceci-capstone',
+            type: 'video',
              src: 'https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/hero.mp4',
              alt: 'Motion Picture Soundtrack',
              tags: ['Google MediaPipe', 'OSC', 'WebSockets', 'TouchDesigner' ]
         },
+        // {
+        //     href: '/umusic',
+        //     type: 'video',
+        //     src: 'https://de1wwae7728z6.cloudfront.net/videos/umusic/hero.mp4',
+        //     tags: ['Motion', 'Animation', 'Compositing', 'Color Grading']
+        // },
         {
-            href: '/umusic',
+            href: '/photo',
             type: 'video',
-            src: 'https://de1wwae7728z6.cloudfront.net/videos/umusic/hero.mp4',
-            tags: ['Motion', 'Animation', 'Compositing', 'Color Grading']
+            src: 'https://de1wwae7728z6.cloudfront.net/videos/landing/photo.mp4',
+            tags: ['Fashion Photography']
         },
         {
             href: '/klee',

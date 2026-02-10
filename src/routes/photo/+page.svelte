@@ -61,6 +61,13 @@ alt = "Wedding"
     </div>
 </div>
 
+<div class="content_images">
+    <img loading = "lazy"
+    alt = "Wedding Polaroids"
+        id="content_img"
+        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/7.jpg">
+    </div>
+
 <PrevNext
 prev={{ href: '/malloc', label: 'Previous' }}
 next={{ href: '/klee', label: 'Next' }}

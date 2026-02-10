@@ -46,6 +46,21 @@ alt = "Wedding"
     src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/4.jpg">
 </div>
 
+<div class = "side_by_side_content">
+    <div class="side_by_side">
+        <img
+        alt="Wedding"
+        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/5.jpg"
+        />
+    </div>
+    <div class="side_by_side">
+        <img
+        alt="Bloom"
+        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/6.jpg"
+        />
+    </div>
+</div>
+
 <PrevNext
 prev={{ href: '/malloc', label: 'Previous' }}
 next={{ href: '/klee', label: 'Next' }}

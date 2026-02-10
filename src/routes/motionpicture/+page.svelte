@@ -17,10 +17,10 @@
             to create more complex animations that better utilized GPU computing power.
         </p>
     </div>
-<video 
-    src="https://de1wwae7728z6.cloudfront.net/videos/mike-grail/mike_captcha.mp4"
-    autoplay muted playsinline loop style="width: 100%; height: auto;">
-</video>
+    <img
+    alt="Web Render"
+    src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/webrender-osc.png"
+    />
 </div>
 <h2>Background</h2>
 <div class = "gallery_content">
@@ -63,9 +63,14 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
 <p>reference daito manabe obviously but i want it to feel more organic less "look at the computer oooo ahhh "</p>
 <div class="content_images">
     <img loading = "lazy"
-    alt = "Malloc Typography"
+    alt = "Inspiration"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/inspo.png">
+</div>
+<div class="video-container">
+    <video preload="none" autoplay muted playsinline loop>
+        <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/0209.mp4" type="video/mp4" />
+    </video>
 </div>
 
 <PrevNext

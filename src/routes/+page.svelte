@@ -16,6 +16,13 @@
             tags: ['Front-end', 'CS Education']
         },
         {
+            // href: '/motionpicture',
+             type: 'video',
+             src: 'https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/hero.mp4',
+             alt: 'Motion Picture Soundtrack',
+             tags: ['Google MediaPipe', 'OSC', 'WebSockets', 'TouchDesigner' ]
+        },
+        {
             href: '/umusic',
             type: 'video',
             src: 'https://de1wwae7728z6.cloudfront.net/videos/umusic/hero.mp4',
@@ -33,14 +40,8 @@
             src: 'https://de1wwae7728z6.cloudfront.net/images/other/reel.jpg',
             alt: '2025 Demo Reel',
             tags: ['Film', 'Animation', 'Reel']
-        },
-        {
-            // href: '/motionpicture',
-             type: 'image',
-             src: 'https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrack.gif',
-             alt: 'Motion Picture Soundtrack',
-             tags: ['TouchDesigner', 'Google MediaPipe', 'OSC', 'WebSockets']
         }
+        
     ];
 </script>
 

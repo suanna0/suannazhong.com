@@ -76,8 +76,10 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
         a natural jitter, so it turned out that only one to two parameters was enough to communicate 
         the overall movement of the choreography. 
         <br><br>
-        I decided to use the distance between the hand and the shoulder to drive the animation. The
-        slider in the p5 GUI would control how sensitive the mapping was.     
+        I decided to use the distance between two fixed points to drive the animation. 
+        For example, the distance between the left hand and the left shoulder is
+        easy for the dancer to control. 
+        The slider in the p5 GUI would control how sensitive the mapping was.     
     </p>
         <img
         alt="Slider"

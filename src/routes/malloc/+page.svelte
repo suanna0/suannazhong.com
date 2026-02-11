@@ -181,5 +181,5 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
 
 <PrevNext
 prev={{ href: '/mikegrail', label: 'Previous' }}
-next={{ href: '/photo', label: 'Next' }}
+next={{ href: '/ccc', label: 'Next' }}
 />

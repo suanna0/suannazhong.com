@@ -69,6 +69,6 @@ alt = "Wedding"
     </div>
 
 <PrevNext
-prev={{ href: '/malloc', label: 'Previous' }}
+prev={{ href: '/ccc', label: 'Previous' }}
 next={{ href: '/klee', label: 'Next' }}
 />

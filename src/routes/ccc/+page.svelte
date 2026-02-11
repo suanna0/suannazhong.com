@@ -61,18 +61,36 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/webrender-osc.png"
         />
 </div>
+
+<div class="video-container">
+    <video preload="none" autoplay muted playsinline loop>
+        <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/0209.mp4" type="video/mp4" />
+    </video>
+</div>
+<div class = "gallery_content">
+    <p>
+        MediaPipe is really powerful because it can retreive a lot of information 
+        super quickly. The framework provided three parameters for all 33 joints and 
+        deciding which ones to use so that the mapping would look intuitive
+        to the audience was an interesting challenge. When connecting the data to TouchDesigner, I observed that the all of the data had 
+        a natural jitter, so it turned out that only one to two parameters was enough to communicate 
+        the overall movement of the choreography. 
+        <br><br>
+        I decided to use the distance between the hand and the shoulder to drive the animation. The
+        slider in the p5 GUI would control how sensitive the mapping was.     
+    </p>
+        <img
+        alt="Slider"
+        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/slider.png"
+        />
+</div>
 <h2>Inspiration</h2>
-<p>daito manabe rhizomatiks, brian eno discreet music, etc.</p>
+<p>daito manabe rhizomatiks, brian eno discreet music, etc. </p>
 <div class="content_images">
     <img loading = "lazy"
     alt = "Inspiration"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/inspo.png">
-</div>
-<div class="video-container">
-    <video preload="none" autoplay muted playsinline loop>
-        <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/0209.mp4" type="video/mp4" />
-    </video>
 </div>
 <h2>🚧 Check back soon for more progress :)</h2>
 

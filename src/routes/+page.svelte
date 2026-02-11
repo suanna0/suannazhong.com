@@ -16,10 +16,10 @@
             tags: ['Front-end', 'CS Education']
         },
         {
-            href: 'https://github.com/suanna0/ceci-capstone',
+            href: '/ccc',
             type: 'video',
              src: 'https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/hero.mp4',
-             alt: 'Motion Picture Soundtrack',
+             alt: 'Ceci Capstone',
              tags: ['Google MediaPipe', 'OSC', 'WebSockets', 'TouchDesigner' ]
         },
         // {
@@ -32,7 +32,7 @@
             href: '/photo',
             type: 'video',
             src: 'https://de1wwae7728z6.cloudfront.net/videos/landing/photography.mp4',
-            tags: ['Fashion Photography']
+            tags: ['Photography']
         },
         {
             href: '/klee',

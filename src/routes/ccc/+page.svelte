@@ -2,26 +2,28 @@
     import PrevNext from '$lib/components/PrevNext.svelte';
 </script>
 <svelte:head>
-    <title>Motion Picture Soundtrack | Suanna Zhong</title>
+    <title>Ceci Capstone GUI | Suanna Zhong</title>
 </svelte:head>
-<h1>Motion Picture Soundtrack</h1>
+
+<div class="video-container">
+    <video preload="none" autoplay muted playsinline loop>
+    <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/hero.mp4" type="video/mp4" />
+    </video>
+</div>
+
+<h1>Ceci Capstone GUI</h1>
 <h3>
     TouchDesigner, p5.js, ml5.js, Google MediaPipe, OSC, WebSockets, Node.js
+    <br />
+    <a target="_blank" href="https://github.com/suanna0/ceci-capstone">↗ GitHub</a> 
 </h3>
-<div class="gallery_content">
-    <div>
-        <p>
-            Realtime animation for Ceci Sun's senior thesis performance.
-            It would be a good idea to talk about TCM and being ABC and our 8
-            year friendship. TouchDesigner 
-            to create more complex animations that better utilized GPU computing power.
-        </p>
-    </div>
-    <img
-    alt="Web Render"
-    src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/webrender-osc.png"
-    />
-</div>
+<p>
+    For Ceci Sun's senior thesis dance performance, I created a 
+    GUI/debugging interface that sends OSC messages to TouchDesigner.
+<!--             
+    It would be a good idea to talk about TCM and being ABC and our 8
+    year friendship.  -->
+</p>
 <h2>Background</h2>
 <div class = "gallery_content">
 <p>
@@ -60,7 +62,7 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
         />
 </div>
 <h2>Inspiration</h2>
-<p>reference daito manabe obviously but i want it to feel more organic less "look at the computer oooo ahhh "</p>
+<p>daito manabe rhizomatiks, brian eno discreet music, etc.</p>
 <div class="content_images">
     <img loading = "lazy"
     alt = "Inspiration"
@@ -72,6 +74,8 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
         <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/0209.mp4" type="video/mp4" />
     </video>
 </div>
+<h2>🚧 Check back soon for more progress :)</h2>
+
 
 <PrevNext
 prev={{ href: '/reel', label: 'Previous' }}

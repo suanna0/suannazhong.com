@@ -98,7 +98,11 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
     terms of the types of performances that can be created.
 </p>
 <h2>Inspiration</h2>
-<p>daito manabe rhizomatiks, brian eno discreet music, etc. </p>
+<p>
+    I was heavily inspired by <a target="_blank" href="https://youtu.be/s_S3fomiXO0?si=M4i9_uZZ90DdhHuP">discrete figures</a> by Daito Manabe's Rhizomatiks Research group.
+    For time-based visuals, I often find it easier to figure out the music first.
+    Ceci sent me some placeholder music to work and I had a lot of fun letting sound guide what the visuals should look like.
+</p>
 <div class="content_images">
     <img loading = "lazy"
     alt = "Inspiration"

@@ -92,7 +92,10 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
     necessary to use all 33 joints. Unfortunately, the MediaPipe library does not 
     support turning off certain joints. If I were to scale up the project, I would
     need to create a custom model that only uses the necessary joints to improve
-    overall performance. 
+    overall performance. Also, MediaPipe is best trained for waist-up poses 
+    filmed on the webcam and tracks at most one person at a time. When an improved
+    model is created in the future, a lot of new possibilities will open up in 
+    terms of the types of performances that can be created.
 </p>
 <h2>Inspiration</h2>
 <p>daito manabe rhizomatiks, brian eno discreet music, etc. </p>

@@ -105,7 +105,17 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/inspo.png">
 </div>
-<h2>🚧 Check back soon for more progress :)</h2>
+<p>
+    For 2D visuals that I knew would not be too computationally intensive, I 
+    sticked with using p5.js. This is an elastic particle grid that displays 
+    keyboard input in-place of particles.
+</p>
+<div class="video-container">
+    <video preload="none" autoplay muted playsinline loop>
+        <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/0216.mp4" type="video/mp4" />
+    </video>
+</div>
+<h2>🚧 Check back soon for the final performance 🚧</h2>
 
 
 <PrevNext

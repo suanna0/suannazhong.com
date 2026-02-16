@@ -86,6 +86,14 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/slider.png"
         />
 </div>
+<h2>Limitations</h2>
+<p>
+    Since I only needed a few parameters to communicate the movement, it was not 
+    necessary to use all 33 joints. Unfortunately, the MediaPipe library does not 
+    support turning off certain joints. If I were to scale up the project, I would
+    need to create a custom model that only uses the necessary joints to improve
+    overall performance. 
+</p>
 <h2>Inspiration</h2>
 <p>daito manabe rhizomatiks, brian eno discreet music, etc. </p>
 <div class="content_images">

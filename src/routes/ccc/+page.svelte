@@ -113,10 +113,19 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
     For visuals that I knew would not be too computationally intensive, I 
     stuck with p5.js. 
 </p>
-<div class="video-container">
-    <video preload="none" autoplay muted playsinline loop>
-        <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/0216.mp4" type="video/mp4" />
+<div class = "side_by_side_content">
+    <div class = "side_by_side">
+    <video 
+        src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/0218.mp4"
+        autoplay muted playsinline loop style="width: 100%; height: auto;">
     </video>
+    </div>
+    <div class = "side_by_side">
+        <video 
+        src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/0216.mp4"
+        autoplay muted playsinline loop style="width: 100%; height: auto;">
+    </video>
+    </div>
 </div>
 <h2>🚧 Check back soon for the final performance 🚧</h2>
 

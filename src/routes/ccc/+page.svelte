@@ -86,6 +86,9 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/slider.png"
         />
 </div>
+
+<iframe src="https://www.youtube.com/embed/3_EyuqmPKQU?si=_IyEoh6HBfDE6UyS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <h2>Limitations</h2>
 <p>
     Since I only needed a few parameters to communicate the movement, it was not 

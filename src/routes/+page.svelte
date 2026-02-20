@@ -20,7 +20,7 @@
             type: 'video',
              src: 'https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/hero.mp4',
              alt: 'Ceci Capstone',
-             tags: ['Google MediaPipe', 'OSC', 'WebSockets', 'TouchDesigner' ]
+             tags: ['Machine Learning','Google MediaPipe', 'OSC', 'TouchDesigner' ]
         },
         // {
         //     href: '/umusic',

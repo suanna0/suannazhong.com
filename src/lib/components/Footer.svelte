@@ -9,7 +9,7 @@
 </script>
   
 <footer>    
-    <button class="button">SvelteKit · TypeScript · Vite</button>
+    <p>SvelteKit · TypeScript · Vite</p>
     <button class="button" on:click={backToTop}>
         Back to Top ↑
     </button>
@@ -24,7 +24,7 @@
         margin: 0 auto;
     }
 
-    footer button:first-child {
+    footer p:first-child {
         margin-right: auto;
     }
 

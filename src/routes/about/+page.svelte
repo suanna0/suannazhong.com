@@ -44,9 +44,12 @@
             <p>
                 I am a fourth-year student in the Bachelor of Computer Science and Arts (BCSA) program at Carnegie Mellon University, studying Computer Science and Art. 
                 <br><br>
-                Previously, I worked in animation within the music industry, where I developed a strong sense of time-based storytelling. I approach front-end development similarly: a landing page, interface, or internal tool is a medium to communicate clearly, with timing as a core consideration. With my experience in both design and code, I can collaborate across the stack or deliver end-to-end solutions myself.
+                Previously, I worked in animation within the music industry, where I used timing, appeal, and anticipation as building blocks for storytelling. 
+                I approach creating tools and websites similarly: they are all mediums to communicate a message clearly. 
+                With my experience in both design and code, I can collaborate across the stack or deliver end-to-end solutions myself.
                 <br><br>
-                Whether it's solving an abstract math problem, composing an image, or designing a data structure, I really enjoy thinking of elegant solutions to interesting problems. Parallel and Sequential Data Structures and Algorithms, one of my favorite classes I've taken at CMU, has taught me to approach problems with Occam's razor in mind: when multiple solutions exist, I go for the one with the fewest assumptions and the simplest explanation. 
+                Whether it's solving an abstract math problem, composing an image, or designing a data structure, I really enjoy thinking of elegant solutions to interesting problems. Parallel and Sequential Data Structures and Algorithms, one of my favorite classes I've taken at CMU, has taught me to reach for Occam's razor: when multiple solutions exist, I go for the one with the fewest assumptions and the simplest explanation. 
+                I also believe that consideration for the smallest details accumulate into a completely different experience. That's what separates a polished interface from a MVP.
                 <br><br>
                 When I'm not working, you can probably find me making 
                 <a href="https://art.suannazhong.com/pages/work.html">artwork</a>, 

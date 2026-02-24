@@ -39,7 +39,7 @@
     technologies had become available, I was really excited to create an improved 
     version.  
 </p>
-<img 
+<img
 alt = "2023 Performance"
 src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrack.gif"
 />

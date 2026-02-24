@@ -13,8 +13,18 @@
 			(entries) => {
 				entries.forEach((entry) => {
 					if (entry.isIntersecting) {
-						entry.target.classList.add('fade-in');
-						observer.unobserve(entry.target);
+						const el = entry.target as HTMLElement;
+						// For images, wait until loaded before fading in
+						if (el.tagName === 'IMG') {
+							const img = el as HTMLImageElement;
+							img.dataset.inView = 'true';
+							if (img.complete) {
+								img.classList.add('fade-in');
+							}
+						} else {
+							el.classList.add('fade-in');
+						}
+						observer.unobserve(el);
 					}
 				});
 			},
@@ -23,6 +33,15 @@
 
 		document.querySelectorAll('img, video, .project_tag').forEach((el) => {
 			if (!el.classList.contains('fade-in')) {
+				// Add load listener for images
+				if (el.tagName === 'IMG') {
+					const img = el as HTMLImageElement;
+					img.addEventListener('load', () => {
+						if (img.dataset.inView === 'true') {
+							img.classList.add('fade-in');
+						}
+					}, { once: true });
+				}
 				observer.observe(el);
 			}
 		});

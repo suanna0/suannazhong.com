@@ -127,20 +127,12 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
     />
 </div>
 
-<div class = "side_by_side_content">
-    <div class = "side_by_side">
-    <video 
-        src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/0218.mp4"
-        autoplay muted playsinline loop style="width: 100%; height: auto;">
+<div class="video-container">
+    <video preload="none" autoplay muted playsinline loop>
+    <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/0224.mp4" type="video/mp4" />
     </video>
-    </div>
-    <div class = "side_by_side">
-        <video 
-        src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/snow_test.mp4"
-        autoplay muted playsinline loop style="width: 100%; height: auto;">
-    </video>
-    </div>
 </div>
+
 <h2>🚧 Check back soon for the final performance 🚧</h2>
 
 

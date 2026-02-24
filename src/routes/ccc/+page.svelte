@@ -112,10 +112,21 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/inspo.png">
 </div>
-<p>
-    For visuals that I knew would not be too computationally intensive, I 
-    stuck with p5.js. 
-</p>
+<div class = "gallery_content">
+    <p>
+        A challenging aspect of this project was actually making the generated 
+        visuals tell a story. One piece of advice that Golan gave me that helped 
+        a lot was to think of particles as a substance that can be molded to 
+        mimic natural phenomena, such as clouds, snow, or sand. To me, it felt
+        more intuitive to use p5.js to fine-tune the parameters 
+        to get the desired effect.
+    </p>
+    <img 
+    alt = "Frozen"
+    src = "https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/frozen.gif"
+    />
+</div>
+
 <div class = "side_by_side_content">
     <div class = "side_by_side">
     <video 
@@ -125,7 +136,7 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
     </div>
     <div class = "side_by_side">
         <video 
-        src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/0216.mp4"
+        src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/snow_test.mp4"
         autoplay muted playsinline loop style="width: 100%; height: auto;">
     </video>
     </div>

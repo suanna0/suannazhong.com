@@ -42,7 +42,7 @@
 		justify-content: center;
 		align-items: center;
 		height: 100vh;
-		padding: 0 12vw;
+		padding: 0 5vw;
 	}
 
 	h1 {
@@ -51,7 +51,7 @@
 
 	@media only screen and (max-width: 850px) {
 		section {
-			padding: 0 5px;
+			padding: 0 0px;
 		}
 	}
 

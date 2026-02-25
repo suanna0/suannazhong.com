@@ -44,8 +44,9 @@
             <p>
                 I am a fourth-year student in the Bachelor of Computer Science and Arts (BCSA) program at Carnegie Mellon University, studying Computer Science and Art. 
                 <br><br>
-                Previously, I worked in animation within the music industry, which strongly influences how I approach creating tools and websites: they are all mediums for communicating a message clearly.
-                Considering the smallest details can accumulate into a completely different experience. That's what separates a polished interface from a MVP.
+                Previously, I worked in animation within the music industry, where I applied timing, appeal, and anticipation as guiding principles.
+                I approach creating tools and websites similarly: they are all mediums to communicate a message clearly. 
+                Considering the smallest details can accumulate into a completely different experience, this separates a polished interface from a MVP.
                 With my experience in both design and code, I can collaborate across the stack or deliver end-to-end solutions myself.
                 <br><br>
                 Whether it's solving an abstract math problem, composing an image, or designing a data structure, I really enjoy thinking of elegant solutions to interesting problems. Parallel and Sequential Data Structures and Algorithms, one of my favorite classes I've taken at CMU, has taught me to reach for Occam's razor: when multiple solutions exist, I go for the one with the fewest assumptions and the simplest explanation. 

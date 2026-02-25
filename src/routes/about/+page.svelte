@@ -44,8 +44,7 @@
             <p>
                 I am a fourth-year student in the Bachelor of Computer Science and Arts (BCSA) program at Carnegie Mellon University, studying Computer Science and Art. 
                 <br><br>
-                Previously, I worked in animation within the music industry, where I used timing, appeal, and anticipation as building blocks for storytelling. 
-                I approach creating tools and websites similarly: they are all mediums to communicate a message clearly. 
+                Previously, I worked in animation within the music industry, which strongly influences how I approach creating tools and websites: they are all mediums for communicating a message clearly.
                 Considering the smallest details can accumulate into a completely different experience. That's what separates a polished interface from a MVP.
                 With my experience in both design and code, I can collaborate across the stack or deliver end-to-end solutions myself.
                 <br><br>

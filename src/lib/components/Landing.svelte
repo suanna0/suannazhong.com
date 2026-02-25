@@ -42,7 +42,7 @@
 		justify-content: center;
 		align-items: center;
 		height: 100vh;
-		padding: 0 5vw;
+		padding: 0 10vw;
 	}
 
 	h1 {

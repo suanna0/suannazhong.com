@@ -142,6 +142,19 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
     </video>
 </div>
 
+<h2>More Experiments</h2>
+<div class="video-container">
+    <video preload="none" autoplay muted playsinline loop>
+        <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/0216.mp4" type="video/mp4" />
+    </video>
+</div>
+<div class="video-container">
+    <video preload="none" autoplay muted playsinline loop>
+        <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/0309.mp4" type="video/mp4" />
+    </video>
+</div>
+
+
 <h2>🚧 Check back soon for the final performance 🚧</h2>
 
 

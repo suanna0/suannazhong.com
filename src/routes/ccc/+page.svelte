@@ -18,11 +18,8 @@
     <a target="_blank" href="https://github.com/suanna0/ceci-capstone">↗ GitHub</a> 
 </h3>
 <p>
-    For Ceci Sun's senior thesis dance performance, I created a 
+    For Ceci Sun's senior thesis dance performance, 一 (yi), I created a 
     GUI/debugging interface that sends OSC messages to TouchDesigner.
-<!--             
-    It would be a good idea to talk about TCM and being ABC and our 8
-    year friendship.  -->
 </p>
 <h2>Background</h2>
 <div class = "gallery_content">
@@ -43,6 +40,30 @@
 alt = "2023 Performance"
 src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrack.gif"
 />
+</div>
+<h2>Thematic Underpinnings</h2>
+<p>
+    Much of Ceci's creative practice is informed by mind-body connections 
+    through qigong principles. Her work combines Eastern and Western 
+    philosophical perspectives: Eastern traditions emphasize balance and the 
+    flow of energy, while Western contemporary dance practices explore 
+    emotional expression and psychological experience. As an American-born 
+    Chinese American, I have also grown up with a mix of Eastern and Western 
+    philosophies. Topics such as meditation and traditional Chinese medicine 
+    are deeply ingrained in my personal life, which I was able to draw on when 
+    working on this project.
+</p>
+<h2>Inspiration</h2>
+<p>
+    I was heavily inspired by <a target="_blank" href="https://youtu.be/s_S3fomiXO0?si=M4i9_uZZ90DdhHuP">discrete figures</a> by Daito Manabe's Rhizomatiks Research group.
+    For time-based visuals, I often find it easier to figure out the music first.
+    Ceci sent me some placeholder music to work and I had a lot of fun letting sound guide what the visuals should look like.
+</p>
+<div class="content_images">
+    <img loading = "lazy"
+    alt = "Inspiration"
+        id="content_img"
+        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/inspo.png">
 </div>
 <h2>Web Render vs. OSC</h2>
 <div class = "gallery_content">
@@ -100,18 +121,6 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
     model is created in the future, a lot of new possibilities will open up in 
     terms of the types of performances that can be created.
 </p>
-<h2>Inspiration</h2>
-<p>
-    I was heavily inspired by <a target="_blank" href="https://youtu.be/s_S3fomiXO0?si=M4i9_uZZ90DdhHuP">discrete figures</a> by Daito Manabe's Rhizomatiks Research group.
-    For time-based visuals, I often find it easier to figure out the music first.
-    Ceci sent me some placeholder music to work and I had a lot of fun letting sound guide what the visuals should look like.
-</p>
-<div class="content_images">
-    <img loading = "lazy"
-    alt = "Inspiration"
-        id="content_img"
-        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/inspo.png">
-</div>
 <div class = "gallery_content">
     <p>
         A challenging aspect of this project was actually making the generated 

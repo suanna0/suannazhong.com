@@ -18,7 +18,7 @@
     <a target="_blank" href="https://github.com/suanna0/ceci-capstone">↗ GitHub</a> 
 </h3>
 <p>
-    For Ceci Sun's senior thesis dance performance, 一 (yi), I created a 
+    For Ceci Sun's senior thesis dance performance, 一 (yi) / oneness, I created a 
     GUI/debugging interface that sends OSC messages to TouchDesigner.
 </p>
 <h2>Background</h2>

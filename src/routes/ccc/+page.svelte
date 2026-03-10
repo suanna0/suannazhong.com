@@ -53,6 +53,12 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
     are deeply ingrained in my personal life, which I was able to draw on when 
     working on this project.
 </p>
+<div class="content_images">
+    <img loading = "lazy"
+    alt = "Inspiration"
+        id="content_img"
+        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/phases.jpg">
+</div>
 <h2>Inspiration</h2>
 <p>
     I was heavily inspired by <a target="_blank" href="https://youtu.be/s_S3fomiXO0?si=M4i9_uZZ90DdhHuP">discrete figures</a> by Daito Manabe's Rhizomatiks Research group.

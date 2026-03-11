@@ -61,9 +61,11 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
 </div>
 <h2>Inspiration</h2>
 <p>
-    I was heavily inspired by <a target="_blank" href="https://youtu.be/s_S3fomiXO0?si=M4i9_uZZ90DdhHuP">discrete figures</a> by Daito Manabe's Rhizomatiks Research group.
-    For time-based visuals, I often find it easier to figure out the music first.
-    Ceci sent me some placeholder music to work and I had a lot of fun letting sound guide what the visuals should look like.
+    I was heavily inspired by <a target="_blank" href="https://youtu.be/s_S3fomiXO0?si=M4i9_uZZ90DdhHuP">discrete figures</a> by Daito Manabe's Rhizomatiks Research group,
+    as well as Lingdong Huang's <a target="_blank" href="https://studioforcreativeinquiry.org/project/shan-shui">{'{'}Shan, Shui{'}'}*</a>,
+    which Golan had previously shown us and undeniably influenced how we approached the mountain visuals.
+    For time-based visuals, I often find it easier to figure out the music first, and
+    Ceci sent me some placeholder tracks that helped guide what the visuals should look like.
 </p>
 <div class="content_images">
     <img loading = "lazy"

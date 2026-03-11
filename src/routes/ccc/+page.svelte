@@ -161,6 +161,21 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
         <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/0309.mp4" type="video/mp4" />
     </video>
 </div>
+<div class="side_by_side_content">
+    <div class="side_by_side">
+      <img loading = "lazy"
+      alt="Cong"
+        id="content_img"
+        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/cong.gif">
+    </div>
+
+    <div class="side_by_side">
+      <img loading = "lazy"
+      alt="0311"
+        id="content_img"
+        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/0311_text.gif">
+    </div>
+</div>
 
 
 <h2>🚧 Check back soon for the final performance 🚧</h2>

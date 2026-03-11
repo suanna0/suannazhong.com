@@ -61,7 +61,7 @@
             id="content_img"
             src="https://de1wwae7728z6.cloudfront.net/images/klee/4x5_promo.jpg">
         </div>
-      </div>
+    </div>
 
       <div class="content_images">
         <div class="video-container">

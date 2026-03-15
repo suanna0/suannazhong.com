@@ -1,23 +1,38 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import gsap from 'gsap';
+	import { landingReady } from '$lib/stores';
+	import { get } from 'svelte/store';
 
 	let heading: HTMLHeadingElement;
 
-	onMount(() => {
-		gsap.from(heading.querySelectorAll('a'), {
-        opacity: 0,
-        y: 10,
-        delay: 0.4,
-        stagger: 0.1,
-        duration: 0.6,
-        ease: 'power2.out'
-    });
-		gsap.from(heading, {
-			opacity: 0,
-			y: 30,
+	function animate() {
+		gsap.to(heading, {
+			opacity: 1,
+			y: 0,
 			duration: 1.2,
 			ease: 'power2.out'
+		});
+		gsap.from(heading.querySelectorAll('a'), {
+			opacity: 0,
+			y: 10,
+			delay: 0.4,
+			stagger: 0.1,
+			duration: 0.6,
+			ease: 'power2.out'
+		});
+	}
+
+	onMount(() => {
+		if (get(landingReady)) return; // already loaded, skip animation
+
+		gsap.set(heading, { opacity: 0, y: 30 });
+
+		const unsub = landingReady.subscribe((ready) => {
+			if (ready) {
+				animate();
+				unsub();
+			}
 		});
 	});
 

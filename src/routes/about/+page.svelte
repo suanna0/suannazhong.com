@@ -45,9 +45,7 @@
                 Hi there! I'm Suanna (pronounced Sue-Anne-Nuh), a fourth-year 
                 student in the Bachelor of Computer Science and Arts (BCSA) 
                 program at Carnegie Mellon University, where I study Computer 
-                Science and Art. With a background in both design and code, 
-                I can collaborate across the stack or deliver end-to-end 
-                solutions on my own.
+                Science and Art. 
                 <br><br>
                 Previously, I worked in animation within the music industry, where I applied timing, appeal, and anticipation as guiding principles. I approach creating tools and websites similarly: they are all mediums to communicate a message clearly. The smallest details can accumulate into a completely different experience, and I find that careful attention to them is often what separates a polished interface from an MVP.
                 <br><br>

@@ -122,11 +122,15 @@ h3, .project_tag {
   overflow: hidden;
   border-radius: 0px;
   transition: border-radius 0.3s ease;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  transform: translateZ(0);
 }
 
 .gallery img {
   border-radius: 0px;
   transition: border-radius 0.3s ease;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  transform: translateZ(0);
 }
 
 .video-container video, .gallery img {

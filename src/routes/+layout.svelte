@@ -10,19 +10,22 @@
 	import gsap from 'gsap';
 	export const prerender = true;
 
+	let transitionOverlay: HTMLDivElement;
+	let navigating = false;
+	let mediaObserver: IntersectionObserver | null = null;
+
 	function observeMedia() {
+		if (mediaObserver) mediaObserver.disconnect();
+
 		const observer = new IntersectionObserver(
 			(entries) => {
 				entries.forEach((entry) => {
 					if (entry.isIntersecting) {
 						const el = entry.target as HTMLElement;
-						// For images, wait until loaded before fading in
 						if (el.tagName === 'IMG') {
 							const img = el as HTMLImageElement;
 							img.dataset.inView = 'true';
-							if (img.complete) {
-								img.classList.add('fade-in');
-							}
+							if (img.complete) img.classList.add('fade-in');
 						} else {
 							el.classList.add('fade-in');
 						}
@@ -32,16 +35,14 @@
 			},
 			{ threshold: 0.1 }
 		);
+		mediaObserver = observer;
 
 		document.querySelectorAll('img, video, .project_tag').forEach((el) => {
 			if (!el.classList.contains('fade-in')) {
-				// Add load listener for images
 				if (el.tagName === 'IMG') {
 					const img = el as HTMLImageElement;
 					img.addEventListener('load', () => {
-						if (img.dataset.inView === 'true') {
-							img.classList.add('fade-in');
-						}
+						if (img.dataset.inView === 'true') img.classList.add('fade-in');
 					}, { once: true });
 				}
 				observer.observe(el);
@@ -49,32 +50,33 @@
 		});
 	}
 
-	let transitionOverlay: HTMLDivElement;
-	let navigating = false;
-
 	onMount(() => {
 		observeMedia();
 	});
 
 	beforeNavigate(({ to, cancel }) => {
-		if (navigating || !to) return;
+		if (navigating || !to || !transitionOverlay) return;
 		cancel();
 		navigating = true;
+		gsap.killTweensOf(transitionOverlay);
 		gsap.to(transitionOverlay, {
 			opacity: 1,
 			duration: 0.3,
 			ease: 'power2.inOut',
-			onComplete: () => goto(to.url.pathname + to.url.hash)
+			onComplete: () => { goto(to.url.pathname + to.url.hash); }
 		});
 	});
 
 	afterNavigate(() => {
 		navigating = false;
-		gsap.to(transitionOverlay, {
-			opacity: 0,
-			duration: 0.3,
-			ease: 'power2.inOut'
-		});
+		if (transitionOverlay) {
+			gsap.killTweensOf(transitionOverlay);
+			gsap.to(transitionOverlay, {
+				opacity: 0,
+				duration: 0.3,
+				ease: 'power2.inOut'
+			});
+		}
 		setTimeout(observeMedia, 50);
 	});
 </script>

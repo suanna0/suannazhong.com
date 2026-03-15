@@ -19,16 +19,10 @@
 
 		try { sessionStorage.setItem('visited', 'true'); } catch {}
 
-		// Indeterminate fill: crawl to 80% while assets load
+		// Crawl to 80% over 1.5s while waiting
 		gsap.to(fill, { width: '80%', duration: 1.5, ease: 'power1.out' });
 
-		const minDelay = new Promise((res) => setTimeout(res, 600));
-		const loaded = new Promise((res) => {
-			if (document.readyState === 'complete') res(null);
-			else window.addEventListener('load', res, { once: true });
-		});
-
-		Promise.all([minDelay, loaded]).then(() => {
+		setTimeout(() => {
 			gsap.killTweensOf(fill);
 
 			const tl = gsap.timeline({
@@ -41,7 +35,7 @@
 			tl.to(fill, { width: '100%', duration: 0.2, ease: 'power2.out' })
 			  .to(track, { opacity: 0, duration: 0.3, ease: 'power2.inOut' })
 			  .to(overlay, { opacity: 0, duration: 0.5, ease: 'power2.inOut', delay: 0.3 });
-		});
+		}, 600);
 	});
 </script>
 

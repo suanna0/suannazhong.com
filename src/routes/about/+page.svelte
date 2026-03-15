@@ -52,7 +52,7 @@
                 Whether it's solving an abstract math problem, composing an image, or designing a data structure, I really enjoy thinking of elegant solutions to interesting problems. Parallel and Sequential Data Structures and Algorithms, one of my favorite classes I've taken at CMU, has taught me to reach for Occam's razor: when multiple solutions exist, I go for the one with the fewest assumptions and the simplest explanation. 
                 <br><br>
                 When I'm not working, you can probably find me making 
-                <a href="https://art.suannazhong.com/pages/work.html">artwork</a>, 
+                <a target="_blank" href="https://art.suannazhong.com/pages/work.html">artwork</a>, 
                 listening to jazz, cafe hopping, or knitting winter clothes. 
                 <br><br>
                 <a target="_blank" href="https://www.linkedin.com/in/suannaz/"

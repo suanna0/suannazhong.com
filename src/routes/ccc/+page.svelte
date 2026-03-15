@@ -151,6 +151,10 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
 </div>
 
 <h2>More Experiments</h2>
+
+<iframe src="https://www.youtube.com/embed/LXtQTE9_FiI?si=jAqJRG_MCIye9gZV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 <div class="side_by_side_content">
     <div class="side_by_side">
       <img loading = "lazy"
@@ -166,9 +170,6 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/0311_text.gif">
     </div>
 </div>
-
-<iframe src="https://www.youtube.com/embed/LXtQTE9_FiI?si=jAqJRG_MCIye9gZV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 
 
 <h2>🚧 Check back soon for the final performance 🚧</h2>

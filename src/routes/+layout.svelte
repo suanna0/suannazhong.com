@@ -5,7 +5,9 @@
 	import { page } from '$app/stores';
 	import Footer from '$lib/components/Footer.svelte';
 	import { onMount } from 'svelte';
-	import { afterNavigate } from '$app/navigation';
+	import { beforeNavigate, afterNavigate, goto } from '$app/navigation';
+	import LoadingScreen from '$lib/components/LoadingScreen.svelte';
+	import gsap from 'gsap';
 	export const prerender = true;
 
 	function observeMedia() {
@@ -47,19 +49,53 @@
 		});
 	}
 
+	let transitionOverlay: HTMLDivElement;
+	let navigating = false;
+
 	onMount(() => {
 		observeMedia();
 	});
 
+	beforeNavigate(({ to, cancel }) => {
+		if (navigating || !to) return;
+		cancel();
+		navigating = true;
+		gsap.to(transitionOverlay, {
+			opacity: 1,
+			duration: 0.3,
+			ease: 'power2.inOut',
+			onComplete: () => goto(to.url.pathname)
+		});
+	});
+
 	afterNavigate(() => {
+		navigating = false;
+		gsap.to(transitionOverlay, {
+			opacity: 0,
+			duration: 0.3,
+			ease: 'power2.inOut'
+		});
 		setTimeout(observeMedia, 50);
 	});
 </script>
+
+<style>
+	.transition-overlay {
+		position: fixed;
+		inset: 0;
+		background-color: var(--color-bg);
+		z-index: 9998;
+		opacity: 0;
+		pointer-events: none;
+	}
+</style>
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
+<LoadingScreen />
+<div bind:this={transitionOverlay} class="transition-overlay"></div>
 <main>
   <Nav />
   <slot />

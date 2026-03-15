@@ -42,12 +42,14 @@
     <div class="about_columns">
         <div>
             <p>
-                I am a fourth-year student in the Bachelor of Computer Science and Arts (BCSA) program at Carnegie Mellon University, studying Computer Science and Art. 
+                Hi there! I'm Suanna (pronounced Sue-Anne-Nuh), a fourth-year 
+                student in the Bachelor of Computer Science and Arts (BCSA) 
+                program at Carnegie Mellon University, where I study Computer 
+                Science and Art. With a background in both design and code, 
+                I can collaborate across the stack or deliver end-to-end 
+                solutions on my own.
                 <br><br>
-                Previously, I worked in animation within the music industry, where I applied timing, appeal, and anticipation as guiding principles.
-                I approach creating tools and websites similarly: they are all mediums to communicate a message clearly. 
-                Considering the smallest details can accumulate into a completely different experience, this separates a polished interface from a MVP.
-                With my experience in both design and code, I can collaborate across the stack or deliver end-to-end solutions myself.
+                Previously, I worked in animation within the music industry, where I applied timing, appeal, and anticipation as guiding principles. I approach creating tools and websites similarly: they are all mediums to communicate a message clearly. The smallest details can accumulate into a completely different experience, and I find that careful attention to them is often what separates a polished interface from an MVP.
                 <br><br>
                 Whether it's solving an abstract math problem, composing an image, or designing a data structure, I really enjoy thinking of elegant solutions to interesting problems. Parallel and Sequential Data Structures and Algorithms, one of my favorite classes I've taken at CMU, has taught me to reach for Occam's razor: when multiple solutions exist, I go for the one with the fewest assumptions and the simplest explanation. 
                 <br><br>
@@ -85,8 +87,10 @@
                 <div>
                     <h2>Music Clients:</h2>
                     <p>
+                        aron!<br>
                         Capitol Records<br>
                         Frankie Grande<br>
+                        Haiden Henderson<br>
                         Jeremy Zucker<br>
                         JYP Entertainment<br>
                         Kali Uchis<br>

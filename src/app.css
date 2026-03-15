@@ -159,7 +159,6 @@ h3, .project_tag {
 
 .gallery {
   position: relative;
-  transition: filter 1s ease;
   padding: 10px 0px;
 }
 

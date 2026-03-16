@@ -37,6 +37,7 @@
     version.  
 </p>
 <img
+loading="lazy"
 alt = "2023 Performance"
 src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrack.gif"
 />
@@ -86,6 +87,7 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
         placeholder values in TouchDesigner and then replace them with the OSC values later.
     </p>
         <img
+        loading="lazy"
         alt="Web Render"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/webrender-osc.png"
         />
@@ -111,6 +113,7 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
         The slider in the p5 GUI would control how sensitive the mapping was.     
     </p>
         <img
+        loading="lazy"
         alt="Slider"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/slider.png"
         />
@@ -138,7 +141,8 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
         more intuitive to use p5.js to fine-tune the parameters 
         to get the desired effect.
     </p>
-    <img 
+    <img
+    loading="lazy"
     alt = "Frozen"
     src = "https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/frozen.gif"
     />

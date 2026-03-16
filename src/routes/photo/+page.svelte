@@ -13,12 +13,14 @@
 <div class = "side_by_side_content">
     <div class="side_by_side">
         <img
+        loading="lazy"
         alt="Lucy"
         src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/0.jpg"
         />
     </div>
     <div class="side_by_side">
         <img
+        loading="lazy"
         alt="Erika"
         src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/1.jpg"
         />
@@ -27,12 +29,14 @@
 <div class = "side_by_side_content">
     <div class="side_by_side">
         <img
+        loading="lazy"
         alt="Ceci"
         src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/2.jpg"
         />
     </div>
     <div class="side_by_side">
         <img
+        loading="lazy"
         alt="Lucy"
         src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/3.jpg"
         />
@@ -49,12 +53,14 @@ alt = "Wedding"
 <div class = "side_by_side_content">
     <div class="side_by_side">
         <img
+        loading="lazy"
         alt="Wedding"
         src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/5.jpg"
         />
     </div>
     <div class="side_by_side">
         <img
+        loading="lazy"
         alt="Bloom"
         src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/6.jpg"
         />

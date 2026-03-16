@@ -96,6 +96,7 @@
       <h2>Storyboard:</h2>
       <div class="content_images">
         <img
+          loading="lazy"
           alt="Storyboard"
           id="content_img"
           src="https://de1wwae7728z6.cloudfront.net/images/klee/klee-storyboard.png"

@@ -133,6 +133,7 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
 <div class="side_by_side_content">
     <div class="side_by_side">
         <img
+        loading="lazy"
         alt="Explicit Slide"
         src="https://de1wwae7728z6.cloudfront.net/images/malloc/explicit_slide.jpg"
         />

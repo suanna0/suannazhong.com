@@ -6,7 +6,6 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import { onMount } from 'svelte';
 	import { beforeNavigate, afterNavigate, goto } from '$app/navigation';
-	import LoadingScreen from '$lib/components/LoadingScreen.svelte';
 	import gsap from 'gsap';
 	export const prerender = true;
 
@@ -96,7 +95,6 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<LoadingScreen />
 <div bind:this={transitionOverlay} class="transition-overlay"></div>
 <main>
   <Nav />

@@ -1,12 +1,11 @@
 <script lang="ts">
-	import { onMount, onDestroy } from 'svelte';
+	import { onMount } from 'svelte';
 	import gsap from 'gsap';
-	import { landingReady } from '$lib/stores';
-	import { get } from 'svelte/store';
 
 	let heading: HTMLHeadingElement;
 
-	function animate() {
+	onMount(() => {
+		gsap.set(heading, { opacity: 0, y: 30 });
 		gsap.to(heading, {
 			opacity: 1,
 			y: 0,
@@ -21,26 +20,7 @@
 			duration: 0.6,
 			ease: 'power2.out'
 		});
-	}
-
-	let unsub: (() => void) | undefined;
-
-	onMount(() => {
-		if (get(landingReady)) return;
-
-		gsap.set(heading, { opacity: 0, y: 30 });
-
-		unsub = landingReady.subscribe((ready) => {
-			if (ready) {
-				animate();
-				unsub?.();
-			}
-		});
 	});
-
-	onDestroy(() => unsub?.());
-
-   
 </script>
 
 <section>

@@ -85,6 +85,14 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
         workflow of using variables as opposed to encoding and decoding an image 
         felt more intuive to me. Additionally, I could create effects using 
         placeholder values in TouchDesigner and then replace them with the OSC values later.
+        <br><br>
+        When it came to deciding what equipment to use for the live performance, 
+        it turned out that using the OSC approach would be more reliable. This is
+        because images are very expensive to send. Depending on the size of the 
+        venue, using longer cables may introduce some undefined behavior as well. 
+        <br><br>
+        I'm extremely grateful for my past classes that emphasized the importance of using 
+        simplified inputs: this problem-solving paradigm served me very well in this project. 
     </p>
         <img
         loading="lazy"

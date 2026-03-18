@@ -90,9 +90,6 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
         it turned out that using the OSC approach would be more reliable. This is
         because images are very expensive to send. Depending on the size of the 
         venue, using longer cables may introduce some undefined behavior as well. 
-        <br><br>
-        I'm extremely grateful for my past classes that emphasized the importance of using 
-        simplified inputs: this problem-solving paradigm served me very well in this project. 
     </p>
         <img
         loading="lazy"
@@ -166,11 +163,7 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
 
 <iframe src="https://www.youtube.com/embed/LXtQTE9_FiI?si=jAqJRG_MCIye9gZV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<div class="video-container">
-    <video preload="none" autoplay muted playsinline loop>
-    <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/mountain.mp4" type="video/mp4" />
-    </video>
-</div>
+<iframe src="https://www.youtube.com/embed/lHTtWkZlEdk?si=_lToTBQnA9ICkkTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <div class="side_by_side_content">
     <div class="side_by_side">

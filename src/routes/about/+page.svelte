@@ -51,11 +51,9 @@
                 <br><br>
                 Whether it's solving an abstract math problem, composing an image, or designing a data structure, I really enjoy thinking of elegant solutions to interesting problems. Parallel and Sequential Data Structures and Algorithms, one of my favorite classes I've taken at CMU, has taught me to reach for Occam's razor: when multiple solutions exist, I go for the one with the fewest assumptions and the simplest explanation. 
                 <br><br>
-                When I'm not working, you can probably find me making 
-                <a target="_blank" href="https://art.suannazhong.com/pages/work.html">artwork</a>, 
-                listening to jazz, cafe hopping, or knitting winter clothes. 
-                <br><br>
-                    Adolescent Content, Akira Uchida, aron!, BonBonBardot!, Capitol Records, Chxrry, Common Sense Media, DAY6, Dehancer, Frankie Grande, Haiden Henderson, Jeremy Zucker, Jillian Jacqueline, JYP Entertainment, Kali Uchis, Kid Cudi, Lang Lang, Marcus Rahauser, Meta, Pinterest, Republic Records, Stray Kids, Virgin Music Group, VSCO
+                When I'm not working, you can probably find me making
+                <a target="_blank" href="https://art.suannazhong.com/pages/work.html">artwork</a>,
+                listening to jazz, cafe hopping, or knitting winter clothes.
                 <br><br>
                 <a target="_blank" href="https://www.linkedin.com/in/suannaz/"
                 >LinkedIn</a
@@ -69,6 +67,8 @@
                 <br />
                 suannaz [at] andrew [dot] cmu [dot] edu
             </p>
+            <h2>Selected Clients:</h2>
+            <p>Adolescent Content, Akira Uchida, aron!, BonBonBardot!, Capitol Records, Chxrry, Common Sense Media, DAY6, Dehancer, Frankie Grande, Haiden Henderson, Jeremy Zucker, Jillian Jacqueline, JYP Entertainment, Kali Uchis, Kid Cudi, Lang Lang, Marcus Rahauser, Meta, Pinterest, Republic Records, Stray Kids, Virgin Music Group, VSCO, & more</p>
         </div>
         <div class = "image-container">
             <div class = "carousel-wrapper">

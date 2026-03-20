@@ -55,6 +55,8 @@
                 <a target="_blank" href="https://art.suannazhong.com/pages/work.html">artwork</a>, 
                 listening to jazz, cafe hopping, or knitting winter clothes. 
                 <br><br>
+                    Adolescent Content, Akira Uchida, aron!, BonBonBardot!, Capitol Records, Chxrry, Common Sense Media, DAY6, Dehancer, Frankie Grande, Haiden Henderson, Jeremy Zucker, Jillian Jacqueline, JYP Entertainment, Kali Uchis, Kid Cudi, Lang Lang, Marcus Rahauser, Meta, Pinterest, Republic Records, Stray Kids, Virgin Music Group, VSCO
+                <br><br>
                 <a target="_blank" href="https://www.linkedin.com/in/suannaz/"
                 >LinkedIn</a
                 > · 
@@ -67,40 +69,6 @@
                 <br />
                 suannaz [at] andrew [dot] cmu [dot] edu
             </p>
-            <div class = "clients_columns">
-                <div>
-                    <h2>Selected Clients:</h2>
-                    <p>
-                        Adolescent Content<br>
-                        Akira Uchida<br>
-                        BonBonBardot!<br>
-                        Common Sense Media<br>
-                        Dehancer<br>
-                        Marcus Rahauser<br>
-                        Meta<br>
-                        Pinterest<br>
-                        VSCO<br /><br />
-                    </p>
-                </div>
-                <div>
-                    <h2>Music Clients:</h2>
-                    <p>
-                        aron!<br>
-                        Capitol Records<br>
-                        Frankie Grande<br>
-                        Haiden Henderson<br>
-                        Jeremy Zucker<br>
-                        JYP Entertainment<br>
-                        Kali Uchis<br>
-                        Kid Cudi<br>
-                        Lang Lang<br>
-                        Republic Records<br>
-                        Stray Kids<br>
-                        Virgin Music Group
-                        <br /><br />
-                    </p>
-                </div>
-            </div>
         </div>
         <div class = "image-container">
             <div class = "carousel-wrapper">
@@ -124,7 +92,7 @@
 </section>
 
 <style>
-    .about_columns, .clients_columns {
+    .about_columns {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 30px;

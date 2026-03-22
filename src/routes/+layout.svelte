@@ -58,12 +58,15 @@
 		cancel();
 		navigating = true;
 		gsap.killTweensOf(transitionOverlay);
-		gsap.to(transitionOverlay, {
-			opacity: 1,
-			duration: 0.3,
-			ease: 'power2.inOut',
-			onComplete: () => { goto(to.url.pathname + to.url.hash); }
-		});
+		gsap.fromTo(transitionOverlay,
+			{ x: '-100%' },
+			{
+				x: '0%',
+				duration: 0.4,
+				ease: 'power2.inOut',
+				onComplete: () => { goto(to.url.pathname + to.url.hash); }
+			}
+		);
 	});
 
 	afterNavigate(() => {
@@ -71,9 +74,10 @@
 		if (transitionOverlay) {
 			gsap.killTweensOf(transitionOverlay);
 			gsap.to(transitionOverlay, {
-				opacity: 0,
-				duration: 0.3,
-				ease: 'power2.inOut'
+				x: '100%',
+				duration: 0.4,
+				ease: 'power2.inOut',
+				onComplete: () => { gsap.set(transitionOverlay, { x: '-100%' }); }
 			});
 		}
 		setTimeout(observeMedia, 50);
@@ -86,7 +90,7 @@
 		inset: 0;
 		background-color: var(--color-bg);
 		z-index: 9998;
-		opacity: 0;
+		transform: translateX(-100%);
 		pointer-events: none;
 	}
 </style>

@@ -24,7 +24,7 @@
 </script>
 
 <section>
-	<h1 bind:this={heading}>
+	<h2 bind:this={heading}>
 		Suanna Zhong works across coding and photo/video 
 		production. She previously worked on 
 		<a target="_blank" href="https://www.universalmusic.com/">Universal Music Group's</a> 
@@ -32,7 +32,7 @@
 		<a target="_blank" href="https://www.meta.com/">Meta</a>,
 		<a target="_blank" href="https://www.pinterest.com/">Pinterest</a>, and 
 		<a target="_blank" href="https://www.kidcudi.com/">Kid Cudi</a>.
-	</h1>
+	</h2>
 </section>
 
 <style>
@@ -41,10 +41,10 @@
 		justify-content: center;
 		align-items: center;
 		height: 100vh;
-		padding: 0 10vw;
+		padding: 0 23vw;
 	}
 
-	h1 {
+	h2 {
 		text-align: center;
 	}
 

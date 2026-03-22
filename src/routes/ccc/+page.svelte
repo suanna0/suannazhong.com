@@ -18,8 +18,9 @@
     <a target="_blank" href="https://github.com/suanna0/ceci-capstone">↗ GitHub</a> 
 </h3>
 <p>
-    For Ceci Sun's senior thesis dance performance, 一 (yi) / oneness, I created a 
-    GUI/debugging interface that sends OSC messages to TouchDesigner.
+    For Ceci Sun's senior thesis, 一 (yi) / oneness, I created
+    visuals to accompany her live performance and a GUI/debugging interface that 
+    sends OSC messages to TouchDesigner.
 </p>
 <h2>Background</h2>
 <div class = "gallery_content">
@@ -126,7 +127,7 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
 
 <iframe src="https://www.youtube.com/embed/3_EyuqmPKQU?si=_IyEoh6HBfDE6UyS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<h2>Limitations</h2>
+<h2>Limitations and Challenges</h2>
 <p>
     Since I only needed a few parameters to communicate the movement, it was not 
     necessary to use all 33 joints. Unfortunately, the MediaPipe library does not 
@@ -153,11 +154,8 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
     />
 </div>
 
-<div class="video-container">
-    <video preload="none" autoplay muted playsinline loop>
-    <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/0224.mp4" type="video/mp4" />
-    </video>
-</div>
+<iframe src="https://www.youtube.com/embed/W5O4POHt8qc?si=Y4QfLvzJekDBL5bj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 <h2>More Experiments</h2>
 

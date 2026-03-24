@@ -2,7 +2,7 @@
     import PrevNext from '$lib/components/PrevNext.svelte';
 </script>
 <svelte:head>
-    <title>Ceci Capstone GUI | Suanna Zhong</title>
+    <title>一 (yi) / oneness | Suanna Zhong</title>
 </svelte:head>
 
 <div class="video-container">
@@ -11,7 +11,7 @@
     </video>
 </div>
 
-<h1>Ceci Capstone GUI</h1>
+<h1>一 (yi) / oneness</h1>
 <h3>
     TouchDesigner, p5.js, ml5.js, Google MediaPipe, OSC, WebSockets, Node.js
     <br />

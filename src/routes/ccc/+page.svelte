@@ -159,26 +159,26 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
 
 <h2>More Experiments</h2>
 
-<iframe src="https://www.youtube.com/embed/LXtQTE9_FiI?si=jAqJRG_MCIye9gZV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<iframe src="https://www.youtube.com/embed/lHTtWkZlEdk?si=_lToTBQnA9ICkkTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 <div class="side_by_side_content">
     <div class="side_by_side">
       <img loading = "lazy"
       alt="Cong"
         id="content_img"
-        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/cong.gif">
+        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/ren_cong.gif">
     </div>
 
     <div class="side_by_side">
       <img loading = "lazy"
       alt="0311"
         id="content_img"
-        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/0311_text.gif">
+        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/mountain.gif">
     </div>
 </div>
 
+
+<iframe src="https://www.youtube.com/embed/LXtQTE9_FiI?si=jAqJRG_MCIye9gZV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe src="https://www.youtube.com/embed/lHTtWkZlEdk?si=_lToTBQnA9ICkkTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <h2>🚧 Check back soon for the final performance 🚧</h2>
 

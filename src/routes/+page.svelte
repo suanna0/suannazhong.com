@@ -3,6 +3,13 @@
 
     const projects = [
         {
+            href: '/ccc',
+            type: 'image',
+            src: 'https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/hero.gif',
+            alt: 'Ceci Capstone',
+            tags: ['Machine Learning','Google MediaPipe', 'OSC', 'TouchDesigner' ]
+        },
+        {
             href: '/mikegrail',
             type: 'image',
             src: 'https://de1wwae7728z6.cloudfront.net/images/mike-grail/thumbnail.jpg',
@@ -14,13 +21,6 @@
             type: 'video',
             src: 'https://de1wwae7728z6.cloudfront.net/videos/malloc/hero.mp4',
             tags: ['Front-end', 'CS Education']
-        },
-        {
-            href: '/ccc',
-            type: 'image',
-             src: 'https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/hero.gif',
-             alt: 'Ceci Capstone',
-             tags: ['Machine Learning','Google MediaPipe', 'OSC', 'TouchDesigner' ]
         },
         // {
         //     href: '/umusic',

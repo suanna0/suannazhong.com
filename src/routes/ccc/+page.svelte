@@ -201,6 +201,6 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
 
 
 <PrevNext
-prev={{ href: '/malloc', label: 'Previous' }}
-next={{ href: '/photo', label: 'Next' }}
+prev={{ href: '/reel', label: 'Previous' }}
+next={{ href: '/mikegrail', label: 'Next' }}
 />

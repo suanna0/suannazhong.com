@@ -22,6 +22,23 @@
     visuals to accompany her live performance and a GUI/debugging interface that 
     sends OSC messages to TouchDesigner.
 </p>
+
+<div class="side_by_side_content">
+    <div class="side_by_side">
+      <img loading = "lazy"
+      alt="Cong"
+        id="content_img"
+        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/rehearsal_1.gif">
+    </div>
+
+    <div class="side_by_side">
+      <img loading = "lazy"
+      alt="0311"
+        id="content_img"
+        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/rehearsal_2.gif">
+    </div>
+</div>
+
 <h2>Background</h2>
 <div class = "gallery_content">
 <p>

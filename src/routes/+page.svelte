@@ -17,8 +17,8 @@
         },
         {
             href: '/ccc',
-            type: 'video',
-             src: 'https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/hero.mp4',
+            type: 'image',
+             src: 'https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/hero.gif',
              alt: 'Ceci Capstone',
              tags: ['Machine Learning','Google MediaPipe', 'OSC', 'TouchDesigner' ]
         },

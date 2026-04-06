@@ -5,10 +5,11 @@
     <title>一 (yi) / oneness | Suanna Zhong</title>
 </svelte:head>
 
-<div class="video-container">
-    <video preload="none" autoplay muted playsinline loop>
-    <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/hero.mp4" type="video/mp4" />
-    </video>
+<div class="content_images">
+    <img loading = "lazy"
+    alt = "Inspiration"
+        id="content_img"
+        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/evelyn_solo.gif">
 </div>
 
 <h1>一 (yi) / oneness</h1>
@@ -16,7 +17,7 @@
     TouchDesigner, p5.js, ml5.js, Google MediaPipe, OSC, WebSockets, Node.js
     <br />
     <a target="_blank" href="https://github.com/suanna0/ceci-capstone">↗ GitHub</a> 
-    <span class="locked-link" title="awaiting official documentation">↗ Full Performance</span>
+    <span class="locked-link" title="Coming Soon">↗ Full Performance</span>
 </h3>
 <p>
     For Ceci Sun's senior thesis, 一 (yi) / oneness, I created
@@ -38,13 +39,6 @@
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/rehearsal_2.gif">
     </div>
-</div>
-
-<div class="content_images">
-    <img loading = "lazy"
-    alt = "Inspiration"
-        id="content_img"
-        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/evelyn_solo.gif">
 </div>
 
 <div class="content_images">
@@ -136,6 +130,13 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
         <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/0209.mp4" type="video/mp4" />
     </video>
 </div>
+<br>
+<div class="video-container">
+    <video preload="none" autoplay muted playsinline loop>
+    <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/hero.mp4" type="video/mp4" />
+    </video>
+</div>
+
 <div class = "gallery_content">
     <p>
         MediaPipe is really powerful because it can retreive a lot of information 
@@ -169,22 +170,15 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
     filmed on the webcam and tracks at most one person at a time. When an improved
     model is created in the future, a lot of new possibilities will open up in 
     terms of the types of performances that can be created.
-</p>
-<div class = "gallery_content">
-    <p>
+    <br><br>
+
         A challenging aspect of this project was actually making the generated 
         visuals tell a story. One piece of advice that Golan gave me that helped 
         a lot was to think of particles as a substance that can be molded to 
         mimic natural phenomena, such as clouds, snow, or sand. To me, it felt
         more intuitive to use p5.js to fine-tune the parameters 
         to get the desired effect.
-    </p>
-    <img
-    loading="lazy"
-    alt = "Frozen"
-    src = "https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/frozen.gif"
-    />
-</div>
+</p>
 
 <iframe src="https://www.youtube.com/embed/qUeFP3tmdD8?si=6pdXUnSuTTpM-XCO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -221,7 +215,6 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
     feedback to help me grow. 
 </p>
 
-
 <PrevNext
 prev={{ href: '/reel', label: 'Previous' }}
 next={{ href: '/mikegrail', label: 'Next' }}
@@ -232,19 +225,5 @@ next={{ href: '/mikegrail', label: 'Next' }}
         color: var(--color-accent);
         opacity: 0.4;
         cursor: not-allowed;
-        position: relative;
-    }
-    .locked-link:hover::after {
-        content: "Coming Soon";
-        position: absolute;
-        left: 0;
-        top: 1.4em;
-        background: #222;
-        color: #ccc;
-        font-size: 0.75em;
-        white-space: nowrap;
-        padding: 2px 6px;
-        border-radius: 3px;
-        pointer-events: none;
     }
 </style>

@@ -16,6 +16,7 @@
     TouchDesigner, p5.js, ml5.js, Google MediaPipe, OSC, WebSockets, Node.js
     <br />
     <a target="_blank" href="https://github.com/suanna0/ceci-capstone">↗ GitHub</a> 
+    <span class="locked-link" title="awaiting official documentation">↗ Full Performance</span>
 </h3>
 <p>
     For Ceci Sun's senior thesis, 一 (yi) / oneness, I created
@@ -210,10 +211,40 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
     </div>
 </div>
 
-<h2>🚧 Check back soon for the final performance 🚧</h2>
+<h2>Special Thanks</h2>
+<p>
+    I would like to thank Ceci Sun for inviting me to collaborate on this project,
+    Golan Levin and Kyle McDonald for their mentorship, Calder Sprinkle for 
+    programming the lighting to go with the projections, and Viviana Chen for 
+    testing out the software in Pittsburgh. I would also like to thank my 
+    beautiful and intelligent classmates for believing in me and providing candid 
+    feedback to help me grow. 
+</p>
 
 
 <PrevNext
 prev={{ href: '/reel', label: 'Previous' }}
 next={{ href: '/mikegrail', label: 'Next' }}
 />
+
+<style>
+    .locked-link {
+        color: var(--color-accent);
+        opacity: 0.4;
+        cursor: not-allowed;
+        position: relative;
+    }
+    .locked-link:hover::after {
+        content: "Coming Soon";
+        position: absolute;
+        left: 0;
+        top: 1.4em;
+        background: #222;
+        color: #ccc;
+        font-size: 0.75em;
+        white-space: nowrap;
+        padding: 2px 6px;
+        border-radius: 3px;
+        pointer-events: none;
+    }
+</style>

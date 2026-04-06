@@ -39,6 +39,20 @@
     </div>
 </div>
 
+<div class="content_images">
+    <img loading = "lazy"
+    alt = "Inspiration"
+        id="content_img"
+        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/evelyn_solo.gif">
+</div>
+
+<div class="content_images">
+    <img loading = "lazy"
+    alt = "Inspiration"
+        id="content_img"
+        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/backdrop.gif">
+</div>
+
 <h2>Background</h2>
 <div class = "gallery_content">
 <p>

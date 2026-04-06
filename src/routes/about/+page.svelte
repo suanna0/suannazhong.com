@@ -47,8 +47,6 @@
                 program at Carnegie Mellon University, where I study Computer 
                 Science and Art. 
                 <br><br>
-                Previously, I worked in animation within the music industry, where I applied timing, appeal, and anticipation as guiding principles. I approach creating tools and websites similarly: they are all mediums to communicate a message clearly. The smallest details can accumulate into a completely different experience, and I find that careful attention to them is often what separates a polished interface from an MVP.
-                <br><br>
                 Whether it's solving an abstract math problem, composing an image, or designing a data structure, I really enjoy thinking of elegant solutions to interesting problems. Parallel and Sequential Data Structures and Algorithms, one of my favorite classes I've taken at CMU, has taught me to reach for Occam's razor: when multiple solutions exist, I go for the one with the fewest assumptions and the simplest explanation. 
                 <br><br>
                 When I'm not working, you can probably find me making

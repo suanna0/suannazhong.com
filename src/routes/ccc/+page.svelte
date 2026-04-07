@@ -50,24 +50,24 @@
 
 <h2>Background</h2>
 <div class = "gallery_content">
-<p>
-    In Golan Levin's Fall 2023 Creative Coding course, I used p5.js to create a <a target="_blank" href="https://youtu.be/EKIO8SaApN4?si=ccBJpT4CoezVMuKn">
-    gesture expander</a> that rendered in real-time. The project used the
-    via the MIT ML5 Bodypose Keypoints library. Ceci Sun, a friend and
-    dancer at Johns Hopkins University, performed choreography to one of my 
-    favorite songs at the time, "Motion Picture Soundtrack" by Radiohead.
-    <br /><br />
-    When Ceci and I caught up in Winter 2025, she asked if I would be interested
-    in creating a new version of the project for her senior thesis performance.
-    Given that it had been two years since we last collaborated, and newer 
-    technologies had become available, I was really excited to create an improved 
-    version.  
-</p>
-<img
-loading="lazy"
-alt = "2023 Performance"
-src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrack.gif"
-/>
+    <p>
+        In Golan Levin's Fall 2023 Creative Coding course, I used p5.js to create a <a target="_blank" href="https://youtu.be/EKIO8SaApN4?si=ccBJpT4CoezVMuKn">
+        gesture expander</a> that rendered in real-time. The project used the
+        via the MIT ML5 Bodypose Keypoints library. Ceci Sun, a friend and
+        dancer at Johns Hopkins University, performed choreography to one of my 
+        favorite songs at the time, "Motion Picture Soundtrack" by Radiohead.
+        <br /><br />
+        When Ceci and I caught up in Winter 2025, she asked if I would be interested
+        in creating a new version of the project for her senior thesis performance.
+        Given that it had been two years since we last collaborated, and newer 
+        technologies had become available, I was really excited to create an improved 
+        version.  
+    </p>
+    <img
+    loading="lazy"
+    alt = "2023 Performance"
+    src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrack.gif"
+    />
 </div>
 <h2>Thematic Underpinnings</h2>
 <p>
@@ -206,14 +206,21 @@ src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrac
 </div>
 
 <h2>Special Thanks</h2>
-<p>
-    I would like to thank Ceci Sun for inviting me to collaborate on this project,
-    Golan Levin and Kyle McDonald for their mentorship, Calder Sprinkle for 
-    programming the lighting to go with the projections, and Viviana Chen for 
-    testing out the software in Pittsburgh. I would also like to thank my 
-    beautiful and intelligent classmates for believing in me and providing candid 
-    feedback to help me grow. 
-</p>
+<div class = "gallery_content">
+    <p>
+        I would like to thank Ceci Sun for inviting me to collaborate on this project,
+        Golan Levin and Kyle McDonald for their mentorship, Calder Sprinkle for 
+        programming the lighting to go with the projections, and Viviana Chen for 
+        testing out the software in Pittsburgh. I would also like to thank my 
+        beautiful and intelligent classmates for believing in me and providing candid 
+        feedback to help me grow. 
+    </p>
+    <img
+    loading="lazy"
+    alt = "Suanna and Ceci"
+    src = "https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/suanna_ceci.jpg"
+    />
+</div>
 
 <PrevNext
 prev={{ href: '/reel', label: 'Previous' }}

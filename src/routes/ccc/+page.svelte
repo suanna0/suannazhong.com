@@ -205,6 +205,71 @@
     </div>
 </div>
 
+<h2>Credits</h2>
+
+<div class="credits">
+    <div class = "role">
+        Director
+    </div>
+    <div class = "name">
+        Ceci Sun
+    </div>
+</div>
+
+<div class="credits">
+    <div class = "role">
+        Choreographer
+    </div>
+    <div class = "name">
+        Ceci Sun
+    </div>
+</div>
+
+<div class="credits">
+    <div class = "role">
+        Performers
+    </div>
+    <div class = "name">
+        Ceci Sun, Evelyn Au, Amari James, Parris Hester
+    </div>
+</div>
+
+<div class="credits">
+    <div class = "role">
+        Lighting Designer
+    </div>
+    <div class = "name">
+        Calder Sprinkle
+    </div>
+</div>
+
+<div class="credits">
+    <div class = "role">
+        Interactive Motion Designer
+    </div>
+    <div class = "name">
+        Suanna Zhong
+    </div>
+</div>
+
+<div class="credits">
+    <div class = "role">
+        Videographer
+    </div>
+    <div class = "name">
+        Andrew Van Allen
+    </div>
+</div>
+
+<div class="credits">
+    <div class = "role">
+        Pittsburgh Dancer
+    </div>
+    <div class = "name">
+        Viviana Chen
+    </div>
+</div>
+
 <h2>Special Thanks</h2>
 <div class = "gallery_content">
     <p>

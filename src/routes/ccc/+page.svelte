@@ -20,9 +20,9 @@
     <span class="locked-link" title="Coming Soon">↗ Full Performance</span>
 </h3>
 <p>
-    For Ceci Sun's senior thesis, 一 (yi) / oneness, I created
-    visuals to accompany her live performance and a GUI/debugging interface that 
-    sends OSC messages to TouchDesigner.
+    For Ceci Sun's senior thesis, 一 (yi) / oneness, I was the sole designer of 
+    the real-time visuals accompanying her live performance and a GUI/debugging 
+    interface that sends OSC messages to TouchDesigner.
 </p>
 
 <div class="side_by_side_content">

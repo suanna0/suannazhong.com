@@ -69,15 +69,15 @@
     />
 </div>
 <h2>Thematic Underpinnings</h2>
-<p>
-    Much of Ceci's creative practice is informed by mind-body connections 
-    through qigong principles. Her work combines Eastern and Western 
-    philosophical perspectives: Eastern traditions emphasize balance and the 
-    flow of energy, while Western contemporary dance practices explore 
-    emotional expression and psychological experience. As an American-born 
-    Chinese American, I have also grown up with a mix of Eastern and Western 
-    philosophies. Topics such as meditation and traditional Chinese medicine 
-    are deeply ingrained in my personal life, which I was able to draw on when 
+<p class="two-col">
+    Much of Ceci's creative practice is informed by mind-body connections
+    through qigong principles. Her work combines Eastern and Western
+    philosophical perspectives: Eastern traditions emphasize balance and the
+    flow of energy, while Western contemporary dance practices explore
+    emotional expression and psychological experience. As an American-born
+    Chinese American, I have also grown up with a mix of Eastern and Western
+    philosophies. Topics such as meditation and traditional Chinese medicine
+    are deeply ingrained in my personal life, which I was able to draw on when
     working on this project.
 </p>
 <div class="content_images">
@@ -87,7 +87,7 @@
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/phases.jpg">
 </div>
 <h2>Inspiration</h2>
-<p>
+<p class="two-col">
     I was heavily inspired by <a target="_blank" href="https://youtu.be/s_S3fomiXO0?si=M4i9_uZZ90DdhHuP">discrete figures</a> by Daito Manabe's Rhizomatiks Research group,
     as well as Lingdong Huang's <a target="_blank" href="https://studioforcreativeinquiry.org/project/shan-shui">{'{'}Shan, Shui{'}'}*</a>,
     which Golan had previously shown us and undeniably influenced how we approached the mountain visuals.
@@ -102,21 +102,24 @@
 </div>
 <h2>Web Render vs. OSC</h2>
 <div class = "gallery_content">
-    <p>
-        I had two options for connecting MediaPipe to TouchDesigner. TouchDesigner's 
-        Web Render node can display a webpage as a texture, which would show the 
-        MediaPipe visualization directly. With this approach, I would receive an 
-        image as an input. The alternative was using OSC to send the numerical pose 
-        data. I decided to use OSC because it has a lower latency and the programming
-        workflow of using variables as opposed to encoding and decoding an image 
-        felt more intuive to me. Additionally, I could create effects using 
-        placeholder values in TouchDesigner and then replace them with the OSC values later.
-        <br><br>
-        When it came to deciding what equipment to use for the live performance, 
-        it turned out that using the OSC approach would be more reliable. This is
-        because images are very expensive to send. Depending on the size of the 
-        venue, using longer cables may introduce some undefined behavior as well. 
-    </p>
+    <div>
+        <p>
+            I had two options for connecting MediaPipe to TouchDesigner. TouchDesigner's 
+            Web Render node can display a webpage as a texture, which would show the 
+            MediaPipe visualization directly. With this approach, I would receive an 
+            image as an input. The alternative was using OSC to send the numerical pose 
+            data. I decided to use OSC because it has a lower latency and the programming
+            workflow of using variables as opposed to encoding and decoding an image 
+            felt more intuive to me. Additionally, I could create effects using 
+            placeholder values in TouchDesigner and then replace them with the OSC values later.
+        </p>
+        <p>
+            When it came to deciding what equipment to use for the live performance, 
+            it turned out that using the OSC approach would be more reliable. This is
+            because images are very expensive to send. Depending on the size of the 
+            venue, using longer cables may introduce some undefined behavior as well. 
+        </p>
+    </div>
         <img
         loading="lazy"
         alt="Web Render"
@@ -137,19 +140,23 @@
 </div>
 
 <div class = "gallery_content">
-    <p>
-        MediaPipe is really powerful because it can retreive a lot of information 
-        super quickly. The framework provided three parameters for all 33 joints and 
-        deciding which ones to use so that the mapping would look intuitive
-        to the audience was an interesting challenge. When connecting the data to TouchDesigner, I observed that the all of the data had 
-        a natural jitter, so it turned out that only one to two parameters was enough to communicate 
-        the overall movement of the choreography. 
-        <br><br>
-        I decided to use the distance between two fixed points to drive the animation. 
-        For example, the distance between the left hand and the left shoulder is
-        easy for the dancer to control. 
-        The slider in the p5 GUI would control how sensitive the mapping was.     
-    </p>
+    <div>
+        <p>
+            MediaPipe is really powerful because it can retreive a lot of information 
+            super quickly. The framework provided three parameters for all 33 joints and 
+            deciding which ones to use so that the mapping would look intuitive
+            to the audience was an interesting challenge. When connecting the data to TouchDesigner, I observed that the all of the data had 
+            a natural jitter, so it turned out that only one to two parameters was enough to communicate 
+            the overall movement of the choreography. 
+        </p>
+        <p>
+            I decided to use the distance between two fixed points to drive the animation. 
+            For example, the distance between the left hand and the left shoulder is
+            easy for the dancer to control. 
+            The slider in the p5 GUI would control how sensitive the mapping was.     
+        </p>
+
+    </div>
         <img
         loading="lazy"
         alt="Slider"
@@ -160,7 +167,7 @@
 <iframe src="https://www.youtube.com/embed/3_EyuqmPKQU?si=_IyEoh6HBfDE6UyS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <h2>Limitations and Challenges</h2>
-<p>
+<p class="two-col">
     Since I only needed a few parameters to communicate the movement, it was not 
     necessary to use all 33 joints. Unfortunately, the MediaPipe library does not 
     support turning off certain joints. If I were to scale up the project, I would
@@ -169,14 +176,12 @@
     filmed on the webcam and tracks at most one person at a time. When an improved
     model is created in the future, a lot of new possibilities will open up in 
     terms of the types of performances that can be created.
-    <br><br>
-
-        A challenging aspect of this project was actually making the generated 
-        visuals tell a story. One piece of advice that Golan gave me that helped 
-        a lot was to think of particles as a substance that can be molded to 
-        mimic natural phenomena, such as clouds, snow, or sand. To me, it felt
-        more intuitive to use p5.js to fine-tune the parameters 
-        to get the desired effect.
+    Another challenging aspect of this project was actually making the generated 
+    visuals tell a story. One piece of advice that Golan gave me that helped 
+    a lot was to think of particles as a substance that can be molded to 
+    mimic natural phenomena, such as clouds, snow, or sand. To me, it felt
+    more intuitive to use p5.js to fine-tune the parameters 
+    to get the desired effect.
 </p>
 
 <iframe src="https://www.youtube.com/embed/qUeFP3tmdD8?si=6pdXUnSuTTpM-XCO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -292,6 +297,25 @@ next={{ href: '/mikegrail', label: 'Next' }}
 />
 
 <style>
+    .two-col {
+        columns: 2;
+        column-gap: 2rem;
+    }
+
+    p:not(.two-col) {
+        max-width: 65ch;
+    }
+
+    h2 {
+        margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+        .two-col {
+            columns: 1;
+        }
+    }
+
     .locked-link {
         color: var(--color-accent);
         opacity: 0.4;

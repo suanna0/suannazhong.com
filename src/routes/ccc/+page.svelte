@@ -213,7 +213,25 @@
 
 <div class="credits">
     <div class = "role">
-        Director
+        Venue
+    </div>
+    <div class = "name">
+        Baltimore Theatre Project
+    </div>
+</div>
+
+<div class="credits">
+    <div class = "role">
+        Artistic Director
+    </div>
+    <div class = "name">
+        Ceci Sun
+    </div>
+</div>
+
+<div class="credits">
+    <div class = "role">
+        Producer
     </div>
     <div class = "name">
         Ceci Sun

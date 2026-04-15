@@ -29,6 +29,22 @@
       <img loading = "lazy"
       alt="Cong"
         id="content_img"
+        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/4x5-ceci.gif">
+    </div>
+
+    <div class="side_by_side">
+      <img loading = "lazy"
+      alt="0311"
+        id="content_img"
+        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/4x5-evelyn.gif">
+    </div>
+</div>
+
+<div class="side_by_side_content">
+    <div class="side_by_side">
+      <img loading = "lazy"
+      alt="Cong"
+        id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/rehearsal_1.gif">
     </div>
 

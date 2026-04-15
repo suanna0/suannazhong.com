@@ -143,17 +143,31 @@
         />
 </div>
 
-<div class="video-container">
-    <video preload="none" autoplay muted playsinline loop>
-        <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/0209.mp4" type="video/mp4" />
-    </video>
+<div class="content_images">
+    <img loading = "lazy"
+    alt = "Inspiration"
+        id="content_img"
+        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/stage_diagram.png">
 </div>
-<br>
-<div class="video-container">
-    <video preload="none" autoplay muted playsinline loop>
-    <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/hero.mp4" type="video/mp4" />
-    </video>
+
+<div class="side_by_side_content">
+    <div class="side_by_side">
+        <div class="video-container">
+            <video preload="none" autoplay muted playsinline loop>
+                <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/0209.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </div>
+
+    <div class="side_by_side">
+        <div class="video-container">
+            <video preload="none" autoplay muted playsinline loop>
+            <source src="https://de1wwae7728z6.cloudfront.net/videos/ceci-capstone/hero.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </div>
 </div>
+
 
 <div class = "gallery_content">
     <div>
@@ -181,6 +195,7 @@
 </div>
 
 <iframe src="https://www.youtube.com/embed/3_EyuqmPKQU?si=_IyEoh6HBfDE6UyS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 <h2>Limitations and Challenges</h2>
 <p class="two-col">

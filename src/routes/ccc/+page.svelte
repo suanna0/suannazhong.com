@@ -196,9 +196,8 @@
     system was built using Three.js, chosen for its hardware efficiency and
     reliability in managing varied scenes and transitions. All non-interactive
     media was stored locally, as the venue's network was not reliable enough
-    to depend on for live playback. During the performance,
-    I sat in the first row of the audience to stay close to the webcam and 
-    adjust if needed.
+    to depend on for live playback. Since the performance is partially improvised,
+    the timing is never the same, so I sat in the front row to advance scenes as needed.
 </p>
 
 <div class="content_images">

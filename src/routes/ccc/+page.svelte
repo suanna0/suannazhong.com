@@ -193,8 +193,10 @@
 <p class="two-col">
     To reduce the surface area of potential error, we limited the equipment to 
     a single laptop with a mirrored output to the projector. The scene management 
-    system was built using Three.js, chosen for its hardware efficiency and 
-    reliability in managing varied scenes and transitions. During the performance,
+    system was built using Three.js, chosen for its hardware efficiency and
+    reliability in managing varied scenes and transitions. All non-interactive
+    media was stored locally, as the venue's network was not reliable enough
+    to depend on for live playback. During the performance,
     I sat in the first row of the audience to stay close to the webcam and 
     adjust if needed.
 </p>

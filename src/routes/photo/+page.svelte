@@ -31,7 +31,7 @@
         <img
         loading="lazy"
         alt="Ceci"
-        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/2.jpg"
+        src="https://de1wwae7728z6.cloudfront.net/images/other/251230_ceci.jpg"
         />
     </div>
     <div class="side_by_side">

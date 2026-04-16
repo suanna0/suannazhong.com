@@ -143,13 +143,6 @@
         />
 </div>
 
-<div class="content_images">
-    <img loading = "lazy"
-    alt = "Inspiration"
-        id="content_img"
-        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/stage_diagram.png">
-</div>
-
 <div class="side_by_side_content">
     <div class="side_by_side">
         <div class="video-container">
@@ -196,6 +189,22 @@
 
 <iframe src="https://www.youtube.com/embed/3_EyuqmPKQU?si=_IyEoh6HBfDE6UyS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+<h2>Stage Setup</h2>
+<p class="two-col">
+    To reduce the surface area of potential error, we limited the equipment to 
+    a single laptop with a mirrored output to the projector. The scene management 
+    system was built using Three.js, chosen for its hardware efficiency and 
+    reliability in managing varied scenes and transitions. During the performance,
+    I sat in the first row of the audience to stay close to the webcam and 
+    adjust if needed.
+</p>
+
+<div class="content_images">
+    <img loading = "lazy"
+    alt = "Inspiration"
+        id="content_img"
+        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/equipment.png">
+</div>
 
 <h2>Limitations and Challenges</h2>
 <p class="two-col">

@@ -104,6 +104,7 @@
 </div>
 <h2>Inspiration</h2>
 <p class="two-col">
+    Previous works that create extensions of the human body include Umberto Boccioni’s Unique Forms of Continuity in Space (1913), Oskar Schlemmer’s Stelzenläufer (Slat Dance) (1927), and Zachary Lieberman’s 2016 sketch.
     I was heavily inspired by <a target="_blank" href="https://youtu.be/s_S3fomiXO0?si=M4i9_uZZ90DdhHuP">discrete figures</a> by Daito Manabe's Rhizomatiks Research group,
     as well as Lingdong Huang's <a target="_blank" href="https://studioforcreativeinquiry.org/project/shan-shui">{'{'}Shan, Shui{'}'}*</a>,
     which Golan had previously shown us and undeniably influenced how we approached the mountain visuals.
@@ -202,7 +203,7 @@
 
 <div class="content_images">
     <img loading = "lazy"
-    alt = "Inspiration"
+    alt = "Equipment"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/equipment.png">
 </div>

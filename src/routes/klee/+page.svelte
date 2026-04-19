@@ -74,7 +74,7 @@
           </video>
         </div>
       </div>
-      <p>
+      <p class="two-col">
         What defines a monument in the United State? My mind wanders to 
         estate-turned museums in secluded wilderness: 
         Frank Lloyd Wright's Fallingwater located in the outskirts of Pittsburgh, 

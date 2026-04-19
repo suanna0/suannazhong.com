@@ -355,30 +355,3 @@
 prev={{ href: '/reel', label: 'Previous' }}
 next={{ href: '/mikegrail', label: 'Next' }}
 />
-
-<style>
-    .two-col {
-        columns: 2;
-        column-gap: 2rem;
-    }
-
-    p:not(.two-col) {
-        max-width: 65ch;
-    }
-
-    h2 {
-        margin-top: 2rem;
-    }
-
-    @media (max-width: 600px) {
-        .two-col {
-            columns: 1;
-        }
-    }
-
-    .locked-link {
-        color: var(--color-accent);
-        opacity: 0.4;
-        cursor: not-allowed;
-    }
-</style>

@@ -66,29 +66,24 @@ alt = "Malloc Site Structure"
 
 
 <div class="gallery_content">
-<div>
-    <p>
-    The opening page is interactive, functioning as a black-box 
-    representation of <code>malloc</code>. To keep the code clean, I 
-    used a Model View Controller structure to separate mouse 
-    interactions from drawing logic. 
-    </p>
-</div>
+    <div>
+        <p>
+        The opening page is interactive, functioning as a black-box 
+        representation of <code>malloc</code>. To keep the code clean, I 
+        used a Model View Controller structure to separate mouse 
+        interactions from drawing logic. 
+        </p>
+    </div>
 
-<div class="video-container">
-    <video autoplay muted playsinline loop>
-    <source
-        src="https://de1wwae7728z6.cloudfront.net/videos/malloc/front_page.mp4"
-                    type="video/mp4"
-    />
-    </video>
+    <div class="video-container">
+        <video autoplay muted playsinline loop>
+        <source
+            src="https://de1wwae7728z6.cloudfront.net/videos/malloc/front_page.mp4"
+                        type="video/mp4"
+        />
+        </video>
+    </div>
 </div>
-</div>
-
-<p>
-    Using Adobe After Effects, I created animations to illustrate specific 
-    concepts.
-</p>
 
 <div class="side_by_side_content">
 <div class="side_by_side">
@@ -120,7 +115,7 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
 </video>
 
 <h2>Visualizing two data structures</h2>
-<p>
+<p class="two-col">
     When I did the lab for the first time, I had a difficult time grasping the 
     concept that heap and the explicit free list are two separate data 
     structures and that  
@@ -152,7 +147,7 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
 </div>
 
 <h2>Closing Thoughts</h2>
-<p>
+<p class="two-col">
     My goal was to communicate the concepts I struggled on with as few words as
     possible, relying on pictures and animations to do the heavy lifting. Not
     only did I strengthen my understanding of the material, but I also saw

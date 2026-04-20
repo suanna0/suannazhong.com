@@ -32,17 +32,13 @@
       max-width: 1500px;
       margin: 0 auto;
       display: flex;
+      gap: 20px;
       background-color: var(--color-bg);
       padding: 5px 0;
     }
-  
-    nav button {
-      padding-left: 20px;
-    }
-  
+
     nav button:first-child {
       margin-right: auto;
-      padding-left: 0;
     }
   </style>
   

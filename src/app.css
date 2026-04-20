@@ -22,7 +22,7 @@
 }
 
 main {
-  padding: 10px 20px 10px 20px;
+  padding: 10px 5% 10px 5%;
 }
 
 body {
@@ -166,7 +166,7 @@ h3, .project_tag {
 }
 
 .side_by_side {
-  padding: 10px 0px;
+  padding: 5px 0px;
 }
 
 .side_by_side_content {
@@ -192,7 +192,7 @@ section {
 .content_images {
   width: 100%;
   height: auto;
-  padding: 10px 0px;
+  padding: 5px 0px;
 }
 
 #content_img {
@@ -280,7 +280,7 @@ img.fade-in, video.fade-in {
   }
 
   main {
-    padding: 5px;
+    padding: 5px 4%;
   }
 
   p, button, .role, .name {

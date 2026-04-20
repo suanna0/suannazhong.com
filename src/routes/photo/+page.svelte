@@ -47,14 +47,14 @@
     <img loading = "lazy"
     alt = "Jason"
         id="content_img"
-        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/4.jpg">
+        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/5.jpg">
 </div>
 
 <div class="content_images">
     <img loading = "lazy"
     alt = "En Pointe"
         id="content_img"
-        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/5.jpg">
+        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/4.jpg">
 </div>
 
 <div class = "side_by_side_content">

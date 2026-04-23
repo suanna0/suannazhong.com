@@ -146,6 +146,7 @@ h3, .project_tag {
   grid-template-columns: 1fr 1fr;
   column-gap: 10px;
   padding: 5px 0px;
+  margin-top: 0px;
 }
 
 .gallery_content img {
@@ -218,6 +219,8 @@ h2 {
   font-style: normal;
   font-size: 24px;
   color: var(--color-text);
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 iframe {
@@ -254,10 +257,6 @@ img.fade-in, video.fade-in {
         max-width: 65ch;
     }
 
-    h2 {
-        margin-top: 2rem;
-    }
-
     @media (max-width: 600px) {
         .two-col {
             columns: 1;
@@ -277,6 +276,7 @@ img.fade-in, video.fade-in {
 
   h2 {
     font-size: 18px;
+    margin-bottom: 0;
   }
 
   main {

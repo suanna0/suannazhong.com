@@ -31,7 +31,13 @@
     }
 
     .cc-badge img {
-        vertical-align: middle;
+        vertical-align: -3px;
+    }
+
+    @media (max-width: 768px) {
+        .cc-badge img {
+            vertical-align: -1.5px;
+        }
     }
 
     footer button {

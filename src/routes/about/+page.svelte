@@ -42,12 +42,18 @@
     <div class="about_columns">
         <div>
             <p>
-                Hi there! I'm Suanna (pronounced Sue-Anne-Nuh), a fourth-year 
-                student in the Bachelor of Computer Science and Arts (BCSA) 
-                program at Carnegie Mellon University, where I study Computer 
-                Science and Art. 
+                Hi there! I'm Suanna (pronounced Sue-Anne-Nuh), a creative 
+                technologist and photographer based in San Francisco, CA. I'm a 
+                recent graduate of Carnegie Mellon University, where I earned a 
+                Bachelor of Computer Science and Arts (BCSA) in Computer Science 
+                and Art.
                 <br><br>
-                Whether it's solving an abstract math problem, composing an image, or designing a data structure, I really enjoy thinking of elegant solutions to interesting problems. Parallel and Sequential Data Structures and Algorithms, one of my favorite classes I've taken at CMU, has taught me to reach for Occam's razor: when multiple solutions exist, I go for the one with the fewest assumptions and the simplest explanation. 
+                Whether it's composing an image, designing a website, or solving
+                a math problem, I enjoy using my interdisciplinary skillset to 
+                think of elegant solutions to challenging and interesting 
+                problems. When multiple solutions exist, I tend to go for the 
+                one with the fewest assumptions and the simplest 
+                explanation.
                 <br><br>
                 When I'm not working, you can probably find me making
                 <a target="_blank" href="https://art.suannazhong.com/">artwork</a>,

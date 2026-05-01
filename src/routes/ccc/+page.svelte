@@ -102,7 +102,16 @@
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/phases.jpg">
 </div>
+
 <h2>Inspiration</h2>
+
+<div class="content_images">
+    <img loading = "lazy"
+    alt = "Inspiration"
+        id="content_img"
+        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/prior_works.jpg">
+</div>
+
 <p class="two-col">
     Previous works that create extensions of the human body include Umberto Boccioni's Unique Forms of Continuity in Space (1913), Oskar Schlemmer's Stelzenläufer (Slat Dance) (1927), and Zachary Lieberman's daily sketches.
     I was heavily inspired by <a target="_blank" href="https://youtu.be/s_S3fomiXO0?si=M4i9_uZZ90DdhHuP">discrete figures</a> by Daito Manabe's Rhizomatiks Research group,
@@ -111,6 +120,7 @@
     For time-based visuals, I often find it easier to figure out the music first, so
     Ceci sent me some placeholder tracks that helped guide what the visuals should look like.
 </p>
+
 <div class="content_images">
     <img loading = "lazy"
     alt = "Inspiration"

@@ -72,7 +72,7 @@
                 suannaz [at] andrew [dot] cmu [dot] edu
             </p>
             <h2>Selected Clients:</h2>
-            <p>Adolescent Content, Akira Uchida, aron!, BonBonBardot!, Capitol Records, Chxrry, Common Sense Media, DAY6, Dehancer, Frankie Grande, Haiden Henderson, Jeremy Zucker, Jillian Jacqueline, JYP Entertainment, Kali Uchis, Kid Cudi, Lang Lang, Marcus Rahauser, Meta, Pinterest, Republic Records, Stray Kids, Virgin Music Group, VSCO, & more</p>
+            <p>Adolescent Content, Akira Uchida, aron!, BonBonBardot!, Capitol Records, Charlie White, Chxrry, Common Sense Media, DAY6, Dehancer, Frankie Grande, Haiden Henderson, Jeremy Zucker, Jillian Jacqueline, JYP Entertainment, Kali Uchis, Kid Cudi, Lang Lang, Marcus Rahauser, Meta, Pinterest, Republic Records, Stray Kids, Virgin Music Group, VSCO, & more</p>
         </div>
         <div class = "image-container">
             <div class = "carousel-wrapper">

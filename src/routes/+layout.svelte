@@ -7,7 +7,6 @@
 	import { onMount } from 'svelte';
 	import { beforeNavigate, afterNavigate, goto } from '$app/navigation';
 	import gsap from 'gsap';
-	export const prerender = true;
 
 	let transitionOverlay: HTMLDivElement;
 	let navigating = false;

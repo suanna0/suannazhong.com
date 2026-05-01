@@ -73,8 +73,8 @@
         favorite songs at the time, "Motion Picture Soundtrack" by Radiohead.
         <br /><br />
         When Ceci and I caught up in Winter 2025, she asked if I would be interested
-        in creating a new version of the project for her senior thesis performance.
-        Given that it had been two years since we last collaborated, and newer 
+        in creating a new version of the project for her senior thesis capstone performance.
+        Given that it had been two years since we last collaborated and that newer 
         technologies had become available, I was really excited to create an improved 
         version.  
     </p>
@@ -108,7 +108,7 @@
     I was heavily inspired by <a target="_blank" href="https://youtu.be/s_S3fomiXO0?si=M4i9_uZZ90DdhHuP">discrete figures</a> by Daito Manabe's Rhizomatiks Research group,
     as well as Lingdong Huang's <a target="_blank" href="https://studioforcreativeinquiry.org/project/shan-shui">{'{'}Shan, Shui{'}'}*</a>,
     which Golan had previously shown us and undeniably influenced how we approached the mountain visuals.
-    For time-based visuals, I often find it easier to figure out the music first, and
+    For time-based visuals, I often find it easier to figure out the music first, so
     Ceci sent me some placeholder tracks that helped guide what the visuals should look like.
 </p>
 <div class="content_images">
@@ -124,17 +124,23 @@
             I had two options for connecting MediaPipe to TouchDesigner. TouchDesigner's 
             Web Render node can display a webpage as a texture, which would show the 
             MediaPipe visualization directly. With this approach, I would receive an 
-            image as an input. The alternative was using OSC to send the numerical pose 
-            data. I decided to use OSC because it has a lower latency and the programming
-            workflow of using variables as opposed to encoding and decoding an image 
-            felt more intuive to me. Additionally, I could create effects using 
-            placeholder values in TouchDesigner and then replace them with the OSC values later.
+            image as an input. 
+        </p>
+        <p>
+            The alternative was using OSC to send the numerical pose 
+            data, which I ended up using because it had a lower latency. Also, 
+            the programming workflow of using variables felt more intuitive to 
+            me, as opposed to encoding and decoding an image. Additionally, I 
+            could create effects using placeholder values in TouchDesigner and 
+            then replace them with the OSC values later.
         </p>
         <p>
             When it came to deciding what equipment to use for the live performance, 
             it turned out that using the OSC approach would be more reliable. This is
             because images are very expensive to send. Depending on the size of the 
             venue, using longer cables may introduce some undefined behavior as well. 
+            Overall, simplifying the number of dependencies and hardware allowed
+            us to focus on the creative process and the performance itself.
         </p>
     </div>
         <img
@@ -170,8 +176,8 @@
             super quickly. The framework provided three parameters for all 33 joints and 
             deciding which ones to use so that the mapping would look intuitive
             to the audience was an interesting challenge. When connecting the data to TouchDesigner, I observed that the all of the data had 
-            a natural jitter, so it turned out that only one to two parameters was enough to communicate 
-            the overall movement of the choreography. 
+            a natural jitter, so it turned out that only a few parameters were 
+            enough to communicate the overall movement of the choreography. 
         </p>
         <p>
             I decided to use the distance between two fixed points to drive the animation. 
@@ -194,11 +200,11 @@
 <p class="two-col">
     To reduce the surface area of potential error, we limited the equipment to 
     a single laptop with a mirrored output to the projector. The scene management 
-    system was built using Three.js, chosen for its hardware efficiency and
-    reliability in managing varied scenes and transitions. All non-interactive
-    media was stored locally, as the venue's network was not reliable enough
-    to depend on for live playback. Since the performance is partially improvised,
-    the timing is never the same, so I sat in the front row to advance scenes as needed.
+    system was built using Three.js, chosen for its hardware efficiency. All 
+    non-interactive media was stored locally, as the venue's network was not 
+    reliable enough to depend on for live playback. Since the performance is 
+    partially improvised, the timing for each section is never the same, so I 
+    sat in the front row to queue scenes.
 </p>
 
 <div class="content_images">
@@ -211,19 +217,18 @@
 <h2>Limitations and Challenges</h2>
 <p class="two-col">
     Since I only needed a few parameters to communicate the movement, it was not 
-    necessary to use all 33 joints. Unfortunately, the MediaPipe library does not 
+    necessary to use all of the joint data. Unfortunately, the MediaPipe library does not 
     support turning off certain joints. If I were to scale up the project, I would
-    need to create a custom model that only uses the necessary joints to improve
+    need to create a custom model that only tracks the needed joints to improve
     overall performance. Also, MediaPipe is best trained for waist-up poses 
-    filmed on the webcam and tracks at most one person at a time. When an improved
-    model is created in the future, a lot of new possibilities will open up in 
-    terms of the types of performances that can be created.
-    Another challenging aspect of this project was actually making the generated 
+    filmed on the webcam and tracks at most one person at a time. I anticipate
+    that when an improved model is released in the future, a lot of new 
+    possibilities will open up.
+    <br /><br />
+    Another challenging aspect of this project was actually making the interactive
     visuals tell a story. One piece of advice that Golan gave me that helped 
     a lot was to think of particles as a substance that can be molded to 
-    mimic natural phenomena, such as clouds, snow, or sand. To me, it felt
-    more intuitive to use p5.js to fine-tune the parameters 
-    to get the desired effect.
+    mimic natural phenomena, such as clouds, snow, or sand. 
 </p>
 
 <iframe src="https://www.youtube.com/embed/qUeFP3tmdD8?si=6pdXUnSuTTpM-XCO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -340,10 +345,10 @@
 <div class = "gallery_content">
     <p>
         I would like to thank Ceci Sun for inviting me to collaborate on this project,
-        Golan Levin and Kyle McDonald for their mentorship, Calder Sprinkle for 
-        programming the lighting to go with the projections, and Viviana Chen for 
-        testing out the software in Pittsburgh. I would also like to thank my 
-        beautiful and intelligent classmates for believing in me and providing candid 
+        Golan Levin and Kyle McDonald for their mentorship, and Viviana Chen for 
+        making the time to test out the software in Pittsburgh.
+        I would also like to thank my 
+        beautiful and intelligent classmates for believing in me and providing 
         feedback to help me grow. 
     </p>
     <img

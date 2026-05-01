@@ -43,7 +43,7 @@
         <div>
             <p>
                 Hi there! I'm Suanna (pronounced Sue-Anne-Nuh), a creative 
-                technologist and photographer based in San Francisco, CA. I'm a 
+                technologist based in San Francisco, CA. I'm a 
                 recent graduate of Carnegie Mellon University, where I earned a 
                 Bachelor of Computer Science and Arts (BCSA) in Computer Science 
                 and Art.

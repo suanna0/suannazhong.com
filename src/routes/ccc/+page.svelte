@@ -69,8 +69,8 @@
         In Golan Levin's Fall 2023 Creative Coding course, I used p5.js to create a <a target="_blank" href="https://youtu.be/EKIO8SaApN4?si=ccBJpT4CoezVMuKn">
         gesture expander</a> that rendered in real-time. The project used the
         via the MIT ML5 Bodypose Keypoints library. Ceci Sun, a friend and
-        dancer at Johns Hopkins University, performed choreography to one of my 
-        favorite songs at the time, "Motion Picture Soundtrack" by Radiohead.
+        dancer at Johns Hopkins University, performed choreography to "Motion 
+        Picture Soundtrack" by Radiohead.
         <br /><br />
         When Ceci and I caught up in Winter 2025, she asked if I would be interested
         in creating a new version of the project for her senior thesis capstone performance.

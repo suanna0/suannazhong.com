@@ -10,12 +10,12 @@
         {
             src: "https://de1wwae7728z6.cloudfront.net/images/about/carousel/1.jpg",
             alt: "Oil paintings",
-            description: "oil paintings"
+            description: "paintings"
         },
         {
             src: "https://de1wwae7728z6.cloudfront.net/images/about/carousel/2.jpg",
             alt: "Socks",
-            description: "hand-knit ribbed socks"
+            description: "hand-knit socks"
         },
         {
             src: "https://de1wwae7728z6.cloudfront.net/images/about/carousel/3.jpg",
@@ -57,7 +57,7 @@
                 <br><br>
                 When I'm not working, you can probably find me making
                 <a target="_blank" href="https://art.suannazhong.com/">artwork</a>,
-                listening to jazz, cafe hopping, or knitting winter clothes.
+                listening to jazz, cafe hopping, or knitting.
                 <br><br>
                 <a target="_blank" href="https://www.linkedin.com/in/suannaz/"
                 >LinkedIn</a
@@ -65,8 +65,8 @@
                 <a target = "_blank" href = "https://github.com/suanna0">
                 Github
                 </a> · 
-                <a target = "_blank" href = "https://www.instagram.com/suannazhong/">
-                Instagram
+                <a target = "_blank" href = "https://drive.google.com/file/d/1qYscaKT9GkeM6I31yVT1rB-qIRhSLya5/view?usp=drive_link">
+                Resume
                 </a>
                 <br />
                 suannaz [at] alumni [dot] cmu [dot] edu

@@ -25,13 +25,12 @@
 
 <section>
 	<h2 bind:this={heading}>
-		Suanna Zhong works across coding and photo/video 
-		production. She previously worked on 
-		<a target="_blank" href="https://www.universalmusic.com/">Universal Music Group's</a> 
-		º1824 Content Team. Her past clients include 
-		<a target="_blank" href="https://www.meta.com/">Meta</a>,
+		Suanna Zhong works across creative technology, videography, and photography, with past clients including 
+		<a target="_blank" href="https://www.meta.com/">Meta</a>, 
 		<a target="_blank" href="https://www.pinterest.com/">Pinterest</a>, and 
-		<a target="_blank" href="https://www.kidcudi.com/">Kid Cudi</a>.
+		<a target="_blank" href="https://www.kidcudi.com/">Kid Cudi</a>. 
+		She previously worked on 
+		<a target="_blank" href="https://www.universalmusic.com/">Universal Music Group</a>'s º1824 Content Team.
 	</h2>
 </section>
 

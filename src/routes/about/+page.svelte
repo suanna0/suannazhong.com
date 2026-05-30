@@ -51,13 +51,12 @@
                 Whether it's composing an image, designing a website, or solving
                 a math problem, I enjoy using my interdisciplinary skillset to 
                 think of elegant solutions to challenging and interesting 
-                problems. When multiple solutions exist, I tend to go for the 
-                one with the fewest assumptions and the simplest 
-                explanation.
+                problems. When multiple solutions exist, I go for the one with 
+                the fewest assumptions and the simplest explanation.
                 <br><br>
-                When I'm not working, you can probably find me making
+                Outside of work, I can be found making
                 <a target="_blank" href="https://art.suannazhong.com/">artwork</a>,
-                listening to jazz, cafe hopping, or knitting.
+                listening to jazz, finishing a knitting project, or cafe hopping.
                 <br><br>
                 <a target="_blank" href="https://www.linkedin.com/in/suannaz/"
                 >LinkedIn</a

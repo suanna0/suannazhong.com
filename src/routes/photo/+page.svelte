@@ -45,17 +45,17 @@
 
 <div class="content_images">
     <img loading = "lazy"
-    alt = "Jason"
+    alt = "Michael"
         id="content_img"
-        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/5.jpg">
+        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/4.jpeg">
 </div>
 
-<div class="content_images">
+<!-- <div class="content_images">
     <img loading = "lazy"
-    alt = "En Pointe"
+    alt = "Michael Closeup"
         id="content_img"
-        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/4.jpg">
-</div>
+        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/55.jpg">
+</div> -->
 
 <div class = "side_by_side_content">
     <div class="side_by_side">

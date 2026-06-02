@@ -5,60 +5,93 @@
     <title>Mike Grail | Suanna Zhong</title>
 </svelte:head>
 
-<div class="content_images">
+<iframe src="https://www.youtube.com/embed/J6hgYGx0xAg?si=IxT34Yfkgd-8bpjm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<!-- <div class="content_images">
     <img loading = "lazy"
     alt = "Header"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/header.jpg">
-</div>
+</div> -->
 
 <h1>Mike Grail</h1>
 <h3>
-    Creative Direction, Full-stack Dev (GSAP, p5.js, Svelte, TypeScript, Vite) 
+    Director/DP, Editor, Photographer, Dev (GSAP, p5.js, Svelte, TypeScript, Vite)
     <br />
     <a target="_blank" href="https://www.mike-grail.com">↗ Live Site</a> · 
     <a target="_blank" href="https://github.com/suanna0/mike-grail">↗ GitHub</a> 
 </h3>
+
 <div class="gallery_content">
     <div>
         <p>
-            Mike Grail is dedicated to showcasing Michael Yang's designer clothing collection.
-            Michael's writing is honest, appreciative, and never flashy, defying 
-            the "in-group vs. out-group" dynamic that is typically seen in the 
-            online fashion space.
-            <br /><br />
-            Mike Captcha, an extension of the site,  is a fashion themed, 
-            behavior-based CAPTCHA. It collects interaction metrics through 
-            the browser, then validates behavior server-side through API calls, 
-            and returns a pass token that gates access to the site's landing page.
+            Mike Grail is a website dedicated to showcasing Michael Yang's 
+            designer clothing collection. Michael's writing is honest, appreciative, 
+            and never flashy, defying the "in-group vs. out-group" dynamic that is 
+            typically seen in the online fashion space.
             <br /><br />
             In this project, I led the visual 
             identity, photographed and edited all accompanying assets, and 
-            implemented the site's frontend and backend functionality.
+            implemented the site's functionality.
         </p>
     </div>
-<video 
-    src="https://de1wwae7728z6.cloudfront.net/videos/mike-grail/mike_captcha.mp4"
-    autoplay muted playsinline loop style="width: 100%; height: auto;">
-</video>
+    <img
+    loading="lazy"
+    alt="s3"
+    src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/s3.gif"
+    />
 </div>
 
-<div class="video-container">
-    <video preload="none" autoplay muted playsinline loop>
-        <source src="https://de1wwae7728z6.cloudfront.net/videos/mike-grail/typography_photo.mp4" type="video/mp4" />
-    </video>
-</div>
-
-<h2>Server-side Validation</h2>
-<p>
-    The browser tracks duration, number of movements, and jitter, 
-    then sends the data to the server to be verified.
-</p>
 <div class="content_images">
     <img loading = "lazy"
     alt = "Backend"
+    id="content_img"        
+    src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/screengrab_1.jpg">
+</div>
+<div class="content_images">
+    <img loading = "lazy"
+    alt = "Backend"
+    id="content_img"        
+    src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/screengrab_2.jpg">
+</div>
+<div class="side_by_side_content">
+    <div class="side_by_side">
+      <img loading = "lazy"
         id="content_img"
-        src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/backend_diagram.png">
+        alt="Akshat Before"
+        src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/s3_L.jpg">
+    </div>
+
+    <div class="side_by_side">
+      <img loading = "lazy" 
+      alt="Akshat Before"
+        id="content_img"
+        src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/s3_R.jpg">
+    </div>
+  </div>
+
+<!-- <div class="video-container">
+    <video preload="none" autoplay muted playsinline loop>
+        <source src="https://de1wwae7728z6.cloudfront.net/videos/mike-grail/typography_photo.mp4" type="video/mp4" />
+    </video>
+</div> -->
+
+<h2>Server-side Validation</h2>
+<p class="two-col">
+    Mike Captcha, an extension of the site,  is a fashion themed, 
+    behavior-based CAPTCHA. It collects interaction metrics through 
+    the browser, then validates behavior server-side through API calls, 
+    and returns a pass token that gates access to the site's landing page.
+    The browser tracks duration, number of movements, and jitter, 
+    then sends the data to the server to be verified.
+</p>
+<iframe src="https://www.youtube.com/embed/Yx_c7ApY3L0?si=9Iog-JwOntrovZTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<div class="content_images">
+    <img loading = "lazy"
+    alt = "Backend"
+    id="content_img"        
+    src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/backend_diagram.png">
 </div>
 <div class="video-container">
     <video preload="none" autoplay muted playsinline loop>
@@ -111,7 +144,7 @@
         improve the UI as well!
     </p>
     <video 
-        src="https://de1wwae7728z6.cloudfront.net/videos/mike-grail/s2.mp4"
+        src="https://de1wwae7728z6.cloudfront.net/videos/mike-grail/bw.mp4"
         autoplay muted playsinline loop style="width: 100%; height: auto;">
     </video>
 

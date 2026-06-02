@@ -12,9 +12,9 @@
         {
             href: '/mikegrail',
             type: 'image',
-            src: 'https://de1wwae7728z6.cloudfront.net/images/mike-grail/thumbnail.jpg',
+            src: 'https://de1wwae7728z6.cloudfront.net/images/mike-grail/hero.jpg',
             alt: 'Mike Grail',
-            tags: ['Full-stack', 'Fashion Photography']
+            tags: ['Director/DP', 'Creative Code']
         },
         {
             href: '/malloc',

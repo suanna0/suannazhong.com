@@ -152,11 +152,11 @@
             us to focus on the creative process and the performance itself.
         </p>
     </div>
-        <img
-        loading="lazy"
-        alt="Web Render"
-        src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/webrender-osc.png"
-        />
+    <img
+    loading="lazy"
+    alt="Web Render"
+    src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/webrender-osc.png"
+    />
 </div>
 
 <div class="side_by_side_content">

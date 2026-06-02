@@ -58,23 +58,20 @@
     <div class="side_by_side">
       <img loading = "lazy"
         id="content_img"
-        alt="Akshat Before"
+        alt="S3 Left"
         src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/s3_L.jpg">
     </div>
 
     <div class="side_by_side">
       <img loading = "lazy" 
-      alt="Akshat Before"
+      alt="S3 Right"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/s3_R.jpg">
     </div>
   </div>
 
-<!-- <div class="video-container">
-    <video preload="none" autoplay muted playsinline loop>
-        <source src="https://de1wwae7728z6.cloudfront.net/videos/mike-grail/typography_photo.mp4" type="video/mp4" />
-    </video>
-</div> -->
+<iframe src="https://www.youtube.com/embed/jLTi5NDudn0?si=InV5rm96yeUpCfku"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 <h2>Server-side Validation</h2>
 <p class="two-col">

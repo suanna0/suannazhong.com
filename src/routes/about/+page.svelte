@@ -55,8 +55,8 @@
                 the fewest assumptions and the simplest explanation.
                 <br><br>
                 Outside of work, I can be found collecting pink things, making
-                <a target="_blank" href="https://art.suannazhong.com/">art</a>,
-                listening to jazz, finishing a knitting project, or cafe hopping.
+                <a target="_blank" href="https://art.suannazhong.com/">art</a>, 
+                finishing a knitting project, or cafe hopping.
                 <br><br>
                 <a target="_blank" href="https://www.linkedin.com/in/suannaz/"
                 >LinkedIn</a

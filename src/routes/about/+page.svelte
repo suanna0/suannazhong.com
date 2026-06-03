@@ -54,8 +54,8 @@
                 problems. When multiple solutions exist, I go for the one with 
                 the fewest assumptions and the simplest explanation.
                 <br><br>
-                Outside of work, I can be found making
-                <a target="_blank" href="https://art.suannazhong.com/">artwork</a>,
+                Outside of work, I can be found collecting pink things, making
+                <a target="_blank" href="https://art.suannazhong.com/">art</a>,
                 listening to jazz, finishing a knitting project, or cafe hopping.
                 <br><br>
                 <a target="_blank" href="https://www.linkedin.com/in/suannaz/"

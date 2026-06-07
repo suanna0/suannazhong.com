@@ -36,34 +36,34 @@
         </p>
     </div>
     <img
-    loading="lazy"
+    loading="lazy" decoding="async"
     alt="s3"
     src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/s3.gif"
     />
 </div>
 
 <div class="content_images">
-    <img loading = "lazy"
+    <img loading="lazy" decoding="async"
     alt = "Backend"
-    id="content_img"        
+    id="content_img"
     src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/screengrab_1.jpg">
 </div>
 <div class="content_images">
-    <img loading = "lazy"
+    <img loading="lazy" decoding="async"
     alt = "Backend"
-    id="content_img"        
+    id="content_img"
     src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/screengrab_2.jpg">
 </div>
 <div class="side_by_side_content">
     <div class="side_by_side">
-      <img loading = "lazy"
+      <img loading="lazy" decoding="async"
         id="content_img"
         alt="S3 Left"
         src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/s3_L.jpg">
     </div>
 
     <div class="side_by_side">
-      <img loading = "lazy" 
+      <img loading="lazy" decoding="async"
       alt="S3 Right"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/s3_R.jpg">
@@ -85,9 +85,9 @@
 <iframe src="https://www.youtube.com/embed/Yx_c7ApY3L0?si=9Iog-JwOntrovZTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <div class="content_images">
-    <img loading = "lazy"
+    <img loading="lazy" decoding="async"
     alt = "Backend"
-    id="content_img"        
+    id="content_img"
     src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/backend_diagram.png">
 </div>
 <div class="video-container">
@@ -115,13 +115,13 @@
 </div>
 <div class = "side_by_side_content">
     <div class = "side_by_side">
-    <video 
+    <video preload="none"
         src="https://de1wwae7728z6.cloudfront.net/videos/mike-grail/captcha_kapital.mp4"
         autoplay muted playsinline loop style="width: 100%; height: auto;">
     </video>
     </div>
     <div class = "side_by_side">
-        <video 
+        <video preload="none"
         src="https://de1wwae7728z6.cloudfront.net/videos/mike-grail/captcha_cdg.mp4"
         autoplay muted playsinline loop style="width: 100%; height: auto;">
     </video>
@@ -140,7 +140,7 @@
         Ian Giles, and Christy Yu for giving me a lot of great feedback on how to 
         improve the UI as well!
     </p>
-    <video 
+    <video preload="none"
         src="https://de1wwae7728z6.cloudfront.net/videos/mike-grail/bw.mp4"
         autoplay muted playsinline loop style="width: 100%; height: auto;">
     </video>
@@ -148,7 +148,7 @@
 </div>
 
 <div class="content_images">
-    <img loading = "lazy"
+    <img loading="lazy" decoding="async"
     alt = "Footer"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/footer.jpg">

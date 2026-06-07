@@ -79,7 +79,7 @@
                     <button class="carousel-btn prev-btn" on:click={prevImage} aria-label="Previous image">‹</button>
                 {/if}
                 <div class = "image-box">   
-                    <img loading="lazy" src={carouselItems[currentIndex].src} alt={carouselItems[currentIndex].alt} />
+                    <img loading="eager" fetchpriority="high" decoding="async" src={carouselItems[currentIndex].src} alt={carouselItems[currentIndex].alt} />
                 </div>
                 {#if carouselItems.length > 1}
                     <button class="carousel-btn next-btn" on:click={nextImage} aria-label="Next image">›</button>

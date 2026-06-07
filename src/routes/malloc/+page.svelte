@@ -38,27 +38,27 @@
     </p>
 </div>
 
-<video 
+<video preload="none"
     src="https://de1wwae7728z6.cloudfront.net/videos/malloc/hero.mp4"
     autoplay muted playsinline loop style="width: 100%; height: auto;">
 </video>
 </div>
 <div class="content_images">
-<img loading = "lazy"
+<img loading="lazy" decoding="async"
 alt = "Malloc Typography"
     id="content_img"
     src="https://de1wwae7728z6.cloudfront.net/images/malloc/malloc_typography.png">
 </div>
 
 <div class="content_images">
-<img loading = "lazy"
+<img loading="lazy" decoding="async"
 alt = "Malloc Colors"
     id="content_img"
     src="https://de1wwae7728z6.cloudfront.net/images/malloc/malloc_colors.png">
 </div>
 
 <div class="content_images">
-<img loading = "lazy"
+<img loading="lazy" decoding="async"
 alt = "Malloc Site Structure"
     id="content_img"
     src="https://de1wwae7728z6.cloudfront.net/images/malloc/malloc_site_structure.png">
@@ -76,7 +76,7 @@ alt = "Malloc Site Structure"
     </div>
 
     <div class="video-container">
-        <video autoplay muted playsinline loop>
+        <video preload="none" autoplay muted playsinline loop>
         <source
             src="https://de1wwae7728z6.cloudfront.net/videos/malloc/front_page.mp4"
                         type="video/mp4"
@@ -88,7 +88,7 @@ alt = "Malloc Site Structure"
 <div class="side_by_side_content">
 <div class="side_by_side">
     <div class="video-container">
-    <video autoplay muted playsinline loop>
+    <video preload="none" autoplay muted playsinline loop>
         <source
         src="https://de1wwae7728z6.cloudfront.net/videos/malloc/final_shortened.mp4"
                         type="video/mp4"
@@ -99,7 +99,7 @@ alt = "Malloc Site Structure"
 
 <div class="side_by_side">
     <div class="video-container">
-    <video autoplay muted playsinline loop>
+    <video preload="none" autoplay muted playsinline loop>
         <source
         src="https://de1wwae7728z6.cloudfront.net/videos/malloc/implicit_margin.mp4"
                         type="video/mp4"
@@ -109,7 +109,7 @@ alt = "Malloc Site Structure"
 </div>
 </div>
 
-<video 
+<video preload="none"
 src="https://de1wwae7728z6.cloudfront.net/videos/malloc/explicit_list.mp4"
 autoplay muted playsinline loop style="width: 100%; height: auto;">
 </video>
@@ -128,7 +128,7 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
 <div class="side_by_side_content">
     <div class="side_by_side">
         <img
-        loading="lazy"
+        loading="lazy" decoding="async"
         alt="Explicit Slide"
         src="https://de1wwae7728z6.cloudfront.net/images/malloc/explicit_slide.jpg"
         />
@@ -136,7 +136,7 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
 
     <div class="side_by_side">
         <div class="video-container">
-        <video autoplay muted playsinline loop>
+        <video preload="none" autoplay muted playsinline loop>
             <source
             src="https://de1wwae7728z6.cloudfront.net/videos/malloc/explicit_shortened.mp4"
                             type="video/mp4"
@@ -169,7 +169,7 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
 </p>
 
 <div class="content_images">
-    <img loading = "lazy"
+    <img loading="lazy" decoding="async"
     alt = "Malloc Code"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/malloc/malloc_code.jpg">

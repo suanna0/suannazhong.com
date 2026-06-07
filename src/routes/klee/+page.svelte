@@ -49,14 +49,14 @@
     </div>
     <div class="side_by_side_content">
         <div class="side_by_side">
-          <img loading = "lazy"
+          <img loading="lazy" decoding="async"
           alt="KLEE Promo"
             id="content_img"
             src="https://de1wwae7728z6.cloudfront.net/images/klee/4x5_promo-2.jpg">
         </div>
 
         <div class="side_by_side">
-          <img loading = "lazy"
+          <img loading="lazy" decoding="async"
           alt="KLEE Promo"
             id="content_img"
             src="https://de1wwae7728z6.cloudfront.net/images/klee/4x5_promo.jpg">
@@ -96,7 +96,7 @@
       <h2>Storyboard:</h2>
       <div class="content_images">
         <img
-          loading="lazy"
+          loading="lazy" decoding="async"
           alt="Storyboard"
           id="content_img"
           src="https://de1wwae7728z6.cloudfront.net/images/klee/klee-storyboard.png"
@@ -123,15 +123,15 @@
 
       <div class="side_by_side_content">
         <div class="side_by_side">
-          <img loading = "lazy"
+          <img loading="lazy" decoding="async"
             id="content_img"
             alt="Akshat Before"
             src="https://de1wwae7728z6.cloudfront.net/images/klee/akshat_before.jpg">
         </div>
 
         <div class="side_by_side">
-          <img loading = "lazy" 
-          alt="Akshat Before"
+          <img loading="lazy" decoding="async"
+          alt="Akshat After"
             id="content_img"
             src="https://de1wwae7728z6.cloudfront.net/images/klee/akshat_after.jpg">
         </div>
@@ -139,15 +139,15 @@
 
       <div class="side_by_side_content">
         <div class="side_by_side">
-          <img loading = "lazy"
+          <img loading="lazy" decoding="async"
           alt="Sally Before"
             id="content_img"
             src="https://de1wwae7728z6.cloudfront.net/images/klee/sally_before.jpg">
         </div>
 
         <div class="side_by_side">
-          <img loading = "lazy"
-          alt="Sally Before"
+          <img loading="lazy" decoding="async"
+          alt="Sally After"
             id="content_img"
             src="https://de1wwae7728z6.cloudfront.net/images/klee/sally_after.jpg">
         </div>

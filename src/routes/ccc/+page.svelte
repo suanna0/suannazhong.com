@@ -6,7 +6,7 @@
 </svelte:head>
 
 <div class="content_images">
-    <img loading = "lazy"
+    <img loading="eager" fetchpriority="high" decoding="async"
     alt = "Inspiration"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/evelyn_solo.gif">
@@ -26,14 +26,14 @@
 
 <div class="side_by_side_content">
     <div class="side_by_side">
-      <img loading = "lazy"
+      <img loading="lazy" decoding="async"
       alt="Cong"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/4x5-ceci.gif">
     </div>
 
     <div class="side_by_side">
-      <img loading = "lazy"
+      <img loading="lazy" decoding="async"
       alt="0311"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/4x5-evelyn.gif">
@@ -42,14 +42,14 @@
 
 <div class="side_by_side_content">
     <div class="side_by_side">
-      <img loading = "lazy"
+      <img loading="lazy" decoding="async"
       alt="Cong"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/rehearsal_1.gif">
     </div>
 
     <div class="side_by_side">
-      <img loading = "lazy"
+      <img loading="lazy" decoding="async"
       alt="0311"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/rehearsal_2.gif">
@@ -57,7 +57,7 @@
 </div>
 
 <div class="content_images">
-    <img loading = "lazy"
+    <img loading="lazy" decoding="async"
     alt = "Inspiration"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/backdrop.gif">
@@ -79,7 +79,7 @@
         version.  
     </p>
     <img
-    loading="lazy"
+    loading="lazy" decoding="async"
     alt = "2023 Performance"
     src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrack.gif"
     />
@@ -97,7 +97,7 @@
     working on this project.
 </p>
 <div class="content_images">
-    <img loading = "lazy"
+    <img loading="lazy" decoding="async"
     alt = "Inspiration"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/phases.jpg">
@@ -106,7 +106,7 @@
 <h2>Inspiration</h2>
 
 <div class="content_images">
-    <img loading = "lazy"
+    <img loading="lazy" decoding="async"
     alt = "Inspiration"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/prior_works.jpg">
@@ -121,7 +121,7 @@
 </p>
 
 <div class="content_images">
-    <img loading = "lazy"
+    <img loading="lazy" decoding="async"
     alt = "Inspiration"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/inspo.png">
@@ -153,7 +153,7 @@
         </p>
     </div>
     <img
-    loading="lazy"
+    loading="lazy" decoding="async"
     alt="Web Render"
     src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/webrender-osc.png"
     />
@@ -197,7 +197,7 @@
 
     </div>
         <img
-        loading="lazy"
+        loading="lazy" decoding="async"
         alt="Slider"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/slider.png"
         />
@@ -217,7 +217,7 @@
 </p>
 
 <div class="content_images">
-    <img loading = "lazy"
+    <img loading="lazy" decoding="async"
     alt = "Equipment"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/equipment.png">
@@ -253,14 +253,14 @@
 
 <div class="side_by_side_content">
     <div class="side_by_side">
-      <img loading = "lazy"
+      <img loading="lazy" decoding="async"
       alt="Flyer"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/4x5-flyer.png">
     </div>
 
     <div class="side_by_side">
-      <img loading = "lazy"
+      <img loading="lazy" decoding="async"
       alt="4x5 Flyer"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/flyer.gif">
@@ -361,7 +361,7 @@
         feedback to help me grow. 
     </p>
     <img
-    loading="lazy"
+    loading="lazy" decoding="async"
     alt = "Suanna and Ceci"
     src = "https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/suanna_ceci.jpg"
     />

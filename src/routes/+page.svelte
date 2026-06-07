@@ -73,7 +73,7 @@
                             </div>
                         {:else}
                             <div>
-                                <img loading="lazy" src={project.src} alt={project.alt} />
+                                <img loading="lazy" decoding="async" src={project.src} alt={project.alt} />
                             </div>
                         {/if}
                         <div class="project_tag_container">
@@ -91,7 +91,7 @@
                         </div>
                     {:else}
                         <div>
-                            <img loading="lazy" src={project.src} alt={project.alt} />
+                            <img loading="lazy" decoding="async" src={project.src} alt={project.alt} />
                         </div>
                     {/if}
                     <span class="lock-icon">🔒</span>

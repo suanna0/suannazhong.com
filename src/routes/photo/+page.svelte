@@ -13,14 +13,14 @@
 <div class = "side_by_side_content">
     <div class="side_by_side">
         <img
-        loading="lazy"
+        loading="eager" fetchpriority="high" decoding="async"
         alt="Lucy (Bonbon)"
         src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/0.jpg"
         />
     </div>
     <div class="side_by_side">
         <img
-        loading="lazy"
+        loading="eager" fetchpriority="high" decoding="async"
         alt="Erika (Bonbon)"
         src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/1.jpg"
         />
@@ -29,14 +29,14 @@
 <div class = "side_by_side_content">
     <div class="side_by_side">
         <img
-        loading="lazy"
+        loading="lazy" decoding="async"
         alt="Lucy (Fallingwater)"
         src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/2.jpg"
         />
     </div>
     <div class="side_by_side">
         <img
-        loading="lazy"
+        loading="lazy" decoding="async"
         alt="Lucy (Fall 2025)"
         src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/3.jpg"
         />
@@ -44,7 +44,7 @@
 </div>
 
 <div class="content_images">
-    <img loading = "lazy"
+    <img loading="lazy" decoding="async"
     alt = "Michael"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/4.jpeg">
@@ -60,14 +60,14 @@
 <div class = "side_by_side_content">
     <div class="side_by_side">
         <img
-        loading="lazy"
+        loading="lazy" decoding="async"
         alt="Wedding"
         src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/6.jpg"
         />
     </div>
     <div class="side_by_side">
         <img
-        loading="lazy"
+        loading="lazy" decoding="async"
         alt="Bloom"
         src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/7.jpg"
         />
@@ -75,7 +75,7 @@
 </div>
 
 <div class="content_images">
-    <img loading = "lazy"
+    <img loading="lazy" decoding="async"
     alt = "Wedding Polaroids"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/8.jpg">

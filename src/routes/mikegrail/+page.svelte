@@ -7,13 +7,6 @@
 
 <iframe src="https://www.youtube.com/embed/J6hgYGx0xAg?si=IxT34Yfkgd-8bpjm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<!-- <div class="content_images">
-    <img loading = "lazy"
-    alt = "Header"
-        id="content_img"
-        src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/header.jpg">
-</div> -->
-
 <h1>Mike Grail</h1>
 <h3>
     Director/DP, Editor, Photographer, Dev (GSAP, p5.js, Svelte, TypeScript, Vite)
@@ -38,7 +31,7 @@
     <img
     loading="lazy" decoding="async"
     alt="s3"
-    src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/s3.gif"
+    src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/case_study/s3.gif"
     />
 </div>
 
@@ -46,27 +39,27 @@
     <img loading="lazy" decoding="async"
     alt = "Backend"
     id="content_img"
-    src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/screengrab_1.jpg">
+    src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/case_study/screengrab_1.jpg">
 </div>
 <div class="content_images">
     <img loading="lazy" decoding="async"
     alt = "Backend"
     id="content_img"
-    src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/screengrab_2.jpg">
+    src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/case_study/screengrab_2.jpg">
 </div>
 <div class="side_by_side_content">
     <div class="side_by_side">
       <img loading="lazy" decoding="async"
         id="content_img"
         alt="S3 Left"
-        src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/s3_L.jpg">
+        src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/case_study/s3_L.jpg">
     </div>
 
     <div class="side_by_side">
       <img loading="lazy" decoding="async"
       alt="S3 Right"
         id="content_img"
-        src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/s3_R.jpg">
+        src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/case_study/s3_R.jpg">
     </div>
   </div>
 
@@ -88,7 +81,7 @@
     <img loading="lazy" decoding="async"
     alt = "Backend"
     id="content_img"
-    src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/backend_diagram.png">
+    src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/case_study/backend_diagram.png">
 </div>
 <div class="video-container">
     <video preload="none" autoplay muted playsinline loop>
@@ -148,10 +141,12 @@
 </div>
 
 <div class="content_images">
+    <a href="https://www.mike-grail.com" target="_blank">
     <img loading="lazy" decoding="async"
     alt = "Footer"
         id="content_img"
-        src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/footer.jpg">
+        src="https://de1wwae7728z6.cloudfront.net/images/mike-grail/case_study/footer.jpg">
+    </a>
 </div>
 
 

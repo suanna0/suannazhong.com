@@ -12,7 +12,7 @@
         {
             href: '/mikegrail',
             type: 'image',
-            src: 'https://de1wwae7728z6.cloudfront.net/images/mike-grail/hero.jpg',
+            src: 'https://de1wwae7728z6.cloudfront.net/images/mike-grail/case_study/thumbnail.jpg',
             alt: 'Mike Grail',
             tags: ['Director/DP', 'Creative Code']
         },

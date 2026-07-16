@@ -45,8 +45,13 @@
                 Hi there! I'm Suanna (pronounced Sue-Anne-Nuh), a recent 
                 graduate of Carnegie Mellon University, where I earned a 
                 Bachelor of Computer Science and Arts (BCSA) in Computer Science 
-                and Art. In my leisure time, I like collecting pink things, 
+                and Art. I love working on projects that reveal unexpected ways 
+                these two disciplines can inform each other. 
+                <br /><br />
+                In my leisure time, I like collecting pink things, 
                 knitting, and cafe hopping!
+                <br /><br />
+                <a target="_blank" href="https://www.instagram.com/suannazhong">Instagram</a> · <a target="_blank" href="https://www.linkedin.com/in/suannaz">LinkedIn</a>
                 <br /><br />
                 suannaz [at] alumni [dot] cmu [dot] edu
             </p>

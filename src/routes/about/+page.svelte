@@ -51,7 +51,7 @@
                 In my leisure time, I like collecting pink things, 
                 knitting, and cafe hopping!
                 <br /><br />
-                <a target="_blank" href="https://www.instagram.com/suannazhong">Instagram</a> · <a target="_blank" href="https://www.linkedin.com/in/suannaz">LinkedIn</a>
+                <a target="_blank" href="https://www.instagram.com/suannazhong">Instagram</a> · <a target="_blank" href="https://www.linkedin.com/in/suannaz">LinkedIn</a> · Resume available upon request
                 <br /><br />
                 suannaz [at] alumni [dot] cmu [dot] edu
             </p>

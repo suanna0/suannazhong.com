@@ -22,7 +22,4 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
     learning more!
 </p>
 
-<PrevNext
-prev={{ href: '/malloc', label: 'Previous' }}
-next={{ href: '/klee', label: 'Next' }}
-/>
+<PrevNext />

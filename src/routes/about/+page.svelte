@@ -42,32 +42,12 @@
     <div class="about_columns">
         <div>
             <p>
-                Hi there! I'm Suanna (pronounced Sue-Anne-Nuh), a creative 
-                technologist based in San Francisco, CA. I'm a 
-                recent graduate of Carnegie Mellon University, where I earned a 
+                Hi there! I'm Suanna (pronounced Sue-Anne-Nuh), a recent 
+                graduate of Carnegie Mellon University, where I earned a 
                 Bachelor of Computer Science and Arts (BCSA) in Computer Science 
-                and Art.
-                <br><br>
-                Whether it's composing an image, designing a website, or solving
-                a math problem, I enjoy using my interdisciplinary skillset to 
-                think of elegant solutions to challenging and interesting 
-                problems. When multiple solutions exist, I go for the one with 
-                the fewest assumptions and the simplest explanation.
-                <br><br>
-                Outside of work, I can be found collecting pink things, making
-                <a target="_blank" href="https://art.suannazhong.com/">art</a>, 
-                finishing a knitting project, or cafe hopping.
-                <br><br>
-                <a target="_blank" href="https://www.linkedin.com/in/suannaz/"
-                >LinkedIn</a
-                > · 
-                <a target = "_blank" href = "https://github.com/suanna0">
-                Github
-                </a> · 
-                <a target = "_blank" href = "https://drive.google.com/file/d/1qYscaKT9GkeM6I31yVT1rB-qIRhSLya5/view?usp=drive_link">
-                Resume
-                </a>
-                <br />
+                and Art. In my leisure time, I like collecting pink things, 
+                knitting, and cafe hopping!
+                <br /><br />
                 suannaz [at] alumni [dot] cmu [dot] edu
             </p>
             <h2>Selected Clients:</h2>

@@ -81,7 +81,4 @@
         src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/8.jpg">
     </div>
 
-<PrevNext
-prev={{ href: '/malloc', label: 'Previous' }}
-next={{ href: '/klee', label: 'Next' }}
-/>
+<PrevNext />

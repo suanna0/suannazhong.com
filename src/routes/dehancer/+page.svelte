@@ -15,7 +15,4 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
 <p>
     Affiliate collaboration with <a href="https://www.dehancer.com/features" target="_blank">Dehancer</a>, promoting industry-grade film emulation tools on Youtube.
 </p>
-<PrevNext
-prev={{ href: '/reel', label: 'Previous' }}
-next={{ href: '/mikegrail', label: 'Next' }}
-/>
+<PrevNext />

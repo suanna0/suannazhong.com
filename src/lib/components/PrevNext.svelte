@@ -1,22 +1,22 @@
-<script lang="ts">
-  export let prev: { href: string; label?: string } | null = null;
-  export let next: { href: string; label?: string } | null = null;
+<script>
+  import { page } from '$app/stores';
+  import { projects } from '$lib/projects.js';
+
+  $: index = projects.findIndex(p => p.href === $page.url.pathname);
+  $: prev = index > 0 ? { href: projects[index - 1].href } : null;
+  $: next = index < projects.length - 1 ? { href: projects[index + 1].href } : null;
 </script>
 
 <prevnext class="prev-next">
   {#if prev}
     <a class="prev" href={prev.href}>
-      <p>
-          &larr; {prev.label ?? 'Previous'}
-      </p>
+      <p>&larr; Previous</p>
     </a>
   {/if}
 
   {#if next}
     <a class="next" href={next.href}>
-      <p>
-          {next.label ?? 'Next'} &rarr;
-      </p>
+      <p>Next &rarr;</p>
     </a>
   {/if}
 </prevnext>

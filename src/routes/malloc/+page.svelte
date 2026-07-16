@@ -175,7 +175,4 @@ autoplay muted playsinline loop style="width: 100%; height: auto;">
         src="https://de1wwae7728z6.cloudfront.net/images/malloc/malloc_code.jpg">
 </div>
 
-<PrevNext
-prev={{ href: '/mikegrail', label: 'Previous' }}
-next={{ href: '/photo', label: 'Next' }}
-/>
+<PrevNext />

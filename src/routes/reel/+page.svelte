@@ -26,7 +26,4 @@
 00:54 - Technical character animation practice, rigs from <a target = "_blank" href = "https://dopesheet.andrew.cmu.edu/resources#h.42qaipdqrn4t">CMU Dopesheet</a>
 </p>
 
-<PrevNext
-prev={{ href: '/klee', label: 'Previous' }}
-next={{ href: '/ccc', label: 'Next' }}
-/>
+<PrevNext />

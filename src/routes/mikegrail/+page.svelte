@@ -150,7 +150,4 @@
 </div>
 
 
-<PrevNext
-prev={{ href: '/ccc', label: 'Previous' }}
-next={{ href: '/malloc', label: 'Next' }}
-/>
+<PrevNext />

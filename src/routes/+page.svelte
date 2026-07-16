@@ -1,54 +1,6 @@
 <script>
     import Landing from '$lib/components/Landing.svelte';
-
-    const projects = [
-        {
-            href: '/ccc',
-            type: 'image',
-            src: 'https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/hero.gif',
-            alt: 'Ceci Capstone',
-            tags: ['Machine Learning','Google MediaPipe', 'Three.js']
-        },
-        {
-            href: '/mikegrail',
-            type: 'image',
-            src: 'https://de1wwae7728z6.cloudfront.net/images/mike-grail/case_study/thumbnail.jpg',
-            alt: 'Mike Grail',
-            tags: ['Director/DP', 'Creative Code']
-        },
-        {
-            href: '/malloc',
-            type: 'video',
-            src: 'https://de1wwae7728z6.cloudfront.net/videos/malloc/hero.mp4',
-            tags: ['Front-end', 'CS Education']
-        },
-        // {
-        //     href: '/umusic',
-        //     type: 'video',
-        //     src: 'https://de1wwae7728z6.cloudfront.net/videos/umusic/hero.mp4',
-        //     tags: ['Motion', 'Animation', 'Compositing', 'Color Grading']
-        // },
-        {
-            href: '/photo',
-            type: 'video',
-            src: 'https://de1wwae7728z6.cloudfront.net/videos/landing/photography.mp4',
-            tags: ['Photography']
-        },
-        {
-            href: '/klee',
-            type: 'video',
-            src: 'https://de1wwae7728z6.cloudfront.net/videos/klee/16x9_promo.mp4',
-            tags: ['Director/DP', 'Video Editing', 'Front-end']
-        },
-        {
-            href: '/reel',
-            type: 'image',
-            src: 'https://de1wwae7728z6.cloudfront.net/images/other/reel.jpg',
-            alt: '2026 Demo Reel',
-            tags: ['Demo Reel']
-        }
-        
-    ];
+    import { projects } from '$lib/projects.js';
 </script>
 
 <svelte:head>

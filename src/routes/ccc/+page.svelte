@@ -367,7 +367,4 @@
     />
 </div>
 
-<PrevNext
-prev={{ href: '/reel', label: 'Previous' }}
-next={{ href: '/mikegrail', label: 'Next' }}
-/>
+<PrevNext />

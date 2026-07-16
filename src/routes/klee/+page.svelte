@@ -422,7 +422,4 @@
         </div>
       </div>
 
-<PrevNext
-prev={{ href: '/photo', label: 'Previous' }}
-next={{ href: '/reel', label: 'Next' }}
-/>
+<PrevNext />

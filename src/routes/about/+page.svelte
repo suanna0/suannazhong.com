@@ -45,8 +45,8 @@
                 Hi there! I'm Suanna (pronounced Sue-Anne-Nuh), a recent 
                 graduate of Carnegie Mellon University, where I earned a 
                 Bachelor of Computer Science and Arts (BCSA) in Computer Science 
-                and Art. I love working on projects that reveal unexpected ways 
-                these two disciplines can inform each other. 
+                and Art. I love working on projects that reveal the unexpected 
+                ways these two disciplines inform each other. 
                 <br /><br />
                 In my leisure time, I like collecting pink things, 
                 knitting, and cafe hopping!

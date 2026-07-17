@@ -4,14 +4,14 @@ export const projects = [
         type: 'image',
         src: 'https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/hero.gif',
         alt: 'Ceci Capstone',
-        tags: ['Google MediaPipe', 'Three.js']
+        tags: ['一 (yi) / oneness']
     },
     {
         href: '/mikegrail',
         type: 'image',
         src: 'https://de1wwae7728z6.cloudfront.net/images/mike-grail/case_study/thumbnail.jpg',
         alt: 'Mike Grail',
-        tags: ['Director/DP', 'Creative Code']
+        tags: ['Mike Grail']
     },
     {
         href: '/photo',

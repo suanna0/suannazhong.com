@@ -3,8 +3,8 @@
   import { projects } from '$lib/projects.js';
 
   $: index = projects.findIndex(p => p.href === $page.url.pathname);
-  $: prev = index > 0 ? { href: projects[index - 1].href } : null;
-  $: next = index < projects.length - 1 ? { href: projects[index + 1].href } : null;
+  $: prev = index > 0 ? { href: projects[index - 1].href } : { href: projects[projects.length - 1].href };
+  $: next = index < projects.length - 1 ? { href: projects[index + 1].href } : { href: projects[0].href };
 </script>
 
 <prevnext class="prev-next">

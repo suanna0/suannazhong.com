@@ -4,7 +4,7 @@ export const projects = [
         type: 'image',
         src: 'https://de1wwae7728z6.cloudfront.net/images/ceci-capstone/hero.gif',
         alt: 'Ceci Capstone',
-        tags: ['一 (yi) / oneness']
+        tags: ['– (yi) / oneness']
     },
     {
         href: '/mikegrail',

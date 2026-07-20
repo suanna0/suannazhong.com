@@ -1,10 +1,13 @@
 :root {
-  --color-code: #999999;
+  --color-code: #a9a9a9;
   --color-text: #222222;
-  --color-bg: #fefefe;
-  --color-accent: #FF1493;
+  --color-bg: #F5F3EE;
+  --color-accent: #F0377D;
+  --font-family: "elza-text", sans-serif;
+  --font-weight: 300;
+  --font-size-body: 14px;
+  --font-size-small: 12px;
 }
-
 
 main {
   padding: 10px 5% 10px 5%;
@@ -12,10 +15,16 @@ main {
 
 body {
   background-color: var(--color-bg);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  font-style: normal;
+  font-size: var(--font-size-body);
+  letter-spacing: var(--letter-spacing);
+  color: var(--color-text);
 }
 
 code {
-  font-size: 13px;
+  font-size: var(--font-size-small);
   font-family: "source code pro", monospace;
   color: var(--color-code);
 }
@@ -28,16 +37,8 @@ code {
   width: 25%;
 }
 
-p, .role, .name, button, h3, .carousel-description {
-  letter-spacing: 0.03em;
-  font-family: "elza-text", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 14px;
-  color: var(--color-text);
-}
-
 button {
+  font: inherit;
   background-color: var(--color-bg);
   border: none;
   text-align: right;
@@ -50,15 +51,15 @@ button {
 .landing {
   display: flex;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
   margin-right: 12vw;
 }
 
 .credits {
   display: grid;
-  grid-template-columns: 1fr 1fr; 
-  column-gap: 10px; 
-  text-align: right; 
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  text-align: right;
 }
 
 .role {
@@ -69,30 +70,23 @@ button {
   text-align: left;
 }
 
-h3, .project_tag, .carousel-description {
-  font-size: 12px;
+h3 {
+  font-weight: var(--font-weight);
+  font-size: var(--font-size-small);
   color: var(--color-code);
 }
 
-.project_tag_container{
-  display: flex;
+.gallery h3 {
   margin-top: 5px;
-}
-
-.project_tag {
-  font-family: "elza-text", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  display: inline-block;
   opacity: 0;
-  transition: color 0.1s ease; 
+  transition: color 0.1s ease;
 }
 
-.project_tag.fade-in {
+.gallery h3.fade-in {
   opacity: 1;
 }
 
-.project_tag:hover {
+a:hover h3 {
   color: var(--color-accent);
 }
 
@@ -152,7 +146,7 @@ h3, .project_tag, .carousel-description {
 
 .side_by_side_content {
   display: grid;
-  grid-template-columns: 1fr 1fr; 
+  grid-template-columns: 1fr 1fr;
   column-gap: 10px;
 }
 
@@ -188,17 +182,13 @@ a:link, a:visited, a:hover, a:active, a:focus {
 }
 
 h1 {
-  font-family: "elza-text", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+  font-weight: var(--font-weight);
   font-size: 48px;
   color: var(--color-text);
 }
 
 h2 {
-  font-family: "elza-text", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+  font-weight: var(--font-weight);
   font-size: 24px;
   color: var(--color-text);
   margin-top: 2rem;
@@ -230,28 +220,33 @@ img.fade-in, video.fade-in {
   transform: translateY(0);
 }
 
-    .two-col {
-        columns: 2;
-        column-gap: 2rem;
-    }
+.two-col {
+  columns: 2;
+  column-gap: 2rem;
+}
 
-    p:not(.two-col) {
-        max-width: 65ch;
-    }
+p:not(.two-col) {
+  max-width: 65ch;
+}
 
-    @media (max-width: 600px) {
-        .two-col {
-            columns: 1;
-        }
-    }
+@media (max-width: 600px) {
+  .two-col {
+    columns: 1;
+  }
+}
 
-    .locked-link {
-        color: var(--color-accent);
-        opacity: 0.4;
-        cursor: not-allowed;
-    }
+.locked-link {
+  color: var(--color-accent);
+  opacity: 0.4;
+  cursor: not-allowed;
+}
 
 @media only screen and (max-width: 850px) {
+  :root {
+    --font-size-body: 12px;
+    --font-size-small: 10px;
+  }
+
   h1 {
     font-size: 24px;
   }
@@ -265,24 +260,12 @@ img.fade-in, video.fade-in {
     padding: 5px 4%;
   }
 
-  p, button, .role, .name {
-    font-size: 10px;
-  }
-
-  code, .carousel-description {
-    font-size: 9px;
-  }
-
-  h3, .project_tag {
-  font-size: 10px;
-  }
-
   div.gallery {
     padding: 5px 0px;
   }
 
   [class*="gallery_content"] {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
     width: 100%;
   }
 
@@ -296,7 +279,7 @@ img.fade-in, video.fade-in {
   }
 
   .side_by_side {
-  padding: 2.5px 0px;
+    padding: 2.5px 0px;
   }
 
 }

@@ -28,11 +28,7 @@
                                 <img loading="lazy" decoding="async" src={project.src} alt={project.alt} />
                             </div>
                         {/if}
-                        <div class="project_tag_container">
-                            {#each project.tags as tag}
-                                <span class="project_tag">{tag}</span>
-                            {/each}
-                        </div>
+                        <h3>{project.title}</h3>
                     </a>
                 {:else}
                     {#if project.type === 'video'}
@@ -47,11 +43,7 @@
                         </div>
                     {/if}
                     <span class="lock-icon">🔒</span>
-                    <div class="project_tag_container">
-                        {#each project.tags as tag}
-                            <span class="project_tag">{tag}</span>
-                        {/each}
-                    </div>
+                    <h3>{project.title}</h3>
                 {/if}
             </div>
         {/each}

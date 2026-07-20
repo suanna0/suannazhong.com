@@ -42,7 +42,7 @@
     <div class="about_columns">
         <div>
             <p>
-                Hi there! I'm Suanna (pronounced Sue-Anne-Nuh), a recent 
+                Hi there! I'm Suanna (pronounced Sue-Anne-Uh), a recent 
                 graduate of Carnegie Mellon University, where I earned a 
                 Bachelors of Computer Science and Art. I love working on 
                 projects that reveal the unexpected ways these two disciplines 
@@ -71,9 +71,9 @@
                 {/if}
             </div>
             {#if carouselItems[currentIndex].description}
-                <div class="carousel-description">
+                <h3>
                     {carouselItems[currentIndex].description}
-                </div>
+                </h3>
             {/if}
         </div>
     </div>
@@ -133,11 +133,11 @@
         color: var(--color-accent);
     }
 
-    .carousel-description {
+    h3 {
         text-align: center;
         margin-top: 10px;
     }
-    
+
     @media only screen and (max-width: 850px) {
         .about_columns {
             grid-template-columns: 1fr;
@@ -147,10 +147,6 @@
             width: 90%;
             aspect-ratio: 4 / 3;
             margin: 0 auto;
-        }
-
-        .carousel-description {
-            font-size: 10px;
         }
     }
 

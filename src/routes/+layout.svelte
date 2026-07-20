@@ -35,7 +35,7 @@
 		);
 		mediaObserver = observer;
 
-		document.querySelectorAll('img, video, .project_tag').forEach((el) => {
+		document.querySelectorAll('img, video, .gallery h3').forEach((el) => {
 			if (!el.classList.contains('fade-in')) {
 				if (el.tagName === 'IMG') {
 					const img = el as HTMLImageElement;
@@ -58,11 +58,11 @@
 		navigating = true;
 		gsap.killTweensOf(transitionOverlay);
 		gsap.fromTo(transitionOverlay,
-			{ x: '-100%' },
+			{ opacity: 0 },
 			{
-				x: '0%',
-				duration: 0.4,
-				ease: 'power2.inOut',
+				opacity: 1,
+				duration: 0.3,
+				ease: 'power1.inOut',
 				onComplete: () => { goto(to.url.pathname + to.url.hash); }
 			}
 		);
@@ -73,10 +73,9 @@
 		if (transitionOverlay) {
 			gsap.killTweensOf(transitionOverlay);
 			gsap.to(transitionOverlay, {
-				x: '100%',
-				duration: 0.4,
-				ease: 'power2.inOut',
-				onComplete: () => { gsap.set(transitionOverlay, { x: '-100%' }); }
+				opacity: 0,
+				duration: 0.3,
+				ease: 'power1.inOut',
 			});
 		}
 		setTimeout(observeMedia, 50);
@@ -89,7 +88,7 @@
 		inset: 0;
 		background-color: var(--color-bg);
 		z-index: 9998;
-		transform: translateX(-100%);
+		opacity: 0;
 		pointer-events: none;
 	}
 </style>

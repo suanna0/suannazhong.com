@@ -27,4 +27,8 @@
     justify-content: space-between;
     margin-top: 4rem;
   }
+
+  a {
+    color: var(--color-text);
+  }
 </style>

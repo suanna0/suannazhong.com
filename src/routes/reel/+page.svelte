@@ -17,7 +17,7 @@
 <br>
 00:25 - Web Development for 2026 Lunar Gala Website
 <br>
-00:32 - Malloc Visualizer, created animated visuals for the Introduction to Computer Systems course assignment, <code>malloclab</code>, required for all CS majors at CMU
+00:32 - Malloc Visualizer, created animated visuals for the Introduction to Computer Systems course assignment, malloclab, required for all CS majors at CMU
 <br>
 00:39 - Creative Coding Projects 
 <br>

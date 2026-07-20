@@ -1,25 +1,10 @@
 :root {
-  --color-code: #7A7F8C;
-  --color-text: #1C1E26;
-  --color-bg: #F6F7FB;
+  --color-code: #999999;
+  --color-text: #222222;
+  --color-bg: #fefefe;
   --color-accent: #FF1493;
 }
 
-@font-face {
-  font-family: 'PP Neue Montreal Book';
-  src: url('/fonts/PPNeueMontreal-Book.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'PP Neue Montreal Medium';
-  src: url('/fonts/PPNeueMontreal-Medium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
 
 main {
   padding: 10px 5% 10px 5%;
@@ -29,7 +14,7 @@ body {
   background-color: var(--color-bg);
 }
 
-code, .carousel-description {
+code {
   font-size: 13px;
   font-family: "source code pro", monospace;
   color: var(--color-code);
@@ -43,11 +28,12 @@ code, .carousel-description {
   width: 25%;
 }
 
-p, .role, .name, button, h3 {
+p, .role, .name, button, h3, .carousel-description {
   letter-spacing: 0.03em;
-  font-family: 'PP Neue Montreal Book', sans-serif;
+  font-family: "elza-text", sans-serif;
+  font-weight: 300;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--color-text);
 }
 
@@ -83,8 +69,8 @@ button {
   text-align: left;
 }
 
-h3, .project_tag {
-  font-size: 14px;
+h3, .project_tag, .carousel-description {
+  font-size: 12px;
   color: var(--color-code);
 }
 
@@ -94,25 +80,19 @@ h3, .project_tag {
 }
 
 .project_tag {
-  text-transform: uppercase;
-  font-family: 'PP Neue Montreal Book', sans-serif;
+  font-family: "elza-text", sans-serif;
+  font-weight: 300;
   font-style: normal;
   display: inline-block;
-  padding: 2px 6px;
-  margin-right: 5px;
-  border-radius: 10px;
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.3s ease-out, transform 0.3s ease-out, color 0.3s ease, outline-color 0.3s ease;
+  transition: color 0.1s ease; 
 }
 
 .project_tag.fade-in {
   opacity: 1;
-  transform: translateY(0);
 }
 
 .project_tag:hover {
-  outline: 1px solid var(--color-accent);
   color: var(--color-accent);
 }
 
@@ -208,14 +188,16 @@ a:link, a:visited, a:hover, a:active, a:focus {
 }
 
 h1 {
-  font-family: 'PP Neue Montreal Medium', sans-serif;
+  font-family: "elza-text", sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: 48px;
   color: var(--color-text);
 }
 
 h2 {
-  font-family: 'PP Neue Montreal Medium', sans-serif;
+  font-family: "elza-text", sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: 24px;
   color: var(--color-text);

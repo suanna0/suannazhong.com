@@ -48,8 +48,8 @@
                 projects that reveal the unexpected ways these two disciplines 
                 inform each other. 
                 <br /><br />
-                In my leisure time, I like collecting pink things, knitting, and 
-                cafe hopping!
+                In my leisure time, I like going to concerts, knitting, and 
+                cafe hopping! 
                 <br /><br />
                 <a target="_blank" href="https://www.instagram.com/suannazhong">Instagram</a> · <a target="_blank" href="https://www.linkedin.com/in/suannaz">LinkedIn</a> · Resume available upon request
                 <br /><br />

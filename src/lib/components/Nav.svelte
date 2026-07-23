@@ -37,6 +37,10 @@
       padding: 5px 0;
     }
 
+    nav button {
+      color: var(--color-text);
+    }
+
     nav button:first-child {
       margin-right: auto;
     }

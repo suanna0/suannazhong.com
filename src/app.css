@@ -3,10 +3,12 @@
   --color-text: #222222;
   --color-bg: #fefefe;
   --color-accent: #007AFF;
-  --font-family: "elza-text", sans-serif;
+  --font-family: "proxima-soft", sans-serif;
   --font-weight: 300;
-  --font-size-body: 14px;
-  --font-size-small: 12px;
+  --font-style: normal;
+  --font-size-body: 16px;
+  --font-size-small: 14px;
+  --letter-spacing: 0em; 
 }
 
 main {

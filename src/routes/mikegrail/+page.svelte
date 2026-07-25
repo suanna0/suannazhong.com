@@ -22,10 +22,6 @@
             designer clothing collection. Michael's writing is honest, appreciative, 
             and never flashy, defying the "in-group vs. out-group" dynamic that is 
             typically seen in the online fashion space.
-            <br /><br />
-            In this project, I led the visual 
-            identity, photographed and edited all accompanying assets, and 
-            implemented the site's functionality.
         </p>
     </div>
     <img

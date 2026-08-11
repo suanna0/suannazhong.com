@@ -1,30 +1,5 @@
-<script lang="ts">
-	import { onMount } from 'svelte';
-	import gsap from 'gsap';
-
-	let heading: HTMLHeadingElement;
-
-	onMount(() => {
-		gsap.set(heading, { opacity: 0, y: 30 });
-		gsap.to(heading, {
-			opacity: 1,
-			y: 0,
-			duration: 1.2,
-			ease: 'power2.out'
-		});
-		gsap.from(heading.querySelectorAll('a'), {
-			opacity: 0,
-			y: 10,
-			delay: 0.4,
-			stagger: 0.1,
-			duration: 0.6,
-			ease: 'power2.out'
-		});
-	});
-</script>
-
 <section>
-	<h2 bind:this={heading}>
+	<h2>
 		Suanna Zhong works across creative technology, videography, and photography, with past clients including 
 		<a target="_blank" href="https://www.meta.com/">Meta</a>, 
 		<a target="_blank" href="https://www.pinterest.com/">Pinterest</a>, and 

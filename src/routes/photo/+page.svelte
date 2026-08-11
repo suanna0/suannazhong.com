@@ -15,14 +15,14 @@
         <img
         loading="eager" fetchpriority="high" decoding="async"
         alt="Lucy (Bonbon)"
-        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/0.jpg"
+        src="https://de1wwae7728z6.cloudfront.net/images/commercial/00.jpg"
         />
     </div>
     <div class="side_by_side">
         <img
         loading="eager" fetchpriority="high" decoding="async"
         alt="Erika (Bonbon)"
-        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/1.jpg"
+        src="https://de1wwae7728z6.cloudfront.net/images/commercial/01.jpg"
         />
     </div>
 </div>
@@ -31,14 +31,14 @@
         <img
         loading="lazy" decoding="async"
         alt="Lucy (Fallingwater)"
-        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/2.jpg"
+        src="https://de1wwae7728z6.cloudfront.net/images/commercial/02.jpg"
         />
     </div>
     <div class="side_by_side">
         <img
         loading="lazy" decoding="async"
         alt="Lucy (Fall 2025)"
-        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/3.jpg"
+        src="https://de1wwae7728z6.cloudfront.net/images/commercial/03.jpg"
         />
     </div>
 </div>
@@ -47,29 +47,47 @@
     <img loading="lazy" decoding="async"
     alt = "Michael"
         id="content_img"
-        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/4.jpeg">
+        src="https://de1wwae7728z6.cloudfront.net/images/commercial/04.jpg">
 </div>
 
-<!-- <div class="content_images">
-    <img loading = "lazy"
-    alt = "Michael Closeup"
+
+<div class = "side_by_side_content">
+    <div class="side_by_side">
+        <img
+        loading="lazy" decoding="async"
+        alt="Luke"
+        src="https://de1wwae7728z6.cloudfront.net/images/commercial/06.jpg"
+        />
+    </div>
+    <div class="side_by_side">
+        <img
+        loading="lazy" decoding="async"
+        alt="Bryan and Cliff"
+        src="https://de1wwae7728z6.cloudfront.net/images/commercial/07.jpg"
+        />
+    </div>
+</div>
+
+<div class="content_images">
+    <img loading="lazy" decoding="async"
+    alt = "Michael"
         id="content_img"
-        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/55.jpg">
-</div> -->
+        src="https://de1wwae7728z6.cloudfront.net/images/commercial/05.jpg">
+</div>
 
 <div class = "side_by_side_content">
     <div class="side_by_side">
         <img
         loading="lazy" decoding="async"
         alt="Wedding"
-        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/6.jpg"
+        src="https://de1wwae7728z6.cloudfront.net/images/commercial/08.jpg"
         />
     </div>
     <div class="side_by_side">
         <img
         loading="lazy" decoding="async"
         alt="Bloom"
-        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/7.jpg"
+        src="https://de1wwae7728z6.cloudfront.net/images/commercial/09.jpg"
         />
     </div>
 </div>
@@ -78,7 +96,7 @@
     <img loading="lazy" decoding="async"
     alt = "Wedding Polaroids"
         id="content_img"
-        src="https://de1wwae7728z6.cloudfront.net/images/photo/commercial/8.jpg">
+        src="https://de1wwae7728z6.cloudfront.net/images/commercial/10.jpg">
     </div>
 
 <PrevNext />

@@ -3,22 +3,22 @@
     
     const carouselItems = [
         {
-            src: "https://de1wwae7728z6.cloudfront.net/images/about/suanna.jpg",
+            src: "https://de1wwae7728z6.cloudfront.net/images/about/0.jpg",
             alt: "headshot",
             description: "me!"
         },
         {
-            src: "https://de1wwae7728z6.cloudfront.net/images/about/carousel/1.jpg",
+            src: "https://de1wwae7728z6.cloudfront.net/images/about/1.jpg",
             alt: "Oil paintings",
             description: "paintings"
         },
         {
-            src: "https://de1wwae7728z6.cloudfront.net/images/about/carousel/2.jpg",
+            src: "https://de1wwae7728z6.cloudfront.net/images/about/2.jpg",
             alt: "Socks",
             description: "hand-knit socks"
         },
         {
-            src: "https://de1wwae7728z6.cloudfront.net/images/about/carousel/3.jpg",
+            src: "https://de1wwae7728z6.cloudfront.net/images/about/3.jpg",
             alt: "Film Photography",
             description: "film photography"
         }

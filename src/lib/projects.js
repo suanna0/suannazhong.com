@@ -22,7 +22,7 @@ export const projects = [
     {
         href: '/reel',
         type: 'image',
-        src: 'https://de1wwae7728z6.cloudfront.net/images/other/reel.jpg',
+        src: 'https://de1wwae7728z6.cloudfront.net/images/demo-reel.jpg',
         alt: '2026 Demo Reel',
         title: 'Demo Reel'
     }

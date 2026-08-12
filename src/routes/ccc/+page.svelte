@@ -81,7 +81,7 @@
     <img
     loading="lazy" decoding="async"
     alt = "2023 Performance"
-    src = "https://de1wwae7728z6.cloudfront.net/images/tech/motion_picture_soundtrack.gif"
+    src = "https://de1wwae7728z6.cloudfront.net/images/art-website/motion-picture-soundtrack.gif"
     />
 </div>
 <h2>Thematic Underpinnings</h2>

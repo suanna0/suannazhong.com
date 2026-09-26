@@ -9,7 +9,7 @@
 
 <h1>Mike Grail</h1>
 <h3>
-    Director/DP, Editor, Photographer, Dev (GSAP, p5.js, Svelte, TypeScript, Vite)
+    Director/DP, Editor, Photographer, Dev (TypeScript, p5.js)
     <br />
     <a target="_blank" href="https://www.mike-grail.com">↗ Live Site</a> · 
     <a target="_blank" href="https://github.com/suanna0/mike-grail">↗ GitHub</a> 

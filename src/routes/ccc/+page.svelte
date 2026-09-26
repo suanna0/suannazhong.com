@@ -14,7 +14,7 @@
 
 <h1>一 (yi) / oneness</h1>
 <h3>
-    TouchDesigner, p5.js, ml5.js, Google MediaPipe, OSC, WebSockets, Node.js
+    Google MediaPipe, p5.js, TouchDesigner, OSC, WebSockets
     <br />
     <a target="_blank" href="https://github.com/suanna0/ceci-capstone">↗ GitHub</a> 
     <span class="locked-link" title="Coming Soon">↗ Full Performance</span>

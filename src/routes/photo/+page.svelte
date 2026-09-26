@@ -14,14 +14,14 @@
     <div class="side_by_side">
         <img
         loading="eager" fetchpriority="high" decoding="async"
-        alt="Lucy (Bonbon)"
+        alt="Lucy (BonBonBardot!)"
         src="https://de1wwae7728z6.cloudfront.net/images/commercial/00.jpg"
         />
     </div>
     <div class="side_by_side">
         <img
         loading="eager" fetchpriority="high" decoding="async"
-        alt="Erika (Bonbon)"
+        alt="Erika (BonBonBardot!)"
         src="https://de1wwae7728z6.cloudfront.net/images/commercial/01.jpg"
         />
     </div>
@@ -94,7 +94,7 @@
 
 <div class="content_images">
     <img loading="lazy" decoding="async"
-    alt = "Wedding Polaroids"
+    alt = "Nicole Polaroids"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/commercial/10.jpg">
     </div>

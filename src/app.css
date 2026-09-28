@@ -31,14 +31,6 @@ code {
   color: var(--color-code);
 }
 
-.intro  {
-  justify-content: center;
-  align-items: center;
-  text-align: justify;
-  margin: 0 auto;
-  width: 25%;
-}
-
 button {
   font: inherit;
   background-color: var(--color-bg);
@@ -48,13 +40,6 @@ button {
   display: inline-block;
   cursor: pointer;
   padding: 0px;
-}
-
-.landing {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-right: 12vw;
 }
 
 .credits {

@@ -15,7 +15,7 @@
 		justify-content: center;
 		align-items: center;
 		height: 100vh;
-		padding: 0 23vw;
+		padding: 0 min(23vw, 450px);
 	}
 
 	h2 {

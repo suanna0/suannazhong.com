@@ -6,7 +6,7 @@
 		<a target="_blank" href="https://www.pinterest.com/">Pinterest</a>,
 		<a target="_blank" href="https://www.kidcudi.com/">Kid Cudi</a>, 
 		and 
-		<a target="_blank" href="https://www.universalmusic.com/">Universal Music Group</a>'s º1824 Content Team.
+		<a target="_blank" href="https://www.universalmusic.com/">Universal Music Group</a>.
 		She is a Carnegie Mellon CS & Art graduate.
 	</h2>
 </section>

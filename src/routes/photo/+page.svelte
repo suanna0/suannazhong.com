@@ -45,6 +45,13 @@
 
 <div class="content_images">
     <img loading="lazy" decoding="async"
+    alt = "Rishi"
+        id="content_img"
+        src="https://de1wwae7728z6.cloudfront.net/images/commercial/rishi.jpg">
+</div>
+
+<div class="content_images">
+    <img loading="lazy" decoding="async"
     alt = "Michael"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/commercial/04.jpg">
@@ -62,7 +69,7 @@
     <div class="side_by_side">
         <img
         loading="lazy" decoding="async"
-        alt="Bryan and Cliff"
+        alt="Rishi"
         src="https://de1wwae7728z6.cloudfront.net/images/commercial/07.jpg"
         />
     </div>
@@ -79,7 +86,7 @@
     <div class="side_by_side">
         <img
         loading="lazy" decoding="async"
-        alt="Wedding"
+        alt="Bryan and Cliff"
         src="https://de1wwae7728z6.cloudfront.net/images/commercial/08.jpg"
         />
     </div>
@@ -97,6 +104,6 @@
     alt = "Nicole Polaroids"
         id="content_img"
         src="https://de1wwae7728z6.cloudfront.net/images/commercial/10.jpg">
-    </div>
+</div>
 
 <PrevNext />

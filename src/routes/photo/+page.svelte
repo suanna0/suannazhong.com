@@ -58,7 +58,7 @@
 </div>
 
 
-<div class = "side_by_side_content">
+<!-- <div class = "side_by_side_content">
     <div class="side_by_side">
         <img
         loading="lazy" decoding="async"
@@ -73,7 +73,7 @@
         src="https://de1wwae7728z6.cloudfront.net/images/commercial/07.jpg"
         />
     </div>
-</div>
+</div> -->
 
 <div class="content_images">
     <img loading="lazy" decoding="async"
@@ -82,7 +82,7 @@
         src="https://de1wwae7728z6.cloudfront.net/images/commercial/05.jpg">
 </div>
 
-<div class = "side_by_side_content">
+<!-- <div class = "side_by_side_content">
     <div class="side_by_side">
         <img
         loading="lazy" decoding="async"
@@ -97,7 +97,7 @@
         src="https://de1wwae7728z6.cloudfront.net/images/commercial/09.jpg"
         />
     </div>
-</div>
+</div> -->
 
 <div class="content_images">
     <img loading="lazy" decoding="async"

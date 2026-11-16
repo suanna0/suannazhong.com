@@ -1,4 +1,5 @@
 <script>
+    import { onMount } from 'svelte';
     import PrevNext from '$lib/components/PrevNext.svelte';
     import { fade } from 'svelte/transition';
 
@@ -16,6 +17,22 @@
         { alt: "Bloom by Brooke Schwartz", src: "https://de1wwae7728z6.cloudfront.net/images/commercial/09.jpg" },
         { alt: "The Wedding by Nicole Siyao Huang", src: "https://de1wwae7728z6.cloudfront.net/images/commercial/10.jpg" }
     ];
+
+    let columnCount = 3;
+
+    onMount(() => {
+        const mql = window.matchMedia('(max-width: 850px)');
+        const update = () => { columnCount = mql.matches ? 2 : 3; };
+        update();
+        mql.addEventListener('change', update);
+        return () => mql.removeEventListener('change', update);
+    });
+
+    $: columns = (() => {
+        const cols = /** @type {{ image: typeof images[number], index: number }[][]} */ (Array.from({ length: columnCount }, () => []));
+        images.forEach((image, i) => cols[i % columnCount].push({ image, index: i }));
+        return cols;
+    })();
 
     /** @type {number | null} */
     let selectedIndex = null;
@@ -64,16 +81,20 @@
 </h3>
 
 <div class="photo_grid">
-    {#each images as image, i}
-        <button type="button" class="photo_grid_item" on:click={() => openLightbox(i)} aria-label={`View ${image.alt} larger`}>
-            <img
-            loading={i < 3 ? "eager" : "lazy"}
-            fetchpriority={i < 3 ? "high" : undefined}
-            decoding="async"
-            alt={image.alt}
-            src={image.src}
-            />
-        </button>
+    {#each columns as column}
+        <div class="photo_grid_col">
+            {#each column as { image, index } (index)}
+                <button type="button" class="photo_grid_item" on:click={() => openLightbox(index)} aria-label={`View ${image.alt} larger`}>
+                    <img
+                    loading={index < 3 ? "eager" : "lazy"}
+                    fetchpriority={index < 3 ? "high" : undefined}
+                    decoding="async"
+                    alt={image.alt}
+                    src={image.src}
+                    />
+                </button>
+            {/each}
+        </div>
     {/each}
 </div>
 
@@ -105,16 +126,22 @@
 
 <style>
     .photo_grid {
-        columns: 3;
-        column-gap: 10px;
+        display: flex;
+        gap: 10px;
         padding: 5px 0px;
+    }
+
+    .photo_grid_col {
+        flex: 1;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 
     .photo_grid_item {
         display: block;
         width: 100%;
-        break-inside: avoid;
-        margin-bottom: 10px;
         padding: 0;
         border: none;
         background: none;
@@ -130,13 +157,12 @@
 
     @media only screen and (max-width: 850px) {
         .photo_grid {
-            columns: 2;
-            column-gap: 5px;
+            gap: 5px;
             padding: 2.5px 0px;
         }
 
-        .photo_grid_item {
-            margin-bottom: 5px;
+        .photo_grid_col {
+            gap: 5px;
         }
     }
 

@@ -164,6 +164,7 @@
         people complain about AI-generated visual slop a lot. motion is a hot 
         topic and people think taste can't be trained. some of that may be true 
         but to many people's suprrise, there is a lot of determinism and verifiability akin to other fields that AI is good at. 
+        ephemeral nature of trends blah blah blah, what is the lowest common denominator that withstands time? 
         
     </p>
     <PrevNext />

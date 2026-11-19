@@ -35,7 +35,7 @@
         </p>
         <img
         loading="lazy" decoding="async"
-        alt="Slider"
+        alt="Ball Path Drawing"
         src="https://de1wwae7728z6.cloudfront.net/images/ballbounce/animation-plan.png"
         />
     </div>
@@ -125,15 +125,47 @@
     <p>
         1. At a given contact point, the ball's path does not bulge past its handlebars (8 pts)
     </p>
+    <div class = "content_images">
+        <img
+            loading="lazy" decoding="async"
+            alt="Rubric 1"
+            src="https://de1wwae7728z6.cloudfront.net/images/ballbounce/rubric_1.png"
+            style="max-width: 100%; height: auto;"
+        />
+    </div>
     <p>
         2. Contact points have broken tangents and apexes are smooth (8 pts)
     </p>
+    <div class = "content_images">
+        <img
+            loading="lazy" decoding="async"
+            alt="Rubric 2"
+            src="https://de1wwae7728z6.cloudfront.net/images/ballbounce/rubric_2.png"
+            style="max-width: 100%; height: auto;"
+        />
+    </div>
     <p>
         3. Translate X is linear or subtle ease-out (monotonic, non-increasing velocity) (8 pts)
     </p>
+    <div class = "content_images">
+        <img
+            loading="lazy" decoding="async"
+            alt="Rubric 3"
+            src="https://de1wwae7728z6.cloudfront.net/images/ballbounce/rubric_3.png"
+            style="max-width: 100%; height: auto;"
+        />
+    </div>
     <p>
         4. Every Y key is either a contact or apex, no unnecessary keys (8 pts)
     </p>
+    <div class = "content_images">
+        <img
+            loading="lazy" decoding="async"
+            alt="Rubric 4"
+            src="https://de1wwae7728z6.cloudfront.net/images/ballbounce/rubric_4.png"
+            style="max-width: 100%; height: auto;"
+        />
+    </div>
     <p>
         5. No stray keys on unused channels (scale/rotation) (8 pts)
     </p>
@@ -141,8 +173,17 @@
         6. X and Y finish at the same frame (5 pts)
     </p>
     <p>
-        7. The time of each bounce decreases at a constant rate (5 pts)   
-        <br><br>
+        7. The time of each bounce decreases at a constant rate (5 pts) 
+    </p>
+    <div class = "content_images">
+        <img
+            loading="lazy" decoding="async"
+            alt="Rubric 7"
+            src="https://de1wwae7728z6.cloudfront.net/images/ballbounce/rubric_7.png"
+            style="max-width: 100%; height: auto;"
+        />
+    </div>
+    <p>
         The rubric items are adapted from this <a target="_blank" href="https://vimeo.com/423284703?fl=pl&fe=vl">tutorial</a> created by Moshe Mahler.
     </p>
     <h2>Results</h2>

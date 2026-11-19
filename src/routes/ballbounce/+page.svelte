@@ -9,7 +9,7 @@
     <div class="video-container">
         <video preload = "none" autoplay muted playsinline loop>
         <source
-            src="/tmp/perfect-opus-sonnet-comparison.mp4"
+            src="https://de1wwae7728z6.cloudfront.net/videos/ballbounce/perfect-opus-sonnet-comparison.mp4"
             muted playsinline loop style="width: 100%; height: 100%;"
             type="video/mp4"
         />
@@ -36,7 +36,7 @@
         <img
         loading="lazy" decoding="async"
         alt="Slider"
-        src="/tmp/animation-plan.png"
+        src="https://de1wwae7728z6.cloudfront.net/images/ballbounce/animation-plan.png"
         />
     </div>
 
@@ -56,7 +56,7 @@
             <div class="video-container">
             <video preload = "none" autoplay muted playsinline loop>
                 <source
-                src="/tmp/ai-editors.mp4"
+                src="https://de1wwae7728z6.cloudfront.net/videos/ballbounce/ai-editors.mp4"
                 muted playsinline loop style="width: 100%; height: 100%;"
                 type="video/mp4"
                 />
@@ -83,31 +83,72 @@
         to use arcs, timing and spacing, and squash and stretch to simplify how 
         objects move in the real world. Unlike a physics simulation, curves are 
         flexible and can be manipulated to make motion realistic or exaggerated. 
-        By making adjustments in the graph editor, an animator can make a ball 
-        read like a heavy bowling ball, a floaty beach ball, or a cartoon circle 
-        with extra airtime for comedic effect. This exercise is effective 
+        A skilled animator can make a form 
+        read like a heavy bowling ball, a floaty beach ball, or a bouncing snowman 
+        with extra airtime for dramatic effect. 
+    </p>
+    <div class="content_images">
+        <div class="video-container">
+        <video preload = "none" autoplay muted playsinline loop>
+            <source
+            src="https://de1wwae7728z6.cloudfront.net/videos/ballbounce/olaf.mp4"
+            muted playsinline loop style="width: 100%; height: 100%;"
+            type="video/mp4"
+            />
+        </video>
+        </div>
+    </div>
+    <p>
+        The ball bounce exercise is effective 
         because it is easy to spot when the animation looks wrong, and there are 
-        few enough moving parts that the exercise stays focused on reading the 
+        few enough moving parts that the exercise stays focused on understanding the 
         graph editor.
     </p>
     <h2>Setup</h2>
     <p>
-        brief, agent tools
+        Each rollout gives the model a task outlining the viewport size, ball's
+        start and end position, animation duration, and which framework (CSS,
+        GSAP, Lottie) to use. The model is instructed to create a ball bounce 
+        animation with keyframes and easing only, without using a physics 
+        simulation. The model has access to tools <code>read_file/write_file/list_dir/bash/finish</code>
+        and can check their work by calling <code>render_graph</code>, which shows
+        a graph plot of their work and a filmstrip. At grading time, a framework-specific
+        adapter normalizes the model's work so that CSS, GSAP, and Lottie animations
+        can be scored against the same rubric. 
     </p>
     <h2>Rubric</h2>
     <p>
-    The rubric items are adapted from this <a target="_blank" href="https://vimeo.com/423284703?fl=pl&fe=vl">tutorial</a> created by Moshe Mahler.
-1. At a given contact point, the ball's path does not bulge past its handlebars (8 pts)
-2. Contact points have broken tangents and apexes are smooth (8 pts)
-3. Translate X is linear or subtle ease-out (monotonic, non-increasing velocity) (8 pts)
-4. Every Y key is either a contact or apex, no unnecessary keys (8 pts)
-No stray keys on unused channels (scale/rotation) (8 pts)
-X and Y finish at the same frame (5 pts)
-The time of each bounce decreases at a constant rate (5 pts)
+        Each rubric item is graded pass/fail. Items are worth either 8 or 
+        5 points to calculate a score out of 50. 
+    </p>
+    <p>
+        1. At a given contact point, the ball's path does not bulge past its handlebars (8 pts)
+    </p>
+    <p>
+        2. Contact points have broken tangents and apexes are smooth (8 pts)
+    </p>
+    <p>
+        3. Translate X is linear or subtle ease-out (monotonic, non-increasing velocity) (8 pts)
+    </p>
+    <p>
+        4. Every Y key is either a contact or apex, no unnecessary keys (8 pts)
+    </p>
+    <p>
+        5. No stray keys on unused channels (scale/rotation) (8 pts)
+    </p>
+    <p>
+        6. X and Y finish at the same frame (5 pts)
+    </p>
+    <p>
+        7. The time of each bounce decreases at a constant rate (5 pts)   
+        <br><br>
+        The rubric items are adapted from this <a target="_blank" href="https://vimeo.com/423284703?fl=pl&fe=vl">tutorial</a> created by Moshe Mahler.
     </p>
     <h2>Results</h2>
     <h2>What's next</h2>
     <p>
+        The ball bounce exercise is very versatile and can be extended to test 
+        out more complex capabilities. <br><br>
         other things to test: next steps: material, build another environment to 
         teach the AI to fix the ball bounce or adhere to a style, ball obstacle 
         course, 3D test,
@@ -118,11 +159,11 @@ The time of each bounce decreases at a constant rate (5 pts)
         operations on top of, check if associativity matters and yields the 
         same output 
         <br><br>
+        The creative world is headed in a direction where we cannot go back to the state before Artificial Intelligence but we can steer it in a direction so that its not just benefiting a small group of people. full autonomy bad, effective collaborator good. 
         people complain about AI-generated visual slop a lot. motion is a hot 
         topic and people think taste can't be trained. some of that may be true 
         but to many people's suprrise, there is a lot of determinism and verifiability akin to other fields that AI is good at. 
-        <br><br>
-        The creative world is headed in a direction where we cannot go back to the state before Artificial Intelligence but we can steer it in a direction so that its not just benefiting a small group of people. full autonomy bad, effective collaborator good. 
+        
     </p>
     <PrevNext />
 </div>

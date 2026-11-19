@@ -67,11 +67,10 @@
             Despite the rapid progress with every new model release, frontier models are not yet good collaborators for motion design.
             Today, AI-assisted video editing is at a state where it can copy a reference video at a mediocre level, but to polish the result to professional quality, users have to guess, wait, and check to see if they can tease out the right parameters. While this workflow initially seems faster, the process of 'debugging' can easily eclipse the supposed saved time.
         <br><br>
-        [talk about lack of determinism, same prompt can give different results]
             For the agent to be an effective collaborator, the user should trust 
-            that it has a working understanding of animation fundamentals such 
-            as arcs, exaggeration, secondary action, and other tools to create 
-            appeal. If basic animation fundamentals are understood and common 
+            that it not only has a working understanding of animation fundamentals such 
+            as arcs, exaggeration, secondary action, etc., but can also produce deterministic results when given the same prompt. 
+            If basic animation fundamentals are understood and common 
             operations can be done reliably in one shot, users will have more 
             trust that the agent will perform in a way that saves time without 
             sacrificing control and creativity.

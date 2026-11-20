@@ -98,12 +98,6 @@
         </video>
         </div>
     </div>
-    <p>
-        The ball bounce exercise is effective 
-        because it is easy to spot when the animation looks wrong, and there are 
-        few enough moving parts that the exercise stays focused on understanding the 
-        graph editor.
-    </p>
     <h2>Setup</h2>
     <p>
         Each rollout gives the model a task outlining the viewport size, ball's
@@ -187,25 +181,31 @@
     </p>
     <h2>Results</h2>
     <h2>What's next</h2>
+     <p>
+        The vanilla ball bounce exercise is effective because it is easy to spot when 
+        the animation looks wrong, and there are few enough moving parts that 
+        the exercise stays focused on understanding the graph editor. Its 
+        simplicity lends itself well to be extended towards more complex
+        tasks. Some ideas of future evals include:
+    </p> 
+    <ul class="bulleted-list">
+        <li>Animating different ball typies, such as a ping pong ball, bowling ball, or beach ball</li>
+        <li>Model is given a scene where they fix or restyle an existing ball bounce</li>
+        <li>A ball obstacle course with a single ball, multiple identical balls, heavy/light balls, etc.</li>
+        <li>Attempting any of what's listed above in a 3D scene in three.js</li>
+    </ul>
     <p>
-        The ball bounce exercise is very versatile and can be extended to test 
-        out more complex capabilities. <br><br>
-        other things to test: next steps: material, build another environment to 
-        teach the AI to fix the ball bounce or adhere to a style, ball obstacle 
-        course, 3D test,
+        Online discourse treats the problem of creating beautiful things as an 
+        impossible task, but like many other fields that AI has been capable of
+        learning, successful motion is made up of small components that can be verified. Given
+        the ephemeral nature of design trends, it's really interesting to think
+        about what the lowest common denominators that have persisted throughout
+        design history are, and speculate whether or not they will hold in the future. 
         <br><br>
-
-        more broad ideas:
-        more verifiable tests? creating some kind of syntax where we can apply 
-        operations on top of, check if associativity matters and yields the 
-        same output 
-        <br><br>
-        The creative world is headed in a direction where we cannot go back to the state before Artificial Intelligence but we can steer it in a direction so that its not just benefiting a small group of people. full autonomy bad, effective collaborator good. 
-        people complain about AI-generated visual slop a lot. motion is a hot 
-        topic and people think taste can't be trained. some of that may be true 
-        but to many people's suprrise, there is a lot of determinism and verifiability akin to other fields that AI is good at. 
-        ephemeral nature of trends blah blah blah, what is the lowest common denominator that withstands time? 
-        
+        The creative world is headed in a direction where it will be difficult for
+        us to go back a time without Artifical Intelligence, but we can steer 
+        progress towards a direction that does not just benefit a small group 
+        of people. 
     </p>
     <PrevNext />
 </div>

@@ -1,11 +1,11 @@
 export const projects = [
-    // {
-    //     href: '/ballbounce',
-    //     type: 'video',
-    //     src: '/tmp/thumbnail.mp4',
-    //     alt: '2D Ball Bounce Eval',
-    //     title: '2D Ball Bounce Eval'
-    // },
+    {
+        href: '/ballbounce',
+        type: 'video',
+        src: 'https://de1wwae7728z6.cloudfront.net/videos/ballbounce/hero.mp4',
+        alt: '2D Ball Bounce Eval',
+        title: '2D Ball Bounce Eval'
+    },
     {
         href: '/ccc',
         type: 'image',

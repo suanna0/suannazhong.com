@@ -267,7 +267,7 @@
         <li>Animating different ball typies, such as a ping pong ball, bowling ball, or beach ball</li>
         <li>Model is given a scene where they fix or restyle an existing ball bounce</li>
         <li>A ball obstacle course with a single ball, multiple identical balls, heavy/light balls, etc.</li>
-        <li>Attempting any of what's listed above in a 3D scene in three.js</li>
+        <li>Attempting any of what's listed above in a 3D scene in Three.js, Maya, Blender</li>
     </ul>
     <h2>Zooming Out</h2>
     <p>

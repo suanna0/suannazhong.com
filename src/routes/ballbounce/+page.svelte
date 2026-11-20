@@ -22,7 +22,7 @@
 
     <h3>
         Motion, LLM Evaluation <br>
-        Timeline: __
+        Timeline: 2 weeks
         <br />
         <a target="_blank" href="https://github.com/suanna0/ball-graph-editor-eval">↗ GitHub</a>
     </h3>
@@ -179,9 +179,28 @@
     </ol>
     <h2>Results</h2>
     <p>
-        Every model's ball bounce looked convincing in the viewport, but none 
+        I ran 4 models x 5 seeds via OpenRouter. Every model's ball bounce looked convincing in the viewport, but none 
         of them completely followed the underlying graph editor structure correctly.
-        <br><br>
+    </p>
+    <div class = "content_images">
+        <img
+            loading="lazy" decoding="async"
+            alt="Rubric 7"
+            src="https://de1wwae7728z6.cloudfront.net/images/ballbounce/table-1.png"
+            style="max-width: 100%; height: auto;"
+        />
+    </div>
+
+    <div class = "content_images">
+        <img
+            loading="lazy" decoding="async"
+            alt="Rubric 7"
+            src="https://de1wwae7728z6.cloudfront.net/images/ballbounce/table-2.png"
+            style="max-width: 100%; height: auto;"
+        />
+    </div>
+
+    <p>
         To my surprise, all of the models followed rule #3, which specifies that
         the ball path must stay inside the contact point handlebars. Students 
         often struggle with this concept at first because it's possible to make

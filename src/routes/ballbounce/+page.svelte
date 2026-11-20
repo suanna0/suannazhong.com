@@ -183,7 +183,7 @@
     <h2>Next Steps</h2>
      <p>
         The vanilla ball bounce exercise is effective because it is easy to spot when 
-        the animation looks wrong, and there are few enough moving parts that 
+        the animation looks wrong and there are few enough moving parts that 
         the exercise stays focused on understanding the graph editor. Its 
         simplicity lends itself well to be extended towards more complex
         tasks. Some ideas of future evals include:

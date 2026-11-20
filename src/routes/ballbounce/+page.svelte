@@ -9,7 +9,7 @@
     <div class="video-container">
         <video preload = "none" autoplay muted playsinline loop>
         <source
-            src="https://de1wwae7728z6.cloudfront.net/videos/ballbounce/perfect-opus-sonnet-comparison.mp4"
+            src="https://de1wwae7728z6.cloudfront.net/videos/ballbounce/all-models-comparison.mp4"
             muted playsinline loop style="width: 100%; height: 100%;"
             type="video/mp4"
         />

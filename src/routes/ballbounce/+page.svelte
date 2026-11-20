@@ -101,85 +101,110 @@
     <h2>Setup</h2>
     <p>
         Each rollout gives the model a task outlining the viewport size, ball's
-        start and end position, animation duration, and which framework (CSS,
-        GSAP, Lottie) to use. The model is instructed to create a ball bounce 
-        animation with keyframes and easing only, without using a physics 
-        simulation. The model has access to tools <code>read_file/write_file/list_dir/bash/finish</code>
+        start and end position, and animation duration. The model is asked to 
+        create a ball bounce animation with keyframes and easing. The model has access to tools <code>read_file/write_file/list_dir/bash/finish</code>
         and can check their work by calling <code>render_graph</code>, which shows
-        a graph plot of their work and a filmstrip. At grading time, a framework-specific
-        adapter normalizes the model's work so that CSS, GSAP, and Lottie animations
-        can be scored against the same rubric. 
+        a graph plot of their work and a filmstrip. 
     </p>
     <h2>Rubric</h2>
     <p>
-        Each rubric item is graded pass/fail. Items are worth either 8 or 
-        5 points to calculate a score out of 50. 
-    </p>
-    <p>
-        1. At a given contact point, the ball's path does not bulge past its handlebars (8 pts)
-    </p>
-    <div class = "content_images">
-        <img
-            loading="lazy" decoding="async"
-            alt="Rubric 1"
-            src="https://de1wwae7728z6.cloudfront.net/images/ballbounce/rubric_1.png"
-            style="max-width: 100%; height: auto;"
-        />
-    </div>
-    <p>
-        2. Contact points have broken tangents and apexes are smooth (8 pts)
-    </p>
-    <div class = "content_images">
-        <img
-            loading="lazy" decoding="async"
-            alt="Rubric 2"
-            src="https://de1wwae7728z6.cloudfront.net/images/ballbounce/rubric_2.png"
-            style="max-width: 100%; height: auto;"
-        />
-    </div>
-    <p>
-        3. Translate X is linear or subtle ease-out (monotonic, non-increasing velocity) (8 pts)
-    </p>
-    <div class = "content_images">
-        <img
-            loading="lazy" decoding="async"
-            alt="Rubric 3"
-            src="https://de1wwae7728z6.cloudfront.net/images/ballbounce/rubric_3.png"
-            style="max-width: 100%; height: auto;"
-        />
-    </div>
-    <p>
-        4. Every Y key is either a contact or apex, no unnecessary keys (8 pts)
-    </p>
-    <div class = "content_images">
-        <img
-            loading="lazy" decoding="async"
-            alt="Rubric 4"
-            src="https://de1wwae7728z6.cloudfront.net/images/ballbounce/rubric_4.png"
-            style="max-width: 100%; height: auto;"
-        />
-    </div>
-    <p>
-        5. No stray keys on unused channels (scale/rotation) (8 pts)
-    </p>
-    <p>
-        6. X and Y finish at the same frame (5 pts)
-    </p>
-    <p>
-        7. The time of each bounce decreases at a constant rate (5 pts) 
-    </p>
-    <div class = "content_images">
-        <img
-            loading="lazy" decoding="async"
-            alt="Rubric 7"
-            src="https://de1wwae7728z6.cloudfront.net/images/ballbounce/rubric_7.png"
-            style="max-width: 100%; height: auto;"
-        />
-    </div>
-    <p>
         The rubric items are adapted from this <a target="_blank" href="https://vimeo.com/423284703?fl=pl&fe=vl">tutorial</a> created by Moshe Mahler.
+        Each rubric item is graded pass/fail. 
     </p>
+    <ol class="rubric-list">
+        <li>
+            Contact points have broken tangents and apexes are smooth
+            <div class = "content_images">
+                <img
+                    loading="lazy" decoding="async"
+                    alt="Rubric 2"
+                    src="https://de1wwae7728z6.cloudfront.net/images/ballbounce/rubric_2.png"
+                    style="max-width: 100%; height: auto;"
+                />
+            </div>
+        </li>
+        <li>Attempts at least 3 bounces (the ball meets the floor 3+ times)</li>
+        <li>
+            At a given contact point, the ball's path does not bulge past its handlebars
+            <div class = "content_images">
+                <img
+                    loading="lazy" decoding="async"
+                    alt="Rubric 1"
+                    src="https://de1wwae7728z6.cloudfront.net/images/ballbounce/rubric_1.png"
+                    style="max-width: 100%; height: auto;"
+                />
+            </div>
+        </li>
+        <li>
+            Translate X is linear or subtle ease-out (monotonic, non-increasing velocity)
+            <div class = "content_images">
+                <img
+                    loading="lazy" decoding="async"
+                    alt="Rubric 3"
+                    src="https://de1wwae7728z6.cloudfront.net/images/ballbounce/rubric_3.png"
+                    style="max-width: 100%; height: auto;"
+                />
+            </div>
+        </li>
+        <li>
+            Every Y key is either a contact or apex, no unnecessary keys
+            <div class = "content_images">
+                <img
+                    loading="lazy" decoding="async"
+                    alt="Rubric 4"
+                    src="https://de1wwae7728z6.cloudfront.net/images/ballbounce/rubric_4.png"
+                    style="max-width: 100%; height: auto;"
+                />
+            </div>
+        </li>
+        <li>At most two X keys, indicating a smooth path that is easily modifiable</li>
+        <li>No stray keys on unused channels (scale/rotation)</li>
+        <li>
+            The final X key lands either on the last contact of the last bounce, or
+            one last-bounce length past that point, indicating the ball rolling to
+            a full stop
+        </li>
+        <li>
+            The time of each bounce decreases at a constant rate
+            <div class = "content_images">
+                <img
+                    loading="lazy" decoding="async"
+                    alt="Rubric 7"
+                    src="https://de1wwae7728z6.cloudfront.net/images/ballbounce/rubric_7.png"
+                    style="max-width: 100%; height: auto;"
+                />
+            </div>
+        </li>
+        <li>Contact points have handles of length greater than zero</li>
+    </ol>
     <h2>Results</h2>
+    <p>
+        To my surprise, all of the models followed rule #3, which specifies that
+        the ball path must stay inside the contact point handlebars. Students 
+        often struggle with this concept at first because it's possible to make
+        a convincing ball bounce without following this rule. 
+        <br><br>
+        All of the models failed rule #9, which specifies that the time of each 
+        bounce decreases at a constant rate. In real life, the time succeeding
+        ball bounces usually decreases by a multiplicative factor, but in animation,
+        this is approximated with subtracting a fixed number. This is because it
+        is more intuitive for a human animator to check their work with subtraction
+        as opposed to multiplication, and subtraction ensures that the numbers
+        always stay whole integers associated with frames. 
+        <br><br>
+        All of the models' work had the same number of X keys and Y keys, 
+        breaking the rule that for all channels, the number of keys should stay 
+        relatively minimal. This makes human collaboration difficult because if 
+        a human wanted to modify the end-position of the ball's bounce but keep 
+        the overall travel shape, with respect to time, the same, instead of 
+        moving one keyframe, they would not only have to move about triple the 
+        number of bounces' worth of keyframes, but also fit them to their 
+        desired shape by hand. 
+        <br><br>
+        This may be because CSS keyframes make separating channels 
+        inconvenient. Thus, it would be a good idea to run the same experiment 
+        across different frameworks. 
+    </p>
     <h2>Next Steps</h2>
      <p>
         The vanilla ball bounce exercise is effective because it is easy to spot when 
@@ -189,11 +214,13 @@
         tasks. Some ideas of future evals include:
     </p> 
     <ul class="bulleted-list">
+        <li>Testing other animation frameworks such as GSAP and Lottie</li>
         <li>Animating different ball typies, such as a ping pong ball, bowling ball, or beach ball</li>
         <li>Model is given a scene where they fix or restyle an existing ball bounce</li>
         <li>A ball obstacle course with a single ball, multiple identical balls, heavy/light balls, etc.</li>
         <li>Attempting any of what's listed above in a 3D scene in three.js</li>
     </ul>
+    <h2>Zooming Out</h2>
     <p>
         Online discourse treats the problem of creating beautiful things as an 
         impossible task, but like many other fields that AI has been capable of
@@ -229,6 +256,16 @@
     .blog-layout :global(p) {
         max-width: 100%;
         line-height: 1.7;
+    }
+
+    .rubric-list {
+        line-height: 1.7;
+        margin: 0 0 1rem 0;
+        padding-left: 1.25rem;
+    }
+
+    .rubric-list li {
+        margin-bottom: 1rem;
     }
 
     @media only screen and (max-width: 850px) {

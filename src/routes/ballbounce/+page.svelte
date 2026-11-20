@@ -180,7 +180,7 @@
         The rubric items are adapted from this <a target="_blank" href="https://vimeo.com/423284703?fl=pl&fe=vl">tutorial</a> created by Moshe Mahler.
     </p>
     <h2>Results</h2>
-    <h2>What's next</h2>
+    <h2>Next Steps</h2>
      <p>
         The vanilla ball bounce exercise is effective because it is easy to spot when 
         the animation looks wrong, and there are few enough moving parts that 
@@ -201,11 +201,12 @@
         the ephemeral nature of design trends, it's really interesting to think
         about what the lowest common denominators that have persisted throughout
         design history are, and speculate whether or not they will hold in the future. 
-        <br><br>
-        The creative world is headed in a direction where it will be difficult for
-        us to go back a time without Artifical Intelligence, but we can steer 
-        progress towards a direction that does not just benefit a small group 
-        of people. 
+    <br><br>
+        Automating motion design is just one example of how AI is changing what 
+        it will mean to work as a designer. The creative world is headed 
+        in a direction where it will be difficult for us to go back to a time 
+        without artificial intelligence, but we can steer progress so that it 
+        does not just benefit a small group of people.
     </p>
     <PrevNext />
 </div>

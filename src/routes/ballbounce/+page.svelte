@@ -179,8 +179,10 @@
     </ol>
     <h2>Results</h2>
     <p>
-        I ran 4 models x 5 seeds via OpenRouter. Every model's ball bounce looked convincing in the viewport, but none 
-        of them completely followed the underlying graph editor structure correctly.
+        I ran 4 models x 5 seeds via OpenRouter. The results generally fell
+        into two camps. Either the model created created a convincing looking 
+        bounce that had too many keyframes, or the model used the correct
+        number of keyframes for the Y channel and the X-movement wasn't smooth.
     </p>
     <div class = "content_images">
         <img

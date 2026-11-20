@@ -102,7 +102,7 @@
     <p>
         Each rollout gives the model a task outlining the viewport size, ball's
         start and end position, and animation duration. The model is asked to 
-        create a ball bounce animation with keyframes and easing. The model has access to tools <code>read_file/write_file/list_dir/bash/finish</code>
+        create a CSS ball bounce animation with keyframes and easing. The model has access to tools <code>read_file/write_file/list_dir/bash/finish</code>
         and can check their work by calling <code>render_graph</code>, which shows
         a graph plot of their work and a filmstrip. 
     </p>
@@ -123,7 +123,7 @@
                 />
             </div>
         </li>
-        <li>Attempts at least 3 bounces (the ball meets the floor 3+ times)</li>
+        <li>Attempts at least 3 bounces</li>
         <li>
             At a given contact point, the ball's path does not bulge past its handlebars
             <div class = "content_images">
@@ -136,7 +136,7 @@
             </div>
         </li>
         <li>
-            Translate X is linear or subtle ease-out (monotonic, non-increasing velocity)
+            Translate X is linear or subtle ease-out 
             <div class = "content_images">
                 <img
                     loading="lazy" decoding="async"
@@ -147,7 +147,7 @@
             </div>
         </li>
         <li>
-            Every Y key is either a contact or apex, no unnecessary keys
+            Every Y key is either a contact or apex, no in-between keys allowed
             <div class = "content_images">
                 <img
                     loading="lazy" decoding="async"
@@ -158,7 +158,7 @@
             </div>
         </li>
         <li>At most two X keys, indicating a smooth path that is easily modifiable</li>
-        <li>No stray keys on unused channels (scale/rotation)</li>
+        <li>No stray keys on unused channels such as scale or rotation</li>
         <li>
             The final X key lands either on the last contact of the last bounce, or
             one last-bounce length past that point, indicating the ball rolling to
@@ -179,6 +179,9 @@
     </ol>
     <h2>Results</h2>
     <p>
+        Every model's ball bounce looked convincing in the viewport, but none 
+        of them completely followed the underlying graph editor structure correctly.
+        <br><br>
         To my surprise, all of the models followed rule #3, which specifies that
         the ball path must stay inside the contact point handlebars. Students 
         often struggle with this concept at first because it's possible to make
@@ -191,7 +194,19 @@
         is more intuitive for a human animator to check their work with subtraction
         as opposed to multiplication, and subtraction ensures that the numbers
         always stay whole integers associated with frames. 
-        <br><br>
+    </p>
+    <div class="content_images">
+        <div class="video-container">
+            <video preload = "none" autoplay muted playsinline loop>
+            <source
+                src="https://de1wwae7728z6.cloudfront.net/videos/ballbounce/x.mp4"
+                muted playsinline loop style="width: 100%; height: 100%;"
+                type="video/mp4"
+            />
+            </video>
+        </div>
+    </div>
+    <p>
         All of the models' work had the same number of X keys and Y keys, 
         breaking the rule that for all channels, the number of keys should stay 
         relatively minimal. This makes human collaboration difficult because if 
@@ -200,10 +215,22 @@
         moving one keyframe, they would not only have to move about triple the 
         number of bounces' worth of keyframes, but also fit them to their 
         desired shape by hand. 
-        <br><br>
-        This may be because CSS keyframes make separating channels 
-        inconvenient. Thus, it would be a good idea to run the same experiment 
-        across different frameworks. 
+    </p>
+    <div class="content_images">
+        <div class="video-container">
+            <video preload = "none" autoplay muted playsinline loop>
+            <source
+                src="https://de1wwae7728z6.cloudfront.net/videos/ballbounce/all-models-comparison.mp4"
+                muted playsinline loop style="width: 100%; height: 100%;"
+                type="video/mp4"
+            />
+            </video>
+        </div>
+    </div>
+    <p>
+        This may be because CSS keyframes make separating 
+        channels inconvenient. Thus, it would be a good idea to run the same 
+        experiment across different frameworks. 
     </p>
     <h2>Next Steps</h2>
      <p>

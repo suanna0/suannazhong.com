@@ -182,7 +182,8 @@
         I ran 4 models x 5 seeds via OpenRouter. The results generally fell
         into two camps. Either the model created created a convincing looking 
         bounce that had too many keyframes, or the model used the correct
-        number of keyframes for the Y channel and the X-movement wasn't smooth.
+        number of keyframes for the Y channel and the X-movement wasn't smooth,
+        making it look like the ball was travelling in a zig-zag.
     </p>
     <div class = "content_images">
         <img

@@ -14,6 +14,13 @@ export const projects = [
         title: '– (yi) / oneness'
     },
     {
+        href: '/reel',
+        type: 'image',
+        src: 'https://de1wwae7728z6.cloudfront.net/images/demo-reel.jpg',
+        alt: '2026 Demo Reel',
+        title: 'Demo Reel'
+    },
+    {
         href: '/mikegrail',
         type: 'image',
         src: 'https://de1wwae7728z6.cloudfront.net/images/mike-grail/case_study/thumbnail.jpg',
@@ -27,10 +34,10 @@ export const projects = [
         title: 'Photography'
     },
     {
-        href: '/reel',
+        href: '/umusic',
         type: 'image',
-        src: 'https://de1wwae7728z6.cloudfront.net/images/demo-reel.jpg',
-        alt: '2026 Demo Reel',
-        title: 'Demo Reel'
+        src: 'https://de1wwae7728z6.cloudfront.net/images/umusic.png',
+        alt: 'Universal Music Group',
+        title: 'Universal Music Group'
     }
 ];
